@@ -1,15 +1,13 @@
 ---
+icon: question
 description: >-
   Learn the key differences between Tags and Custom Fields in Daisychain and
   understand how to effectively use each to manage and engage your contacts.
-icon: question
 ---
 
 # Tags vs. Custom Fields
 
-
-
-#### [Tags](https://help.daisychain.app/tags)
+[Tags](https://help.daisychain.app/tags)
 
 Tags are best used for simple, binary information that is easy to add, filter, and remove. Use Tags when you need to:
 
