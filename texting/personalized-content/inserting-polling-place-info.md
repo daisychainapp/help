@@ -12,9 +12,9 @@ To send out polling information, you can use [variables](./) when composing your
 
 The key variables that are most commonly used are:
 
-* **Polling Place Name:** \{{ person.primary\_address.dnc\_will\_vote.locate.polling\_locations\[0].location\_name \}}
-* **Polling Place Address:** \{{ person.primary\_address.dnc\_will\_vote.locate.polling\_locations\[0].location\_name \}}
-* **Polling Place Hours:** \{{ person.primary\_address.dnc\_will\_vote.locate.polling\_locations\[0].dates\_hours \}}.
+* **Polling Place Name:** `{{ person.primary_address.dnc_will_vote.locate.polling_locations[0].location_name }}`
+* **Polling Place Address:** `{{ person.primary_address.dnc_will_vote.locate.polling_locations[0].location_name }}`
+* **Polling Place Hours:** `{{ person.primary_address.dnc_will_vote.locate.polling_locations[0].dates_hours }}`.
 
 To put it all together, below are few example messages that include variables.
 

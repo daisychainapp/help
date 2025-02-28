@@ -41,9 +41,7 @@ You can trigger [automations](https://help.daisychain.app/automations-overview-1
 
 **Mobilize Message Campaigns**
 
-If your account is integrated with Mobilize, you can choose "Recruit Mobilize Attendees" as a goal when sending out a texting campaign. This will pre-populate your outgoing message with a \{{ mobilize\_event\_url \}} variable. Sending a message campaign with this variable which will ensure that recipients receive a unique link that enables:
-
-* **Click and RSVP tracking**, providing real-time analytics on a per-recipient basis.
-*
+If your account is integrated with Mobilize, you can choose "Recruit Mobilize Attendees" as a goal when sending out a texting campaign. This will pre-populate your outgoing message with a `{{ mobilize_event_url }}` variable. Sending a message campaign with this variable which will ensure that recipients receive a unique link that enables:
+**Click and RSVP tracking**, providing real-time analytics on a per-recipient basis.
 
 **Pre-filling of the Mobilize form**, saving attendees from manually entering basic contact data that you have about recipients in Daisychain: name, email, phone number, address, etc
