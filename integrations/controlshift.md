@@ -42,7 +42,7 @@ Current signature count
 Moderation status
 ```
 
-\* If a petition has a ["Mentor" in ControlShift](https://support.controlshiftlabs.com/hc/en-us/articles/202041276-Moderation-Workflow-for-New-Petitions), there will be an attempt to sync it with an [Assignment](https://help.daisychain.app/assignments) in Daisychain, and vice-versa.
+\* If a petition has a ["Mentor" in ControlShift](https://support.controlshiftlabs.com/hc/en-us/articles/202041276-Moderation-Workflow-for-New-Petitions), there will be an attempt to sync it with an [Assignment](/organizing/assignments) in Daisychain, and vice-versa.
 
 **Here's how to setup the integration between Daisychain and ControlShift:**
 

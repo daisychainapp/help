@@ -12,7 +12,7 @@ With the Action Network <> Daisychain integration, when someone takes action on 
 
 ![](https://44727351.fs1.hubspotusercontent-na1.net/hubfs/44727351/image-png-1.png) \
 ​\
-In Daisychain, you can use these actions as triggers for [Automations](https://help.daisychain.app/automations-overview-1). Note that this integration is only available to Action Network partners.\
+In Daisychain, you can use these actions as triggers for [Automations](/organizing/automations). Note that this integration is only available to Action Network partners.\
 ‍
 
 **Setup**
@@ -48,7 +48,7 @@ You can [read more about these options in the Action Network documentation.](htt
 
 ![](https://44727351.fs1.hubspotusercontent-na1.net/hubfs/44727351/Screenshot%202024-07-16%20at%2010-34-51%E2%80%AFAM-png.png)
 
-After your initial setup, people and data will be ingested from the Action Network to Daisychain based on the trigger you selected it. You can also [setup automations](https://help.daisychain.app/automations-overview-1) in Daisychain that are triggered when people sign up, donate, or RSVP in Action Network.
+After your initial setup, people and data will be ingested from the Action Network to Daisychain based on the trigger you selected it. You can also [setup automations](/organizing/automations) in Daisychain that are triggered when people sign up, donate, or RSVP in Action Network.
 
 One note: if you unsubscribe someone from receiving SMS messages in Daisychain, that status should be updated in Action Network.
 

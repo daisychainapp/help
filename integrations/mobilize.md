@@ -25,7 +25,7 @@ If you use on the "authenticated" version of the Mobilize integration, you'll be
 * Filter the People list by event attendance, making it easy to target and engage with people who have attended (or will attend) specific events.​
 * Send supporters invitations to nearby Mobilize events when they take action on your site.
 
-One other feature of the authenticated Mobilize integration is that you can use an [Automation Step](https://help.daisychain.app/automations-overview-1) to RSVP someone to a specific Mobilize event. To turn this feature on, you'll need to reach out to the Mobilize support team at [support@mobilize.us](mailto:support@mobilize.us). Here's an example email:
+One other feature of the authenticated Mobilize integration is that you can use an [Automation Step](/organizing/automations) to RSVP someone to a specific Mobilize event. To turn this feature on, you'll need to reach out to the Mobilize support team at [support@mobilize.us](mailto:support@mobilize.us). Here's an example email:
 
 > Hi there,
 >
@@ -37,7 +37,7 @@ One other feature of the authenticated Mobilize integration is that you can use 
 
 **Mobilize Automation Triggers**
 
-You can trigger [automations](https://help.daisychain.app/automations-overview-1) when people RSVP to Mobilize events. This makes it easy to message and organize Mobilize RSVPs as needed.
+You can trigger [automations](/organizing/automations) when people RSVP to Mobilize events. This makes it easy to message and organize Mobilize RSVPs as needed.
 
 **Mobilize Message Campaigns**
 

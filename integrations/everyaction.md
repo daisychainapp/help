@@ -24,7 +24,7 @@ Event forms
 
 Donation forms
 
-You can also trigger [automations](https://help.daisychain.app/automations-overview-1) when any of these things happen, which makes it easy to engage and organize EveryAction supporters, RSVPs, and donors as needed.
+You can also trigger [automations](/organizing/automations) when any of these things happen, which makes it easy to engage and organize EveryAction supporters, RSVPs, and donors as needed.
 
 &#x20;
 

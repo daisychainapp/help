@@ -77,4 +77,4 @@ You can select a VAN list to filter by, and on an individual person’s page you
 
 ### Syncing Opt-outs
 
-Whenever you opt someone out in Daisychain, that information will sync back to VAN as an opt out as well. [Learn more about subscription statuses here.](https://help.daisychain.app/subscription-statuses)
+Whenever you opt someone out in Daisychain, that information will sync back to VAN as an opt out as well. [Learn more about subscription statuses here.](/managing-data/subscription-statuses.md)
