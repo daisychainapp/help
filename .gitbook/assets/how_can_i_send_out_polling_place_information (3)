@@ -1,0 +1,96 @@
+# How can I send out polling place information?
+
+_Daisychain's integration with the DNC's iwillvote.com lets you easily insert polling place information for US elections into your messages.  To send out polling place information using the Dais_
+
+To send out polling information, you can use [variables](https://help.daisychain.app/inserting-personalized-content-in-messages) when composing your message in Step 2 of the [Campaign Creation](https://help.daisychain.app/campaigns) process. 
+
+
+The key variables that are most commonly used are: {% raw %}
+
+
+* **Polling Place Name:** {{ person.primary\_address.dnc\_will\_vote.locate.polling\_locations[0].location\_name }}
+* **Polling Place Address:** {{ person.primary\_address.dnc\_will\_vote.locate.polling\_locations[0].location\_name }}
+* **Polling Place Hours:** {{ person.primary\_address.dnc\_will\_vote.locate.polling\_locations[0].dates\_hours }}.
+
+
+To put it all together, below are few example messages that include variables.
+
+
+**Sample Message - Election Day**
+
+
+
+```
+Hey {{ person.first\_name }}, 📅 Election Day is Tuesday, November 5th.   
+  
+{% if person.primary\_address.dnc\_will\_vote and person.primary\_address.dnc\_will\_vote.locate %} Here's all the info you need to vote in {{ person.primary\_address.locality }}:   
+  
+🗳️ Your polling place is {{ person.primary\_address.dnc\_will\_vote.locate.polling\_locations[0].location\_name }}.   
+  
+📍 Address: {{ person.primary\_address.dnc\_will\_vote.locate.polling\_locations[0].address\_line\_1 }}, {{ person.primary\_address.dnc\_will\_vote.locating.polling\_locations[0].city }}, {{ person.primary\_address.dnc\_will\_vote.locating.polling\_locations[0].state\_code }} {{ person.primary\_address.dnc\_will\_vote.locate.polling\_locations[0].zip }}   
+  
+🕒 Polls are open from {{ person.primary\_address.dnc\_will\_vote.locate.polling\_locations[0].dates\_hours }}.   
+  
+{% else %}   
+  
+🗳️ Please check your polling location at https://iwillvote.com. {% endif %}
+```
+
+Using the code above will output a message that looks something like this:
+
+
+![](https://44727351.fs1.hubspotusercontent-na1.net/hubfs/44727351/image-png-4.png)
+
+
+**Sample Message - Early Vote**
+
+
+
+```
+Hey {{ person.first\_name }}, Election Day is Tuesday, November 5th, but you might be able to vote early!   
+  
+{% if person.primary\_address.dnc\_will\_vote and person.primary\_address.dnc\_will\_vote.locate %}  
+  
+Based on our records, here's all the info you need for early voting in {{ person.primary\_address.locality }}:  
+  
+🗳️ Your early voting location is {{ person.primary\_address.dnc\_will\_vote.locate.early\_vote\_locations[0].location\_name }}.  
+  
+📍 Address: {{ person.primary\_address.dnc\_will\_vote.locate.early\_vote\_locations[0].address\_line\_1 }}, {{ person.primary\_address.dnc\_will\_vote.locate.early\_vote\_locations[0].city }}, {{ person.primary\_address.dnc\_will\_vote.locate.early\_vote\_locations[0].state\_code }} {{ person.primary\_address.dnc\_will\_vote.locate.early\_vote\_locations[0].zip }}  
+  
+🕒 Early voting hours: {{ person.primary\_address.dnc\_will\_vote.locate.early\_vote\_locations[0].dates\_hours }}.  
+  
+🗳️ Please double-check to confirm your voting info here: https://iwillvote.com  
+  
+{% else %}  
+  
+🗳️ You can get all the info you need to vote here:: https://iwillvote.com.  
+{% endif %}
+```
+
+Using the code above will output a message that looks something like this:
+
+
+![](https://44727351.fs1.hubspotusercontent-na1.net/hubfs/44727351/image-png-Oct-14-2024-09-29-10-7274-PM.png)
+
+
+ 
+
+
+{% endraw %}
+
+
+ 
+
+
+
+**A note on data availability:** Data is available for major elections via the iWillVote API, but in some states polling place information isn't available until closer to the election. Additionally, some states don't have early voting and/or vote-by-mail at all. 
+
+
+
+
+**Accurate Addresses Needed:** We can't send out accurate polling place information to people in your Daisychain account unless they have accurate addresses. If the address information is missing, malformed, or inaccurate, they can't be geocoded, and Daisychain won't be able to determine their polling place. 
+
+
+
+ 
+
