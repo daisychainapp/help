@@ -1,6 +1,6 @@
 ---
-description: Teams can help you distribute replies among staff.
 icon: users-medical
+description: Teams can help you distribute replies among staff.
 ---
 
 # Teams
@@ -9,6 +9,6 @@ The primary reason to create a team is if you want to build an [Automation](http
 
 To create a new team, navigate to **Settings > Teams**.
 
-![](https://44727351.fs1.hubspotusercontent-na1.net/hubfs/44727351/Screenshot%202024-03-14%20at%2011-23-21%E2%80%AFAM-png.png)
+<figure><img src="../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
 
 You can create as many teams as you want, and it's easy to add/remove members of the team after it's been created.

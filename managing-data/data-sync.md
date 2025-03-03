@@ -1,8 +1,8 @@
 ---
+icon: cloud-check
 description: >-
   Daisychain can keep an Amazon S3 bucket automatically synchronized with raw
   database table data from your account.
-icon: cloud-check
 ---
 
 # Data Sync
@@ -25,7 +25,7 @@ To access your integrated data in the AWS web interface, navigate to **Settings 
 
 You should see an interface like this, with an account specific URL:
 
-![](https://44727351.fs1.hubspotusercontent-na1.net/hubfs/44727351/image-png-Feb-05-2025-09-44-31-0390-PM.png)
+<figure><img src="../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
 
 To access your data, visit the following URL, ensuring that you replace your {account-name}:
 
@@ -33,7 +33,7 @@ To access your data, visit the following URL, ensuring that you replace your {ac
 
 This should enable you to access the AWS interface, which should look like this:
 
-![](https://44727351.fs1.hubspotusercontent-na1.net/hubfs/44727351/image-png-Feb-05-2025-09-45-38-4610-PM.png)
+<figure><img src="../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
 
 ### Data Details
 

@@ -1,12 +1,13 @@
 ---
 icon: message-image
+description: >-
+  In Daisychain, you can use MMS messages to send out images and long text-only
+  messages.
 ---
 
 # Sending out MMS messages
 
-\_In Daisychain, you can use MMS messages to send out images and long text-only messages. \_
-
-#### What is an MMS?
+### **What is an MMS?**
 
 MMS stands for "Multimedia Messaging Service," and it is used to send more complicated messages than SMS messages. MMS messages in Daisychain can can include images and/or up to 1,600 characters of text.
 
@@ -22,7 +23,7 @@ If you send a long text in Daisychain which uses multiple SMS segments, we will 
 
 In the message composition window, click the image icon and select your file. &#x20;
 
-<figure><img src="https://downloads.intercomcdn.com/i/o/821099415/f32f3aa7996572373a6eecc6/SCR-20230901-pmaz.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 
 ***
 

@@ -1,6 +1,6 @@
 ---
-description: How to manage replies using the Inbox and the Reply Queue
 icon: reply
+description: How to manage replies using the Inbox and the Reply Queue
 ---
 
 # Managing Replies
@@ -23,21 +23,16 @@ To use the reply queue for a given Campaign, follow these steps:
 4. **When you have completed a batch of conversations, choose your next step.**\
    At this point, you can choose to "Get more conversations" (if any are available) or you can tag out by clicking the "Stop Replying" button.
 
-<figure><img src="https://downloads.intercomcdn.com/i/o/925136641/e3acae612c8ef9baea958e30/image.png" alt=""><figcaption></figcaption></figure>
-
 &#x20;
 
-&#x20;
+<figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 
 **A few more notes about the reply queue:**
 
-* On the Manage Replies page, you can track the progress of different texters and release a texter's batch of claimed conversations so that other texters can claim them:\
-  ​
+*   On the Manage Replies page, you can track the progress of different texters and release a texter's batch of claimed conversations so that other texters can claim them:\
+    ​
 
-<figure><img src="https://downloads.intercomcdn.com/i/o/957421705/cf618378aff34bca0343533c/reply+queue.png" alt=""><figcaption></figcaption></figure>
-
-​
-
+    <figure><img src="../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
 * The default batch size for the reply queue is 25 conversations.\
   ​\
   ​

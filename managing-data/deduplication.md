@@ -1,10 +1,9 @@
 ---
 icon: people-pants
+description: Find matching email and phone records and merge people.
 ---
 
 # Deduplication
-
-_Find matching email and phone records and merge people._
 
 To access the Duplicate Manager, navigate to **Settings > People > Duplicates**
 

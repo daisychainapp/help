@@ -1,6 +1,6 @@
 ---
-description: You can easily add people to your Daisychain through CSV uploads.
 icon: file-csv
+description: You can easily add people to your Daisychain through CSV uploads.
 ---
 
 # CSV Imports
@@ -10,7 +10,7 @@ Importing people into Daisychain is simple:
 * First, navigate to the "People" section of Daisychain.
 * Then, click the button with three dots and click "Import CSV":
 
-![](https://44727351.fs1.hubspotusercontent-na1.net/hubfs/44727351/Screenshot%202024-08-29%20at%205-22-20%E2%80%AFPM-png.png)
+<figure><img src="../.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
 
 You'll then be guided through the four step upload process:
 
