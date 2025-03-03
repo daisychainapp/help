@@ -20,9 +20,9 @@ If you send a long text in Daisychain which uses multiple SMS segments, we will 
 
 #### **Adding Pictures**
 
-In the message composition window, click the image icon and select your file.
+In the message composition window, click the image icon and select your file. &#x20;
 
-[![](https://downloads.intercomcdn.com/i/o/821099415/f32f3aa7996572373a6eecc6/SCR-20230901-pmaz.png)](https://downloads.intercomcdn.com/i/o/821099415/f32f3aa7996572373a6eecc6/SCR-20230901-pmaz.png) &#x20;
+<figure><img src="https://downloads.intercomcdn.com/i/o/821099415/f32f3aa7996572373a6eecc6/SCR-20230901-pmaz.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ***
 

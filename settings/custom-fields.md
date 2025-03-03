@@ -1,13 +1,13 @@
 ---
+icon: pen-field
 description: >-
   Daisychain allows you set up custom fields to assign to people in your
   database.
-icon: pen-field
 ---
 
 # Custom Fields
 
-You do not have to use only Daisychain's pre-loaded standard fields. Our custom fields feature enable you to record data about people beyond what is available in Daisychain's [**Standard Fields.**](../managing-data/standard-fields.md)
+You do not have to use only Daisychain's pre-loaded standard fields. Our custom fields feature enable you to record data about people beyond what is available in Daisychain's [**Standard Fields.**](../texting/standard-fields.md)
 
 To create custom fields:
 
