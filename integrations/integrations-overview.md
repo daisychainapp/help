@@ -11,7 +11,7 @@ For more information on specific integrations, visit the following pages:
 
 * [actblue.md](actblue.md "mention")
 * [action-network.md](action-network.md "mention")
-* [**ControlShift**](controlshift.md)
+* [ControlShift](controlshift.md)
 * [everyaction.md](everyaction.md "mention")
 * [mobilize.md](mobilize.md "mention")
 * [ngpvan.md](ngpvan.md "mention")
