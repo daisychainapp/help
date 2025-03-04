@@ -24,7 +24,7 @@ Here is where you'll set up the basic parameters of your campaign. You'll add th
 
 * **Campaign Name:** You'll be able to search by this later.
 * **Audience:** Your audience is who you are sending this campaign to. You can either send to your full list or send to a specific subset using [uploads](../../managing-data/csv-imports.md), [saved filters](../../managing-data/filtering-people.md), or lists from external tools.
-* **Goal:** Adding a goal will impact what is tracked in your Campaign Report/Analytics. The default goal is to send a basic message, but you can also set up a goal to track donations on ActBlue, event RSVPs on Mobilize, and other metrics in the future.
+* **Goal:** Adding a goal will impact what is tracked in your Campaign Report/Analytics. The default goal is to send a basic message, but other goals will be available if you have the [ActBlue](../../integrations/actblue.md) or [Mobilize](../../integrations/mobilize.md) integrations activated.&#x20;
 
 ### Step Two: Content
 
@@ -41,7 +41,11 @@ In this step,  is where you will add what is actually sent in your campaign. Add
 
 ![](https://44727351.fs1.hubspotusercontent-na1.net/hubfs/44727351/Screenshot%202024-03-14%20at%201-15-53%E2%80%AFPM-png.png)
 
-* **Scheduling:** Your campaign may be sent immediately, or scheduled to be sent at a later date or time. Note that targeting is re-calculated at the time when the campaign is actually sent. Daisychain checks for scheduled campaigns every 10 minutes -- so if you schedule it for 1:03pm, sending won't actually begin until 1:10pm.
+* **Scheduling:** Your campaign may be sent immediately, or scheduled to be sent at a later date or time. Note that targeting is re-calculated at the time when the campaign is actually sent.&#x20;
+
+{% hint style="info" %}
+Daisychain checks for scheduled campaigns every 10 minutes. For example, if you schedule a campaign to be sent at 1:03pm, sending won't actually begin until 1:10pm.
+{% endhint %}
 
 ### Step 3: Review
 

@@ -15,7 +15,7 @@ Users can currently have one of three roles, each of which has different permiss
 
 * **Admin:** Has full control over all settings and features, including user management and data export.
 * **Manager:** Has access to most features, except administrative settings and data exports.
-* **User:** Has limited access and can only view and send messages, record data, and see basic information about people.
+* **User:** Has limited access and can only view conversations, send messages, record data, and see basic information about people.
 
 After someone has been invited, but before they've accepted their invitation, you can click the "Resend" button to send them another invitation, or click "Revoke Invitation" if you'd like to cancel it.
 
