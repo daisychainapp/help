@@ -1,10 +1,11 @@
 ---
 icon: comment-sms
+description: >-
+  SMS messages are sent using blocks of characters, called segments -- and
+  segments are how Daisychain calculates SMS usage for billing purposes.
 ---
 
 # Understanding SMS Segments
-
-_SMS messages are sent using blocks of characters, called segments -- and segments are how Daisychain calculates SMS usage for billing purposes._
 
 A standard SMS message segment can have 160 "basic characters" -- which includes all [standard letters and numbers](https://en.wikipedia.org/wiki/GSM_03.38#GSM_7-bit_default_alphabet_and_extension_table_of_3GPP_TS_23.038_.2F_GSM_03.38). There are also "special characters" (like certain accented letters) might actually use up multiple characters in your segment. Emojis use a lot of characters, and change the number of characters allowed per segment in those messages to 70 instead of 160. Finally, if your message contains more than a single segment, subsequent segments have a limit of 153 characters. We know, it's a bit confusing.
 

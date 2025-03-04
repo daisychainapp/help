@@ -6,10 +6,10 @@
 
 * [Campaigns](texting/campaigns/README.md)
   * [Campaign Report](texting/campaigns/campaign-report.md)
-  * [Sending out MMS messages](texting/campaigns/sending-out-mms-messages.md)
   * [Managing Replies](texting/campaigns/managing-replies.md)
   * [Campaign pausing](texting/campaigns/campaign-pausing.md)
-  * [Understanding the "Sending" Status in Daisychain](texting/campaigns/understanding-the-sending-status-in-daisychain.md)
+  * ["Sending" Status](texting/campaigns/understanding-the-sending-status-in-daisychain.md)
+* [Sending out MMS messages](texting/sending-out-mms-messages.md)
 * [Inbox](texting/inbox.md)
 * [Phone Number Registration](texting/phone-number-registration/README.md)
   * [About "Campaign Verify"](texting/phone-number-registration/about-campaign-verify.md)
