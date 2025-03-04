@@ -7,7 +7,7 @@ description: >-
 
 # Custom Fields
 
-You do not have to use only Daisychain's pre-loaded standard fields. Our custom fields feature enable you to record data about people beyond what is available in Daisychain's [**Standard Fields.**](standard-fields.md)
+You do not have to use only Daisychain's pre-loaded standard fields. Our custom fields feature enable you to record data about people beyond what is available in Daisychain's [**Standard Fields.**](broken-reference)
 
 To create custom fields:
 
@@ -27,5 +27,5 @@ Options for "Select" fields cannot currently be edited after they have been crea
 {% endhint %}
 
 {% hint style="info" %}
-The "identifier" listed for your custom field is all lowercase with spaces replaced by underscores, and is what you'll need to use for your column headers if you want to [import a CSV](../managing-data/csv-imports.md) with custom fields.
+The "identifier" listed for your custom field is all lowercase with spaces replaced by underscores, and is what you'll need to use for your column headers if you want to [import a CSV](csv-imports.md) with custom fields.
 {% endhint %}

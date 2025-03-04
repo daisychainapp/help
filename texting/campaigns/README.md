@@ -1,8 +1,8 @@
 ---
+icon: bullhorn
 description: >-
   In Daisychain, it's simple to send a text message campaign with just a few
   clicks.
-icon: bullhorn
 ---
 
 # Campaigns
@@ -55,7 +55,7 @@ Once your campaign is sent, you will be taken to the [Campaign Report](campaign-
 * Number of messages delivered
 * Number of replies received
 * Number of opt-outs
-* Number of clicks (if you have [short-links](../url-shortening.md) turned on)
+* Number of clicks (if you have [short-links](../../settings/url-shortening.md) turned on)
 * Number of conversions (if you are using an integrated tool and a campaign goal)
 
 On this step, there are also links to:

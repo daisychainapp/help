@@ -1,10 +1,9 @@
 ---
 icon: message-dots
+description: The difference between "Textable," "Opted In," and "Opted Out"
 ---
 
 # Subscription Statuses
-
-_This article shows the difference between "Textable," "Opted In," and "Opted Out"_
 
 Daisychain aims to help your organization abide by best practices and rules and regulations for opted in texting. To help facilitate this, we offer several different types of subscription statuses for the numbers in your Daisychain account.
 
