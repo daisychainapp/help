@@ -7,7 +7,7 @@ description: >-
 
 # Custom Fields
 
-You do not have to use only Daisychain's pre-loaded standard fields. Our custom fields feature enable you to record data about people beyond what is available in Daisychain's [**Standard Fields.**](broken-reference)
+You do not have to use only Daisychain's pre-loaded standard fields. Our custom fields feature enable you to record data about people beyond what is available in Daisychain's [**Standard Fields.**](standard-fields.md)
 
 To create custom fields:
 
