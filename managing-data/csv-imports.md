@@ -5,6 +5,10 @@ description: You can easily add people to your Daisychain through CSV uploads.
 
 # CSV Imports
 
+{% embed url="https://www.loom.com/share/ea6ff12528e747c09fee849cfae70da3?sid=4bb34e37-38d9-48b5-bea6-9e2f4374edc9" %}
+
+
+
 Importing people into Daisychain is simple:
 
 * First, navigate to the "People" section of Daisychain.
@@ -25,5 +29,9 @@ After your import is complete, you can press "Continue" to take quick actions li
 
 {% hint style="info" %}
 If any of rows in your CSV contain cells with invalid values (i.e. malformed email addresses, non-existent postal codes, etc.) Daisychain will reject the entire row so that you can fix the errors and re-upload those people with valid data. Any valid rows in that CSV will be processed and imported normally.&#x20;
+{% endhint %}
+
+{% hint style="info" %}
+If you're planning to import data into custom fields or if you'd like to apply tags to the people you're importing, please&#x20;
 {% endhint %}
 

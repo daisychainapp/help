@@ -7,6 +7,10 @@ description: >-
 
 # Campaigns
 
+{% embed url="https://www.loom.com/share/028d65993a014c76914fd6103f77c587?sid=32f075c3-d624-426e-a498-bb30ddc989c3" %}
+
+
+
 Campaigns are Daisychain's feature that lets you quickly send messages to as many people as you'd like. This is the most powerful way to send a message to multiple people, since it enables features not found elsewhere in Daisychain, including:
 
 * Scheduling

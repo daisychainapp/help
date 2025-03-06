@@ -7,6 +7,10 @@ description: >-
 
 # Custom Fields
 
+{% embed url="https://www.loom.com/share/91e26abc098d434897847d428bc54251?sid=8774c9bb-ae69-42a4-9d26-e54d674243bb" %}
+
+
+
 You do not have to use only Daisychain's pre-loaded standard fields. Our custom fields feature enable you to record data about people beyond what is available in Daisychain's [**Standard Fields.**](standard-fields.md)
 
 To create custom fields:

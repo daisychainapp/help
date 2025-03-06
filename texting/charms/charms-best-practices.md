@@ -1,6 +1,6 @@
 ---
-description: Some quick tips to get the most out of Charms
 icon: lightbulb-gear
+description: Some quick tips to get the most out of Charms
 ---
 
 # Charms - Best Practices
@@ -8,7 +8,7 @@ icon: lightbulb-gear
 ### **Make your charm eye-catching**
 
 * **Use animation to your advantage!** The human eye is very sensitive to motion, so including some some subtle animations is a great way to get people’s attention. It can be as simple as having one important word appear a moment after the rest of the sentence!
-* Because a GIF starts playing automatically, \*\*any frame could be the first thing someone sees.\*\*Use this to your advantage and plan for it in advance!
+* Because a GIF starts playing automatically, _any frame could be the first thing someone sees._ Use this to your advantage and plan for it in advance!
   * Try to make each frame of your Charm equally eye-catching and visually interesting, because that frame might be the only thing your recipients see before they decide whether to read your message or not.
   * You might also want to include your branding in each frame so that people can immediately recognize you based on your visual identity.
 * **Pitfalls to watch out for:**
@@ -25,7 +25,6 @@ icon: lightbulb-gear
 * **GIFs don’t have play, pause or rewind controls,** which can be a frustrating experience when words or pictures disappear before the recipient is ready.
   * Make sure people have enough time to read everything — every person reads at a different speed, but as a rule of thumb, make sure you have at least 225ms per word with a minimum of 1.5 seconds per sentence.
     * Example: A 10-word sentence \* 225ms per word should be visible for a minimum of 2250ms or 2.25 seconds.
-*
   * Keep the overall length of the Charm short (\~7 seconds or less), so even if people miss something on their first time seeing it, they don’t have to wait long to see it again.
 * **MMS image previews can be fairly small**, so make sure that everything (especially text) is big enough to read even when the image is scaled down.
   * Be succinct — try to have no more than 15-20 words (120 characters or less) be visible at a time.
@@ -33,20 +32,13 @@ icon: lightbulb-gear
 
 Any essential information in the image should also be available in the text content of the message. There’s no guarantee recipients will see or read every part of your gif.
 
-&#x20;
-
 Information in the image isn’t accessible for people who don’t have the ability to see — like people with limited/no eyesight and people using assistive text-to-speech technology (like setting your phone to read text messages aloud to you while you’re driving, for example). Make sure that people who can’t see your Charm don’t miss out on your message!
 
-&#x20;
-
-There is always a small chance the image won’t load for someone. Maybe they’re in a location with bad cell service, or maybe their cellular service provider has strict limits on MMS file-sizes. You never know!
-
-&#x20;
+There is always a small chance the image won’t load for someone. Maybe they’re in a location with bad cell service, or maybe their cellular service provider has strict limits on MMS file-sizes. You never know!&#x20;
 
 ### Make the file size small
 
-**There's a strict 500kb limit for all GIFs sent through Daisychain, including Charms.**\
-**​**
+**There's a strict 500kb limit for all GIFs sent through Daisychain, including Charms.**
 
 * GIFs with fewer frames and simple animation will be smaller than long gifs with lots of crossfades, movement and complex animation.
 * Using fewer colors makes it possible for the GIF format to compress your image more effectively, so consider using a limited color palette and limiting the number of full color photos.

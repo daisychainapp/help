@@ -7,6 +7,10 @@ description: >-
 
 # Users and Roles
 
+{% embed url="https://www.loom.com/share/bcbd0897d24b4b02a863190f26a2e0d4?sid=1333e9fd-241e-44b5-81e1-020a065cf9d8" %}
+
+
+
 To invite a new user to your account, navigate to **Settings > Users.** You can invite users by entering in their email address and pressing the _Invite User_ button.
 
 ![](https://44727351.fs1.hubspotusercontent-na1.net/hubfs/44727351/Screenshot%202024-03-14%20at%2011-26-55%E2%80%AFAM-png.png)
