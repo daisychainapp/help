@@ -21,7 +21,7 @@ You'll then be guided through the four step upload process:
 1. **Upload.** In this step, you'll either drag-and-drop your CSV file onto the upload area, or you can click it to select the file from a folder on your computer. Note that Daisychain only accepts CSV files (not Excel files).&#x20;
 
 {% hint style="success" %}
-CSV files can include data for both [Standard Fields](standard-fields.md) and [Custom Fields](custom-fields.md) — but if you're importing data to Custom Fields, you'll want to create those fields before importing your CSV.&#x20;
+CSV files can include data for both [Standard Fields](standard-fields.md) and [Custom Fields](custom-fields.md) — but if you're importing data to Custom Fields, you'll want to create those fields before importing your CSV. Additionally, CSVs must include values for email and/or phone number for every person that you're importing into Daisychain.&#x20;
 {% endhint %}
 
 {% hint style="info" %}
