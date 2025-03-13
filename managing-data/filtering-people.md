@@ -1,8 +1,8 @@
 ---
-icon: filter-list
 description: >-
   Filters are a powerful, flexible tool for quickly finding a subset of people
   in your Daisychain account.
+icon: filter-list
 ---
 
 # Filters
@@ -13,7 +13,7 @@ Here's how to use them:
 *   Press the **Filter** button in the top right -- it looks like this:\
 
 
-    <figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Choose the category of filter from the options that appear. Options include:
 
@@ -39,4 +39,4 @@ After filtering your list, you you can create a **Saved Filter** by pressing the
     \
 
 
-    <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>

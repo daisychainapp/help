@@ -25,7 +25,7 @@ CSV files can include data for both [Standard Fields](standard-fields.md) and [C
 {% endhint %}
 
 {% hint style="info" %}
-If you'd like to apply [Tags](tags.md) to the people you're importing via CSV, tags must first be created. Values for this field should be lowercase and without any spaces -- any spaces in tags should be replaced by dashes. So a "Super Volunteer" tag would get imported as "super-volunteer." Multiple tags can included in a single column, separated by commas. Tags need to first be created in Daisychain before they can be added with a CSV upload.Multiple tags can included in a single column, separated by commas.
+If you'd like to apply [Tags](tags.md) to the people you're importing via CSV, tags must first be created. Values for this field should be lowercase and without any spaces — any spaces in tags should be replaced by dashes. So a "Super Volunteer" tag would get imported as "super-volunteer." Multiple tags can included in a single column, separated by commas.&#x20;
 {% endhint %}
 
 2. **Map Fields.** This step is where you can look at how your fields are being mapped and identify any problems before proceeding to the actual Import step. You can adjust how fields are mapped on this step as well.\
