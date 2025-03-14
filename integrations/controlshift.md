@@ -1,6 +1,6 @@
 ---
-icon: hand-fist
 description: How to integrate Daisychain with ControlShift
+icon: hand-fist
 ---
 
 # ControlShift
@@ -22,10 +22,8 @@ You can use Daisychain to create a high-touch organizing workflow to support Con
 **Here's how to setup the integration between Daisychain and ControlShift:**
 
 1. In ControlShift, navigate to Settings > Integrations > REST API Apps\
-   ​\
    ​
-2. Give your application a name (like "Daisychain") and a Redirect URI (use "urn:ietf:wg:oauth:2.0:oob"), and hit the "Add" button.\
-   ​\
+2. Give your application a name (like "Daisychain") and a Redirect URI (use "urn:ietf:wg:oauth:2.0:oob"), and hit the "Add" button.​\
    ​
 3. In a new browser tab, go to your Daisychain account. Navigate to Settings > Integrations > ControlShift (Add). You'll see you need to enter in a few items on this page:\
 
@@ -43,8 +41,6 @@ Now go to the Pathways section in Daisychain and scroll down to Pathway Template
 * It comes with the "ControlShift Power-Up" activated, which enables it to display ControlShift integration.
 * It automatically creates an Automation, which you can edit in Step 5 (See below).&#x20;
 
-6\. Go to Settings > Automations and review/edit the new automation that was just created.
-
-***
+5. Go to Settings > Automations and review/edit the new automation that was just created.
 
 That's it! We know there's a lot of steps here, and are standing by if we can help you setup this integration.
