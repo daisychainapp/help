@@ -1,6 +1,6 @@
 ---
-icon: phone-plus
 description: Ensuring your text messages reach their intended recipients.
+icon: phone-plus
 ---
 
 # Phone Number Registration
@@ -30,9 +30,9 @@ In order to register your organization or campaign to send text messages, you'll
 
 ### **Timeline For Approval**
 
-**10DLC registrations** typically take 3-5 days for approval, assuming all items in the checklist below have been accurately completed before registration.
+**10DLC registrations** typically take an average of five business days to be approved, assuming all items in the checklist below have been accurately completed before registration.
 
-**Toll-free registrations** typically take 2-3 business days for approval, assuming all items in the checklist below have been accurately completed before registration.
+**Toll-free registrations** typically take an average of three business days to be approved, assuming all items in the checklist below have been accurately completed before registration.
 
 ### **Sign-Up Form Requirements**
 
