@@ -5,19 +5,31 @@ icon: phone-plus
 
 # Phone Number Registration
 
-### **Overview**
+### **Overview** 
 
-In recent years, new systems have been implemented by wireless carriers (like Verizon, AT\&T, T-Mobile, etc.) to protect their customers from junk and scam messages.
+* **10DLC** (which stands for "10 digit long code") numbers, which are "normal" phone number that use a local area code.\
 
-These new systems include:
+* **Toll Free** phone numbers  that usually start with 833 or 844. \
 
-**1) 10DLC** (which stands for "10 digit long code") which is a "normal" phone number that uses a local area codes.&#x20;
+* **Short-Code**, for five-digit phone numbers, like 54321.
 
-**2) Toll Free Verification**, for toll-free numbers  that usually start with 833 or 844.&#x20;
+At Daisychain, we let our customers select 10DLC or toll-free numbers — and we handle registration on behalf of our customers.
 
-At Daisychain, we handle your 10DLC and toll-free registrations for our clients behind the scenes.&#x20;
+### Comparing Phone Number Types
 
-### **Checklist**
+When selecting a phone number for messaging, it’s important to consider your use case, audience size, and compliance requirements. Below is a breakdown of the available number types and their key characteristics.
+
+<table data-header-hidden><thead><tr><th width="144.7421875"></th><th width="170.640625"></th><th width="185.1640625"></th><th width="242.37109375"></th></tr></thead><tbody><tr><td><strong>Number Type</strong></td><td><strong>Best For</strong></td><td><strong>Pros</strong></td><td><strong>Cons</strong></td></tr><tr><td><strong>Toll-Free</strong></td><td>Low-to-medium medium volume messaging</td><td>Solid deliverability, faster approvals, easier registration</td><td>Slower throughput at the highest volumes</td></tr><tr><td><strong>Local 10DLC</strong></td><td>Local outreach</td><td>Great deliverability and fast throughput if you have a high "trust score"</td><td>Difficult, slow registration that usually requires changes to website and privacy policy</td></tr><tr><td><strong>Short Code</strong></td><td>High-volume campaigns, urgent alerts</td><td>Fastest throughput, highest deliverability</td><td>Short-code leasing fee, long registration process. Only makes sense with a large list of opted-in supporters.</td></tr></tbody></table>
+
+
+
+### **Toll Free Registration Requirements**
+
+**Toll-free registrations** typically take an average of three business days to be approved, and generally the only requirements are having an organization with a basic website and primary contact info.&#x20;
+
+### **10DLC Registrations**
+
+**10DLC registrations** typically take an average of five business days to be approved, assuming all items in the checklist below have been accurately completed before registration.
 
 In order to register your organization or campaign to send text messages, you'll want to make sure to have the following:
 
@@ -28,15 +40,9 @@ In order to register your organization or campaign to send text messages, you'll
 * [ ] **Privacy Policy Link:** Your website must include a link to a [compliant privacy policy.](./#privacy-policy-info)
 * [ ] **Mobile Terms of Use:** Your website must contain compliant [Mobile Terms of Use](./#terms-of-use-info), either as a dedicated page or a section of your privacy policy.&#x20;
 
-### **Timeline For Approval**
+### **Sign-Up Form Requirements (10DLC)**
 
-**10DLC registrations** typically take an average of five business days to be approved, assuming all items in the checklist below have been accurately completed before registration.
-
-**Toll-free registrations** typically take an average of three business days to be approved, assuming all items in the checklist below have been accurately completed before registration.
-
-### **Sign-Up Form Requirements**
-
-When registering your phone number, you'll be asked to submit a URL of a website that contains a sign-up form where people can opt-in to receive mobile messages. To ensure your registration is approved, please make sure your form includes the following three elements:
+When registering your  10DLC phone number, you'll be asked to submit a URL of a website that contains a sign-up form where people can opt-in to receive mobile messages. To ensure your registration is approved, please make sure your form includes the following three elements:
 
 1. a non-required field for collecting mobile phone numbers
 2. an _unticked_ checkbox to opt-in to receive text message
@@ -48,9 +54,9 @@ Here's an example:&#x20;
 
 <figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
 
-### **Privacy Policy Info**
+### **Privacy Policy Info (10DLC)**
 
-To align with regulations, a compliant privacy policy must be easily found on your organization's website, with **a clear link to this privacy policy in your website's footer.** An example complete privacy policy can be found [here.](https://fastform.org/progress-kingston-privacy-policy/)&#x20;
+When registering a 10DLC phone number, a compliant privacy policy must be easily found on your organization's website, with **a clear link to this privacy policy in your website's footer.** An example complete privacy policy can be found [here.](https://fastform.org/progress-kingston-privacy-policy/)&#x20;
 
 Ensure your policy explicitly states non-sharing of personal data with third parties without consent, except under legal obligations, and provides clear opt-out instructions for communications, especially text messages. It's crucial to avoid language that implies sharing private data for marketing purposes.&#x20;
 
@@ -67,9 +73,9 @@ However, we may share information (1) with vendors, consultants, and other servi
 To opt out of SMS messages at any time, simply reply STOP to any of our text messages. You can also opt back in by texting START to the same number.
 {% endhint %}
 
-### **Terms of Use Info**
+### **Terms of Use Info (10DLC)**
 
-You must have compliant Mobile Terms of Use — either as a dedicated page on your website linked in your website's footer, or as a dedicated section of your Privacy Policy. Your Mobile Terms of Use must contain a section that mirrors the text on the opt-in disclaimer. Here's an example:
+When registering a 10DLC phone number, you must have compliant Mobile Terms of Use — either as a dedicated page on your website linked in your website's footer, or as a dedicated section of your Privacy Policy. Your Mobile Terms of Use must contain a section that mirrors the text on the opt-in disclaimer. Here's an example:
 
 {% hint style="success" %}
 **Mobile Terms of Use**
