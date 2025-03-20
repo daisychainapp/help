@@ -1,22 +1,26 @@
 ---
-icon: check-to-slot
 description: >-
   Daisychain's integration with the DNC's iwillvote.com lets you easily insert
   polling place information for US elections into your messages.  To send out
   polling place information using the Dais
+icon: check-to-slot
 ---
 
 # Inserting Polling Place Info
 
+### Overview
+
 To send out polling information, you can use [variables](./) when composing your message in Step 2 of the [Campaign Creation](../campaigns/) process.
 
-The key variables that are most commonly used are:
+You can see key variables that are most commonly used are:
 
 * **Polling Place Name:** `{{ person.primary_address.dnc_will_vote.locate.polling_locations[0].location_name }}`
 * **Polling Place Address:** `{{ person.primary_address.dnc_will_vote.locate.polling_locations[0].location_name }}`
 * **Polling Place Hours:** `{{ person.primary_address.dnc_will_vote.locate.polling_locations[0].dates_hours }}`.
 
 To put it all together, below are few example messages that include variables.
+
+### Sample Messages
 
 **Sample Message - Election Day**
 
@@ -43,7 +47,7 @@ Using the code above will output a message that looks something like this:
 
 ![](https://44727351.fs1.hubspotusercontent-na1.net/hubfs/44727351/image-png-4.png)
 
-**Sample Message - Early Vote**
+### **Sample Message - Early Vote**
 
 ```
 Hey {{ person.first\_name }}, Election Day is Tuesday, November 5th, but you might be able to vote early!   
@@ -75,3 +79,38 @@ Using the code above will output a message that looks something like this:
 **A note on data availability:** Data is available for major elections via the iWillVote API, but in some states polling place information isn't available until closer to the election. Additionally, some states don't have early voting and/or vote-by-mail at all.
 
 **Accurate Addresses Needed:** We can't send out accurate polling place information to people in your Daisychain account unless they have accurate addresses. If the address information is missing, malformed, or inaccurate, they can't be geocoded, and Daisychain won't be able to determine their polling place.
+
+### Full List
+
+| **Daisychain Variable**                                                                             | **Description**                                                                       |
+| --------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
+| `{{ person.primary_address.dnc_will_vote.locate.polling_locations[0].location_name }}`              | Name of the **Election Day** polling place.                                           |
+| `{{ person.primary_address.dnc_will_vote.locate.polling_locations[0].address_line_1 }}`             | Street address of the **Election Day** polling place.                                 |
+| `{{ person.primary_address.dnc_will_vote.locate.polling_locations[0].city }}`                       | City of the **Election Day** polling place.                                           |
+| `{{ person.primary_address.dnc_will_vote.locate.polling_locations[0].state_code }}`                 | State abbreviation of the **Election Day** polling place.                             |
+| `{{ person.primary_address.dnc_will_vote.locate.polling_locations[0].zip }}`                        | ZIP code of the **Election Day** polling place.                                       |
+| `{{ person.primary_address.dnc_will_vote.locate.polling_locations[0].dates_hours }}`                | **Election Day** polling hours.                                                       |
+| `{{ person.primary_address.dnc_will_vote.locate.polling_locations[0].location_notes }}`             | Special notes about the **Election Day** polling location.                            |
+| **Early Voting Locations**                                                                          | **(Below are variables for early voting locations)**                                  |
+| `{{ person.primary_address.dnc_will_vote.locate.early_vote_locations[0].location_name }}`           | Name of the **early voting location**.                                                |
+| `{{ person.primary_address.dnc_will_vote.locate.early_vote_locations[0].address_line_1 }}`          | Street address of the **early voting location**.                                      |
+| `{{ person.primary_address.dnc_will_vote.locate.early_vote_locations[0].city }}`                    | City of the **early voting location**.                                                |
+| `{{ person.primary_address.dnc_will_vote.locate.early_vote_locations[0].state_code }}`              | State abbreviation of the **early voting location**.                                  |
+| `{{ person.primary_address.dnc_will_vote.locate.early_vote_locations[0].zip }}`                     | ZIP code of the **early voting location**.                                            |
+| `{{ person.primary_address.dnc_will_vote.locate.early_vote_locations[0].dates_hours }}`             | Early voting **hours and dates** (e.g., “8:30 AM - 4:30 PM, Oct 15 - Nov 6”).         |
+| `{{ person.primary_address.dnc_will_vote.locate.early_vote_locations[0].location_notes }}`          | Special notes about the **early voting location** (e.g., "Park behind the building"). |
+| `{{ person.primary_address.dnc_will_vote.locate.early_vote_locations[0].schedule_exceptions }}`     | Exceptions to the schedule (e.g., "Closed on Sundays").                               |
+| `{{ person.primary_address.dnc_will_vote.locate.early_vote_locations[0].schedule[0].date }}`        | First date this early voting location is open.                                        |
+| `{{ person.primary_address.dnc_will_vote.locate.early_vote_locations[0].schedule[0].time_ranges }}` | Open and close times for a specific early voting date.                                |
+| `{{ person.primary_address.dnc_will_vote.locate.early_vote_locations[0].schedule[0].is_open }}`     | Boolean (`true`/`false`): Is this early voting location open on this date?            |
+| `{{ person.primary_address.dnc_will_vote.locate.early_vote_locations[0].schedule[0].is_24h }}`      | Boolean (`true`/`false`): Is this early voting location open **24 hours**?            |
+| **Ballot Drop-Off Locations**                                                                       | **(Below are variables for drop-off locations)**                                      |
+| `{{ person.primary_address.dnc_will_vote.locate.drop_off_locations[0].location_name }}`             | Name of the **ballot drop-off location**.                                             |
+| `{{ person.primary_address.dnc_will_vote.locate.drop_off_locations[0].address_line_1 }}`            | Street address of the **ballot drop-off location**.                                   |
+| `{{ person.primary_address.dnc_will_vote.locate.drop_off_locations[0].city }}`                      | City of the **ballot drop-off location**.                                             |
+| `{{ person.primary_address.dnc_will_vote.locate.drop_off_locations[0].state_code }}`                | State abbreviation of the **ballot drop-off location**.                               |
+| `{{ person.primary_address.dnc_will_vote.locate.drop_off_locations[0].zip }}`                       | ZIP code of the **ballot drop-off location**.                                         |
+| `{{ person.primary_address.dnc_will_vote.locate.drop_off_locations[0].dates_hours }}`               | Ballot drop-off **hours and dates** (e.g., “24/7 from Oct 15 - Nov 6”).               |
+| `{{ person.primary_address.dnc_will_vote.locate.drop_off_locations[0].schedule_exceptions }}`       | Exceptions to the drop-off schedule (e.g., "Closed on Sundays").                      |
+| `{{ person.primary_address.dnc_will_vote.locate.drop_off_locations[0].open_early_voting }}`         | Boolean (`true`/`false`): Is this location open **during early voting**?              |
+| `{{ person.primary_address.dnc_will_vote.locate.drop_off_locations[0].open_election_day }}`         | Boolean (`true`/`false`): Is this location open **on Election Day**?                  |
