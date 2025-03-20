@@ -80,7 +80,7 @@ Using the code above will output a message that looks something like this:
 
 **Accurate Addresses Needed:** We can't send out accurate polling place information to people in your Daisychain account unless they have accurate addresses. If the address information is missing, malformed, or inaccurate, they can't be geocoded, and Daisychain won't be able to determine their polling place.
 
-### Full List
+### Full List of Daisychain Variables Using Info From iwillvote.com
 
 | **Daisychain Variable**                                                                             | **Description**                                                                       |
 | --------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
