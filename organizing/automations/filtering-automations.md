@@ -49,7 +49,7 @@ When using this code, you'll need to swap in the appropriate URL for your form. 
 #### **EveryAction: only run automation when a specific form is submitted**
 
 ```
-action.form.form\_id == `1234567`
+action.form.short_code == 'yHXCdSkQGU2-zKQijim5aw2'
 ```
 
 When using this code, you'll need to swap in the appropriate Form ID for your EveryAction form.
