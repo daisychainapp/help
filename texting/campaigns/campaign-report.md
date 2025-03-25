@@ -1,16 +1,13 @@
 ---
+description: >-
+  After you send a campaign in Daisychain, you will have access to a campaign
+  report with info about your campaign.
 icon: chart-line
 ---
 
 # Campaign Report
 
-_After you send a campaign in Daisychain, you will have access to a campaign report with info about your send._
-
-After a broadcast campaign is sent in Daisychain, you will have access to an analytics report for that campaign.
-
-&#x20;
-
-At the top of the page is the **audience** you’ve sent to – any lists included or excluded are displayed here.
+&#x20;At the top of the page is the **audience** you’ve sent to – any lists included or excluded are displayed here.
 
 ![](https://44727351.fs1.hubspotusercontent-na1.net/hubfs/44727351/Screenshot%202024-06-27%20at%203-36-13%E2%80%AFPM-png.png)
 
@@ -52,7 +49,5 @@ The deliverability stats of each broadcast campaign you send are listed at the b
 **Delivered** messages are those which we have received a delivery receipt for.
 
 **Undelivered** messages are those which we have confirmed have not been delivered.
-
-&#x20;
 
 You may export the complete delivery statistics for your campaign at the bottom of this page by clicking “Export CSV”.
