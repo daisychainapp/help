@@ -11,7 +11,7 @@ Here's the basics of setting up Zapier with Daisychain:
 
 1. If you don't already have a Zapier account, you can [sign up for one here.](https://zapier.com/sign-up)\
    ​
-2. [Click here](https://zapier.com/developer/public-invite/171650/f021268d7fc181e0a98dec133a375ada/) to accept the invitation to use Daisychain with Zapier.\
+2. [Click here](https://zapier.com/developer/public-invite/171650/1e0a3738d737b92624878904529a3d2a/) to accept the invitation to use Daisychain with Zapier.\
    ​
 3. In Zapier, click the "Create a Zap" button.\
    ​
