@@ -15,11 +15,11 @@ Here's the basics of setting up Zapier with Daisychain:
    ​
 3. In Zapier, click the "Create a Zap" button.\
    ​
-4. Then, Zapier will walk you through the setup process. This will include:
+4. Then, Zapier will walk you through the setup process. This will include:\
 
-* **Selecting a Trigger.** This could be something like a Google Form submission.\
+   1. **Selecting a Trigger.** This could be something like a Google Form submission.\
 
-* **Setting up your Action.** This will be where you search for and select Daisychain from the list of available apps. To connect Zapier to Daisychain, you'll need an API key, which you can get by Navigating to Daisychain Settings > API Keys, and generating a key that you can paste into the authentication box in Zapier.
+   2. **Setting up your Action.** This will be where you search for and select Daisychain from the list of available apps. To connect Zapier to Daisychain, you'll need an API key, which you can get by Navigating to Daisychain Settings > API Keys, and generating a key that you can paste into the authentication box in Zapier.
 
 A few notes about using Zapier with Daisychain:
 
@@ -27,11 +27,14 @@ A few notes about using Zapier with Daisychain:
   ​
 * When a new person is imported via Zapier, you can use that as a trigger for Automations _within_ Daisychain. Just head to the Automations section and select "Record Person Action" as a trigger.\
   ​
-* When setting up your Action in Zapier, you'll need to select the "Event" that is performed when the Zap runs, and you'll have two options:​
+*   When setting up your Action in Zapier, you'll need to select the "Event" that is performed when the Zap runs, and you'll have two options:​\
 
-1. "Record Person Action"
-2. "Create Person Tag"\
-   ​\
-   If you want, you can configure your Zap to first record the person, and then add a tag to that person as a subsequent Action step.
+
+    1\) "Record Person Action"\
+
+
+    2\) "Create Person Tag"\
+    ​\
+    If you want, you can configure your Zap to first record the person, and then add a tag to that person as a subsequent Action step.
 
 Using Zapier can be tricky, so don't hesitate to reach out to our team if you need any help!
