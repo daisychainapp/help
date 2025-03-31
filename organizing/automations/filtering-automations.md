@@ -27,13 +27,13 @@ Below are are few examples of JMESPath code, but please reach out to support if 
 To only run an automation if someone **DOESN'T** have a particular tag, use the following code.
 
 ```
-!person.tag\_list [?contains(@, 'volunteer-leader')] 
+!person.tag_list [?contains(@, 'volunteer-leader')] 
 ```
 
 To only run an automation if someone DOES have a particular tag, use the following code:
 
 ```
-person.tag\_list [?contains(@, 'volunteer-leader' )] 
+person.tag_list [?contains(@, 'volunteer-leader' )] 
 ```
 
 Note that this needs to be a tag’s “unique identifier.” In the example above, the original tag was “Volunteer Leader.” A tag’s unique identifier is always lowercase and don’t have any spaces. Any spaces in tags should be replaced by dashes.
@@ -41,7 +41,7 @@ Note that this needs to be a tag’s “unique identifier.” In the example abo
 #### **Action Network: only run automation when a specific form is submitted**
 
 ```
-action."osdi:submission"."\_links"."osdi:form".href == 'https://actionnetwork.org/api/v2/forms/416c031d-7c9d-4147-90cf-d9p0d5rc18e9'
+action."osdi:submission"."_links"."osdi:form".href == 'https://actionnetwork.org/api/v2/forms/416c031d-7c9d-4147-90cf-d9p0d5rc18e9'
 ```
 
 When using this code, you'll need to swap in the appropriate URL for your form. This can be obtained by navigating to manage your action in Action Network, scrolling down, and copying the link that says "API ENDPOINT & FORM ID" section, like this:
@@ -57,7 +57,7 @@ When using this code, you'll need to swap in the appropriate Form ID for your Ev
 #### **ActBlue: only run automation when a donation is above a specific amount**
 
 ```
-action.contribution.totalAmount.to\_number(@) > `100`
+action.contribution.totalAmount.to_number(@) > `100`
 ```
 
 &#x20;(When using this code, you can swap in whatever minimum amount you choose -- just replace `100` with any other number.) &#x20;
@@ -65,7 +65,7 @@ action.contribution.totalAmount.to\_number(@) > `100`
 #### **Mobilize: only run automation on specific event**
 
 ```
-action.event.external\_id == '1234'
+action.event.external_id == '123456'
 ```
 
 &#x20;(When using this code, you can swap in whatever your numerical event ID is.) &#x20;
