@@ -27,7 +27,7 @@ A few notes about using Zapier with Daisychain:
   ​
 * When a new person is imported via Zapier, you can use that as a trigger for Automations _within_ Daisychain. Just head to the Automations section and select "Record Person Action" as a trigger.\
   ​
-*   When setting up your Action in Zapier, you'll need to select the "Event" that is performed when the Zap runs, and you'll have two options:​\
+*   When setting up your "Zap", you'll need to select the "Action" that is performed when the Zap runs, and you'll have two options:​\
 
 
     1\) "Record Person Action"\
