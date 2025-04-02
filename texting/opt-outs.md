@@ -28,7 +28,7 @@ If someone sends a message using opt-out keywords (see below), that person will 
 
 In addition to the standard keywords listed above, Daisychain will also opt out people who reply using variations and misspellings of these keywords, as well as a variety of hostile responses that clearly indicate that someone doesn't want to be messaged.
 
-While Daisychain automatically process opt-outs for a variety of keywords (like "stop" and "unsubscribe"), it only does so when that word is the only word in a message in order to prevent "false-positives" -- we don't want to accidentally opt someone out who wants to receive your messages.
+While Daisychain automatically process opt-outs for a variety of keywords (like "stop" and "unsubscribe"), it only does so when that word is the only word in a message in order to prevent "false-positives" — we don't want to accidentally opt someone out who wants to receive your messages.
 
 ### Manual Opt-Outs
 
