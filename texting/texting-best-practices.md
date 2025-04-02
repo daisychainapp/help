@@ -10,20 +10,16 @@ icon: message-smile
 
 ### Here's a few basic tips to avoid complaints and make sure your messages reach and engage your audience:
 
-**1) Process opt-outs immediately.**
-
-If someone has requested not to receive messages from you, you must stop messaging them immediately. From the inbox, you can opt someone out with one click. Opt-outs using&#x20;
+**1) Process opt-outs immediately.**\
+Daisychain automatically processes [opt-outs](opt-outs.md) that use standard keywords (like "stop" and "unsubscribe") as well as a long list of other words and phrases — but the automated opt-out system doesn't catch everything. If someone has requested not to receive messages from you, you must stop messaging them immediately. From the inbox, you can opt someone out with one click. Opt-outs using&#x20;
 
 **2) Make it clear how to opt-out.**\
-If it's your first time messaging someone, you must make it clear how they can stop receiving messages from you. While you can use some of the more generic options like "stop2quit", you're also welcome to use something a bit more human and conversational, like "I'm a real person and ready to chat, but you can always say quit to end texts if you want.
+If it's your first time messaging someone, you must make it clear how they can stop receiving messages from you. While you can use some of the more generic options like "stop2quit", you're also welcome to use something a bit more human and conversational, like "P.S. I'm a real person and ready to chat, but you can reply 'stop' to opt out."
 
-**3) Clearly identify yourself.**
-
+**3) Clearly identify yourself.**\
 Especially if it's your first time messaging someone, you should introduce yourself and your organization and campaign. Something as simple as "Hi, this is Molly with Acme Progress" will do the trick.
 
-**4) Avoid links in initial messages.**
 
-Spammers and scammers will often send unsuspecting victims a link to a message, so avoid doing this. Instead, send a simple message without a link to engage your audience in a conversation. For example, if you're asking someone to visit an event or fundraising page, ask them first if they might be interested in attending the event or donating to the cause -- if they are are receptive, you can follow up with a link to a donation or event page.
 
 {% hint style="info" %}
 **A Note on Opt-Ins in the USA**
