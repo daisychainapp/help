@@ -7,7 +7,7 @@ icon: question
 
 # Tags vs. Custom Fields
 
-[**Tags**](tags.md)
+#### [**Tags**](tags.md)
 
 Tags are best used for simple, binary information that is easy to add, filter, and remove. Use Tags when you need to:
 
@@ -23,3 +23,14 @@ Custom Fields are more versatile and are used for storing detailed or variable i
 * **Insert Variable Content in Messages**: Custom Fields enable you to personalize messages by inserting specific details about your contacts directly into your communications.
 
 However, be aware that Custom Fields are not always as easy to manage in terms of removal of values. Unlike Tags, removing a recorded value in Custom Fields can be more complex and not always straightforward -- especially for "Select" (AKA "dropdown") custom field types.
+
+
+
+|                                 | **Tags**                                                      | **Custom Fields**                                                                                 |
+| ------------------------------- | ------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
+| **Best for...**                 | Simple, binary labels (e.g. “Volunteer”)                      | Detailed, varied, or structured info (e.g. “Preferred Language”)                                  |
+| **Easily add/remove values**    | ✅ Yes – quick to update or clear                              | ⚠️ Not always – especially tricky with dropdowns                                                  |
+| **Filter Inbox**                | ✅ Yes – filter by a single Tag                                | 🚫 No – not supported in Inbox filters                                                            |
+| **Filter People list**          | ✅ Yes – supports flexible AND/OR filtering with multiple Tags | ⚠️ Limited – you can filter by individual field values, but not with compound logic across fields |
+| **Insert into messages**        | 🚫 No – not supported for merge fields                        | ✅ Yes – values can be inserted dynamically                                                        |
+| **Freeform notes or long text** | 🚫 Not ideal                                                  | ✅ Great for open-ended or detailed content                                                        |
