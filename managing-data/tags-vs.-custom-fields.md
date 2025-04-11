@@ -26,11 +26,11 @@ However, be aware that Custom Fields are not always as easy to manage in terms o
 
 
 
-|                                 | **Tags**                                                      | **Custom Fields**                                                                                 |
-| ------------------------------- | ------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
-| **Best for...**                 | Simple, binary labels (e.g. “Volunteer”)                      | Detailed, varied, or structured info (e.g. “Preferred Language”)                                  |
-| **Easily add/remove values**    | ✅ Yes – quick to update or clear                              | ⚠️ Not always – especially tricky with dropdowns                                                  |
-| **Filter Inbox**                | ✅ Yes – filter by a single Tag                                | 🚫 No – not supported in Inbox filters                                                            |
-| **Filter People list**          | ✅ Yes – supports flexible AND/OR filtering with multiple Tags | ⚠️ Limited – you can filter by individual field values, but not with compound logic across fields |
-| **Insert into messages**        | 🚫 No – not supported for merge fields                        | ✅ Yes – values can be inserted dynamically                                                        |
-| **Freeform notes or long text** | 🚫 Not ideal                                                  | ✅ Great for open-ended or detailed content                                                        |
+|                                 | **Tags**                                                      | **Custom Fields**                                                                                                              |
+| ------------------------------- | ------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| **Best for...**                 | Simple, binary labels (e.g. “Volunteer”)                      | Detailed, varied, or structured info (e.g. “Preferred Language”)                                                               |
+| **Easily add/remove values**    | ✅ Yes – quick to update or clear                              | ⚠️ Not always – especially tricky with dropdowns                                                                               |
+| **Filter Inbox**                | ✅ Yes – filter by a single Tag                                | 🚫 No – not supported in Inbox filters                                                                                         |
+| **Filter People list**          | ✅ Yes – supports flexible AND/OR filtering with multiple Tags | ⚠️ Limited – you can filter by an exact match of a single custom field, but not with compound logic or multiple custom fields. |
+| **Insert into messages**        | 🚫 No – not supported for merge fields                        | ✅ Yes – values can be inserted dynamically                                                                                     |
+| **Freeform notes or long text** | 🚫 Not ideal                                                  | ✅ Great for open-ended or detailed content                                                                                     |
