@@ -44,7 +44,7 @@ Note that this needs to be a tag’s “unique identifier.” In the example abo
 action."osdi:submission"."_links"."osdi:form".href == 'https://actionnetwork.org/api/v2/forms/416c031d-7c9d-4147-90cf-d9p0d5rc18e9'
 ```
 
-When using this code, you'll need to swap in the appropriate URL for your form. This can be obtained by navigating to manage your action in Action Network, scrolling down, and copying the link that says "API ENDPOINT & FORM ID" section, like this:
+When using this code, you'll need to swap in the appropriate URL for your form. This can be obtained by navigating to manage your action in Action Network, scrolling down, and copying the link that says "API ENDPOINT & FORM ID" section.
 
 #### **EveryAction: only run automation when a specific form is submitted**
 
