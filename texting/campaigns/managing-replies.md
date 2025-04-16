@@ -1,11 +1,11 @@
 ---
-icon: reply
 description: How to manage replies using the Inbox and the Reply Queue
+icon: reply
 ---
 
 # Managing Replies
 
-After you send out a [Daisychain Campaign](https://help.daisychain.app/campaigns/campaigns), you might have hundreds or thousands of supporters text back with questions and other kinds of replies. You have different options for managing replies. One option is to head to the [Inbox](https://help.daisychain.app/inbox), where all conversations are visible.
+After you send out a [Daisychain Campaign](./), you might have hundreds or thousands of supporters text back with questions and other kinds of replies. You have different options for managing replies. One option is to head to the [Inbox](../inbox.md), where all conversations are visible.
 
 The Reply Queue helps streamline the process of letting multiple texters to manage these replies in an organized system and easily track progress. It's useful for managing large volumes of replies.
 
