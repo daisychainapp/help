@@ -1,8 +1,7 @@
 ---
 description: >-
   Daisychain's integration with the DNC's iwillvote.com lets you easily insert
-  polling place information for US elections into your messages.  To send out
-  polling place information using the Dais
+  polling place information for US elections into your messages.
 icon: check-to-slot
 ---
 
