@@ -8,6 +8,14 @@ icon: check-to-slot
 
 # Inserting Polling Place Info
 
+{% hint style="warning" %}
+This integration will only work if two conditions are met:&#x20;
+
+**1) Polling place information needs to be available on the DNC's iwillvote.com website.** The DNC aims offer comprehensive coverage for major elections.&#x20;
+
+**2) The people you are texting have ZIP codes.** Without zip codes, the polling place lookup will not work.&#x20;
+{% endhint %}
+
 ### Overview
 
 To send out polling information, you can use [variables](./) when composing your message in Step 2 of the [Campaign Creation](../campaigns/) process.
