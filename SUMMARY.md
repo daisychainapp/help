@@ -65,3 +65,11 @@
 * [Subscription Statuses](managing-data/subscription-statuses.md)
 * [Deduplication](managing-data/deduplication.md)
 * [Data Sync](managing-data/data-sync.md)
+
+## Email
+
+* [Email Configuration](email/email-configuration.md)
+
+***
+
+* [Page 1](page-1.md)
