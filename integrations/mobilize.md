@@ -40,7 +40,7 @@ If your account is integrated with Mobilize, you can choose "Recruit Mobilize At
    \
    This option will:\
    \
-   \- Use AI to detect the intent of the recipient's response. \
+   \- Use AI to detect the intent of the recipient's response and suggest the right customizable templated reply. \
    \
    \- Automatically requests and records email and/or ZIP as-needed.\
    \
