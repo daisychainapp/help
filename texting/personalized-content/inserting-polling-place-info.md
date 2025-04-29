@@ -32,20 +32,23 @@ To put it all together, below are few example messages that include variables.
 **Sample Message - Election Day**
 
 ```
-Hey {{ person.first\_name }}, 📅 Election Day is Tuesday, November 5th.   
+Hey {{ person.first_name }}, 📅 Election Day is Tuesday, November 5th.  
   
 {% raw %}
-{% if person.primary\_address.dnc\_will\_vote and person.primary\_address.dnc\_will\_vote.locate %} Here's all the info you need to vote in {{ person.primary\_address.locality }}:   
+{% if person.primary_address.dnc_will_vote and person.primary_address.dnc_will_vote.locate %}  
+
+Here's all the info you need to vote in {{ person.primary_address.locality }}:  
   
-🗳️ Your polling place is {{ person.primary\_address.dnc\_will\_vote.locate.polling\_locations[0].location\_name }}.   
+🗳️ Your polling place is {{ person.primary_address.dnc_will_vote.locate.polling_locations[0].location_name }}.  
   
-📍 Address: {{ person.primary\_address.dnc\_will\_vote.locate.polling\_locations[0].address\_line\_1 }}, {{ person.primary\_address.dnc\_will\_vote.locating.polling\_locations[0].city }}, {{ person.primary\_address.dnc\_will\_vote.locating.polling\_locations[0].state\_code }} {{ person.primary\_address.dnc\_will\_vote.locate.polling\_locations[0].zip }}   
+📍 Address: {{ person.primary_address.dnc_will_vote.locate.polling_locations[0].address_line_1 }}, {{ person.primary_address.dnc_will_vote.locate.polling_locations[0].city }}, {{ person.primary_address.dnc_will_vote.locate.polling_locations[0].state_code }} {{ person.primary_address.dnc_will_vote.locate.polling_locations[0].zip }}  
   
-🕒 Polls are open from {{ person.primary\_address.dnc\_will\_vote.locate.polling\_locations[0].dates\_hours }}.   
+🕒 Polls are open from {{ person.primary_address.dnc_will_vote.locate.polling_locations[0].dates_hours }}.  
   
-{% else %}   
+{% else %}  
   
-🗳️ Please check your polling location at https://iwillvote.com. {% endif %}
+🗳️ Please check your polling location at https://iwillvote.com.  
+{% endif %}
 {% endraw %}
 
 ```
