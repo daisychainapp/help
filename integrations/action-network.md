@@ -12,7 +12,11 @@ With the Action Network <> Daisychain integration, when someone takes action on 
 
 <figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
 
-In Daisychain, you can use these actions as triggers for [Automations](../organizing/automations/). Note that this integration is only available to Action Network partners.
+In Daisychain, you can use these actions as triggers for [Automations](../organizing/automations/).&#x20;
+
+{% hint style="info" %}
+This integration is only available to organizations with a [paid plan](https://actionnetwork.org/get-started/) on Action Network.
+{% endhint %}
 
 ### **Setup**
 
@@ -27,7 +31,9 @@ In Daisychain, you can use these actions as triggers for [Automations](../organi
 
     <figure><img src="../.gitbook/assets/image (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
-You can [read more about these options in the Action Network documentation.](https://actionnetwork.org/docs/webhooks)[​](https://actionnetwork.org/docs/webhooks)
+    You can [read more about these options in the Action Network documentation.](https://actionnetwork.org/docs/webhooks)[​](https://actionnetwork.org/docs/webhooks)
+
+
 
 5. **Turn on the Webhook you just set up.** After this step, your Action Network integration will be live!
 
@@ -35,4 +41,7 @@ You can [read more about these options in the Action Network documentation.](htt
 
 After your initial setup, people and data will be ingested from the Action Network to Daisychain based on the trigger you selected it. You can also [setup automations](../organizing/automations/) in Daisychain that are triggered when people sign up, donate, or RSVP in Action Network.
 
-One note: if you unsubscribe someone from receiving SMS messages in Daisychain, that status should be updated in Action Network.
+{% hint style="success" %}
+If you unsubscribe someone from receiving SMS messages in a Daisychain account that has an active Action Network integration, that status should be updated on the person's profile in Action Network as well.
+{% endhint %}
+
