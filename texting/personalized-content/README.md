@@ -20,7 +20,7 @@ You have quick access to the most commonly used variable (First Name), and can a
 The general format is:
 
 ```
-{{ person.dynamic\_field }}
+{{ person.dynamic_field }}
 ```
 
 #### **IF Statements**
@@ -38,8 +38,8 @@ For example, if you would like to display a certain message based on a voter’s
 Message:
 
 ```
-Hey {{ person.first\_name }}! {% raw %}
-{% if person.sweet\_treat\_preference == "Honey" %}  
+Hey {{ person.first_name }}! {% raw %}
+{% if person.sweet_treat_preference == "Honey" %}  
   
 Win a trip with all you can eat honey with Christopher Robin  
   
@@ -61,21 +61,19 @@ For most dynamic fields, you can include a default value by including:
 | default:"default here"
 ```
 
-&#x20;
-
 For example, for first name defaulting to "Friend," you may use:
 
 ```
-{{ person.first\_name | default:"Friend" }}
+{{ person.first_name | default:"Friend" }}
 ```
 
 If you are attempting to set a default value for a dynamic field with multiple layers (for example, state name within address), you will need to first check if the value exists, like so:
 
 ```
 {% raw %}
-{% if person.primary\_address and person.primary\_address.region %}  
+{% if person.primary_address and person.primary\_address.region %}  
   
-  {{ person.primary\_address.region\_data.name }}  
+  {{ person.primary_address.region_data.name }}  
   
 {% else %}  
   
@@ -85,4 +83,3 @@ If you are attempting to set a default value for a dynamic field with multiple l
 {% endraw %}
 ```
 
-&#x20;
