@@ -1,17 +1,21 @@
 ---
 description: >-
   Daisychain allows you to customize your text messages with personalized and
-  dynamic content using variables.
+  dynamic content.
 icon: brackets-curly
 ---
 
 # Personalized Content
 
-Daisychain uses Shopify’s “Liquid” framework to power variables, which allows for complex personalization. In addition to the tips in this article, you can read more about Liquid with [this cheat sheet](https://www.shopify.com/partners/shopify-cheat-sheet).
+Daisychain uses Shopify’s “Liquid” framework to power "variables", which allows for advanced personalization. Variables can be identified by being inside curly brackets, like this:\
+\
+`{{ example_variable }}`
 
-### **Inserting dynamic content**
+In addition to the tips in this article, you can read more about Liquid with [this cheat sheet](https://www.shopify.com/partners/shopify-cheat-sheet).
 
-You can insert dynamic content into messages by clicking the curly braces under the message you are crafting.
+### **Inserting variables**
+
+You can insert variables into messages by clicking the curly braces under the message you are crafting.
 
 You have quick access to the most commonly used variable (First Name), and can access other variables by expanding the three menus ("Account", "Person", and "User"):
 
@@ -19,9 +23,7 @@ You have quick access to the most commonly used variable (First Name), and can a
 
 The general format is:
 
-```
-{{ person.dynamic_field }}
-```
+`{{ person.dynamic_field }}`
 
 #### **IF Statements**
 
