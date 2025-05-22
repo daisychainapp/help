@@ -68,4 +68,10 @@ action.contribution.totalAmount.to_number(@) > `100`
 action.event.external_id == '123456'
 ```
 
-&#x20;(When using this code, you can swap in whatever your numerical event ID is.) &#x20;
+&#x20;(When using this code, you can swap in whatever your numerical event ID is.)&#x20;
+
+**Mobilize: only run automation for a given event type**
+
+```
+action.event.event_type == 'EVENT_TYPE'
+```
