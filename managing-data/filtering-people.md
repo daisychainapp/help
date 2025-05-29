@@ -16,20 +16,20 @@ icon: filter-list
 ### Available Filter Categories:
 
 * **Saved Filters** – Access any filters you've saved previously for quick reuse.
-* **ActBlue** – Filter people based on donation data from ActBlue integrations.
+* **ActBlue** – Filter people based on whether they are ActBlue donors. You can further narrow by the specific page or form they donated through.
 * **Activity** – Filter people based on actions they've taken, like donations, form submissions, event attendance, texting engagement, or automation triggers. Choose from dozens of activity types (e.g., _Mobilize event RSVP logged_, _Link Clicked_, _CSV Import Processed_), then narrow results by a preset or custom time range.
 * **Assigned** – Filter by staff member or volunteer assigned to a person.
-* **Campaigns** – Filter based on participation in specific Daisychain campaigns.
+* **Campaigns** – Filter people based on whether they received a message from a campaign and how they interacted with it. Options include message status (Sent, Delivered, Undelivered, Paused) and engagement outcomes (Clicked, Clicked but did not convert, Converted). You can filter across all campaigns or select specific ones.
 * **Country** – Filter by a person's country.
-* **Custom Fields** – Filter using your account’s custom data fields (e.g., Membership ID, Interests).
-* **CSV Import** – Filter by the list or import batch someone was added through.
-* **External VAN List** – Filter by lists imported from tools like VAN.
+* **Custom Fields** – Filter using values in your account’s [custom fields.](custom-fields.md)
+* **CSV Import** – Filter by the CSV file someone was added through.
+* **External VAN List** – Filter by lists imported from VAN.
 * **Location** – Filter by geographic radius from a central point (e.g., zip code or city).
-* **Mobilize Events** – Filter based on signups or attendance at Mobilize events.
-* **Pathway** – Filter by the progress someone has made along a defined pathway or ladder of engagement.
-* **Postal Codes** – Filter by postal/ZIP codes.
+* **Mobilize Events** – Filter people who RSVP’d to any Mobilize event, or to specific events you choose.
+* **Pathway** – Filter people based on their progress along a specific pathway. You can target individuals by pathway and stage, or find those not on any pathway at all.
+* **Postal Codes** – Filter by specific postal/ZIP codes.
 * **Region / State** – Filter by U.S. state or regional designation.
-* **Tags** – Filter by tags applied to people in your database.
+* **Tags** – Filter by [tags](tags.md) applied to people in your database.
 
 ### **Notes on Using Filters**
 
