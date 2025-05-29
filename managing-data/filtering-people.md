@@ -1,33 +1,39 @@
 ---
 description: >-
-  Filters are a powerful, flexible tool for quickly finding a subset of people
-  in your Daisychain account.
+  Filters help you quickly find specific groups of people in your Daisychain
+  account.
 icon: filter-list
 ---
 
 # Filters
 
-Here's how to use them:
+### **How to Use Filters**
 
-* Navigate to the **People** section of your Daisychain account.
-*   Press the **Filter** button in the top right -- it looks like this:\
+1. Navigate to the **People** section of your Daisychain account.
+2. Press the **Filter** button.
+3. Choose the category of filter from the options that appear.
 
+### Available Filter Categories:
 
-    <figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+* **Saved Filters** – Access any filters you've saved previously for quick reuse.
+* **ActBlue** – Filter people based on donation data from ActBlue integrations.
+* **Activity** – Filter people based on actions they've taken, like donations, form submissions, event attendance, texting engagement, or automation triggers. Choose from dozens of activity types (e.g., _Mobilize event RSVP logged_, _Link Clicked_, _CSV Import Processed_), then narrow results by a preset or custom time range.
+* **Assigned** – Filter by staff member or volunteer assigned to a person.
+* **Campaigns** – Filter based on participation in specific Daisychain campaigns.
+* **Country** – Filter by a person's country.
+* **Custom Fields** – Filter using your account’s custom data fields (e.g., Membership ID, Interests).
+* **CSV Import** – Filter by the list or import batch someone was added through.
+* **External VAN List** – Filter by lists imported from tools like VAN.
+* **Location** – Filter by geographic radius from a central point (e.g., zip code or city).
+* **Mobilize Events** – Filter based on signups or attendance at Mobilize events.
+* **Pathway** – Filter by the progress someone has made along a defined pathway or ladder of engagement.
+* **Postal Codes** – Filter by postal/ZIP codes.
+* **Region / State** – Filter by U.S. state or regional designation.
+* **Tags** – Filter by tags applied to people in your database.
 
-Choose the category of filter from the options that appear. Options include:
+### **Notes on Using Filters**
 
-* Assigned
-* Country
-* Custom Fields
-* Imported List
-* Location (Radius Search)
-* Region/State
-
-After filtering your list, you you can create a **Saved Filter** by pressing the "Save Filter" link. Saved Filters can be easily used again in the future. To do so, just click the "Filter" button, then click "Saved Filters" and select the filter you'd like to use. Saved Filters can be used used for targeting [Message Campaigns](../texting/campaigns/).\
-
-
-**A few other notes on filters:**
+* After filtering your list, you you can create a **Saved Filter** by pressing the "Save Filter" link. Saved Filters can be easily used again in the future. To do so, just click the "Filter" button, then click "Saved Filters" and select the filter you'd like to use. Saved Filters can be used used for targeting [Message Campaigns](../texting/campaigns/).\
 
 * You can apply multiple filters at once. If you do, they will be additive, meaning you will be filtering down to people who match ALL the filters you apply.\
   ​
