@@ -52,6 +52,10 @@
 * [Teams](settings/teams.md)
 * [URL Shortening](settings/url-shortening.md)
 
+***
+
+* [Billing and Usage](billing-and-usage.md)
+
 ## Managing Data
 
 * [CSV Imports](managing-data/csv-imports.md)
