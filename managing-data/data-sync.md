@@ -7,9 +7,9 @@ description: >-
 
 # Data Sync
 
-The ability to sync your Daisychain data to an [Amazon S3 Bucket](https://aws.amazon.com/s3/) is designed to allow customers to load data from Daisychain into data warehouses like AWS Redshift, Google BigQuery or Snowflake where analysts can query it and derive insights about your campaigns.&#x20;
+The ability to sync your Daisychain data to an [Amazon S3 Bucket](https://aws.amazon.com/s3/) is designed to allow customers to load data from Daisychain into data warehouses like AWS Redshift, Google BigQuery or Snowflake where analysts can query it and derive insights about your campaigns.
 
-This is an advanced topic and requires additional data infrastructure engineering that is specific to your organization to get the files we provide on S3 into your data warehouse. There are a wide variety of tools and techniques for loading data into data warehouses, and choosing the best one is up to the customer. We simply provide the building blocks to make a secure data warehouse sync possible.&#x20;
+This is an advanced topic and requires additional data infrastructure engineering that is specific to your organization to get the files we provide on S3 into your data warehouse. There are a wide variety of tools and techniques for loading data into data warehouses, and choosing the best one is up to the customer. We simply provide the building blocks to make a secure data warehouse sync possible
 
 ### Setup
 
@@ -21,7 +21,7 @@ This is an advanced topic and requires additional data infrastructure engineerin
 
 ### Access via AWS Web Interface
 
-To access your integrated data in the AWS web interface, navigate to **Settings > Integrations > S3 Data Sync > AWS Account ID**.&#x20;
+To access your integrated data in the AWS web interface, navigate to **Settings > Integrations > S3 Data Sync > AWS Account ID**.
 
 You should see an interface like this, with an account specific URL:
 
@@ -58,4 +58,7 @@ We currently expose the following tables:
 * **subscriptions**\
   Affirmative subscriptions to a particular communication channel based on an opt-in
 
-Each of these tables is offered in CSV format and is refreshed nightly shortly after midnight UTC.&#x20;
+Each of these tables is offered in CSV format and is refreshed nightly shortly after midnight UTC.
+
+
+### Google Cloud
