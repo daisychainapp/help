@@ -72,8 +72,9 @@
 
 ## Email
 
+* [Email Overview](email/email-overview.md)
 * [Email Configuration](email/email-configuration.md)
 
 ***
 
-* [Creating Emails](creating-emails.md)
+* [Email Creation](creating-emails.md)
