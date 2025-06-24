@@ -7,6 +7,8 @@ icon: square-bolt
 
 [Automations](./) run on all actions by default, but after you choose a trigger you have the option of adding filters to only run the automation when it matches certain specified conditions -- such as signups on specific pages, or donations over certain dollar amounts.
 
+### How to Create an Automation Filter
+
 Filtering your triggers requires first selecting the "Filter Automation" option.
 
 From there, you can:
@@ -14,11 +16,33 @@ From there, you can:
 *   Write your filter in plain English -- something like "donors who gave more than $100 and live in Ohio." Automation filters are expressed using the [JMESPath query language](https://jmespath.org/), but a little help from Daisychain's AI assistant prevents you from having to learn or understand how to code these filters manually. After writing your filter in plain English, just click the "Convert to JMESPath" button to try out Daisychain's AI Assistant
 
     <figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
-* Write or edit the JMESPath code directly in the "JMESPath Expression" box.\
-  ​
-* Click the link to the "JMESPath Playground" where you can test out your JMESPath code.
 
-Daisychain's AI assistant currently works to create filters for ActBlue, EveryAction, and Zapier. More options coming soon! The AI assistant is also not 100% consistent, and automations using AI-generated JMESPath should be tested carefully.&#x20;
+{% hint style="warning" %}
+The AI assistant is not 100% accurate, and automations using AI-generated JMESPath should be tested carefully. Daisychain's AI assistant currently works to create filters for ActBlue, EveryAction, and Zapier. More options coming soon!&#x20;
+{% endhint %}
+
+* Write or edit the JMESPath code directly in the "JMESPath Expression" box.
+
+### Testing Filters with the JMESPath Playground
+
+Before saving your filter expression in an automation, you can test it using Daisychain’s built-in "JMESPath Playground". This tool lets you preview whether a given filter expression will match recent incoming actions.
+
+To access the JMESPath Playground where you can test out your JMESPath code, follow these steps:
+
+1. Create an automation, pick your trigger, and select the "Filter automation to actions that meet specific criteria."
+2.  From there, click the JMESPath Playground link, highlighted below:\
+    \
+
+
+    <figure><img src="../../.gitbook/assets/image (49).png" alt=""><figcaption></figcaption></figure>
+3. Find a recent action that matches the filter you're creating.&#x20;
+4. Paste or write your filter expression in the editor.
+5.  Click Test to see if the expression matches the example data. If the filter fails to match, the playground will show `Match: false`, so you can tweak your expression until returns `Match: true` The status will display below the window, next to the "Test" button:\
+
+
+    <figure><img src="../../.gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
+
+### Example Automation Filters
 
 Below are are few examples of JMESPath code, but please reach out to support if you have questions about how to use this feature, or need help writing JMESPath code to filter your triggers.
 

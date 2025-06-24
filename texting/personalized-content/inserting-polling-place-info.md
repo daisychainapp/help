@@ -34,7 +34,6 @@ To put it all together, below are few example messages that include variables.
 ```
 Hey {{ person.first_name }}, 📅 Election Day is Tuesday, November 5th.  
   
-{% raw %}
 {% if person.primary_address.dnc_will_vote and person.primary_address.dnc_will_vote.locate %}  
 
 Here's all the info you need to vote in {{ person.primary_address.locality }}:  
@@ -49,7 +48,6 @@ Here's all the info you need to vote in {{ person.primary_address.locality }}:
   
 🗳️ Please check your polling location at https://iwillvote.com.  
 {% endif %}
-{% endraw %}
 
 ```
 
@@ -62,7 +60,6 @@ Using the code above will output a message that looks something like this:
 ```
 Hey {{ person.first\_name }}, Election Day is Tuesday, November 5th, but you might be able to vote early!   
   
-{% raw %}
 {% if person.primary\_address.dnc\_will\_vote and person.primary\_address.dnc\_will\_vote.locate %}  
   
 Based on our records, here's all the info you need for early voting in {{ person.primary\_address.locality }}:  
@@ -79,7 +76,6 @@ Based on our records, here's all the info you need for early voting in {{ person
   
 🗳️ You can get all the info you need to vote here:: https://iwillvote.com.  
 {% endif %}
-{% endraw %}
 ```
 
 Using the code above will output a message that looks something like this:
