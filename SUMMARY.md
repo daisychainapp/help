@@ -69,6 +69,7 @@
 * [Subscription Statuses](managing-data/subscription-statuses.md)
 * [Deduplication](managing-data/deduplication.md)
 * [Data Sync](managing-data/data-sync.md)
+* [Anonymized Data Co-Op](managing-data/anonymized-data-coop.md)
 
 ## Email
 

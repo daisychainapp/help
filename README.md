@@ -19,6 +19,6 @@ Here are the most common things most people do when setting up a brand new Daisy
   Whether it's other members of your staff or volunteer texters, Daisychain shines when you use it with a team.\
 
 * [ ] [**Create a texting campaign.** ](texting/campaigns/)\
-  When you're ready to begin your outreach, create a campaign to quickly send personalized, outbound text messages.&#x20;
+  When you're ready to begin your outreach, create a campaign to quickly send personalized, outbound text messages.
 
 Our team is always happy to help get you started, so email [help@daisychain.app](mailto:help@daisychain.app) if you have questions or want to setup an onboarding call.
