@@ -57,21 +57,21 @@ We've extended the official JMESPath standard to add additional functions to all
 
 | Function                            | Description                                                                                                   |
 |--------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| `current_datetime()`                 | Returns the current DateTime as a string in ISO8601 format                                                    |
-| `seconds_from_now(\`2\`)`            | The DateTime that is the specified number of integer seconds from now as a string in ISO8601 format           |
-| `minutes_from_now(\`5\`)`            | The DateTime that is the specified number of integer minutes from now as a string in ISO8601 format           |
-| `hours_from_now(\`3\`)`              | The DateTime that is the specified number of integer hours from now as a string in ISO8601 format             |
-| `days_from_now(\`1\`)`               | The DateTime that is the specified number of integer days from now as a string in ISO8601 format              |
-| `weeks_from_now(\`2\`)`              | The DateTime that is the specified number of integer weeks from now as a string in ISO8601 format             |
-| `months_from_now(\`1\`)`             | The DateTime that is the specified number of integer months from now as a string in ISO8601 format            |
-| `years_from_now(\`1\`)`              | The DateTime that is the specified number of integer years from now as a string in ISO8601 format             |
-| `seconds_ago(\`5\`)`                 | The DateTime that is the specified number of integer seconds ago as a string in ISO8601 format                |
-| `minutes_ago(\`10\`)`                | The DateTime that is the specified number of integer minutes ago as a string in ISO8601 format                |
-| `hours_ago(\`2\`)`                   | The DateTime that is the specified number of integer hours ago as a string in ISO8601 format                  |
-| `days_ago(\`1\`)`                    | The DateTime that is the specified number of integer days ago as a string in ISO8601 format                   |
-| `weeks_ago(\`1\`)`                   | The DateTime that is the specified number of integer weeks ago as a string in ISO8601 format                  |
-| `months_ago(\`1\`)`                  | The DateTime that is the specified number of integer months ago as a string in ISO8601 format                 |
-| `years_ago(\`1\`)`                   | The DateTime that is the specified number of integer years ago as a string in ISO8601 format                  |
+| ```current_datetime()```             | Returns the current DateTime as a string in ISO8601 format                                                    |
+| ```seconds_from_now(`2`)```          | The DateTime that is the specified number of integer seconds from now as a string in ISO8601 format           |
+| ```minutes_from_now(`5`)```          | The DateTime that is the specified number of integer minutes from now as a string in ISO8601 format           |
+| ```hours_from_now(`3`)```            | The DateTime that is the specified number of integer hours from now as a string in ISO8601 format             |
+| ```days_from_now(`1`)```             | The DateTime that is the specified number of integer days from now as a string in ISO8601 format              |
+| ```weeks_from_now(`2`)```            | The DateTime that is the specified number of integer weeks from now as a string in ISO8601 format             |
+| ```months_from_now(`1`)```           | The DateTime that is the specified number of integer months from now as a string in ISO8601 format            |
+| ```years_from_now(`1`)```            | The DateTime that is the specified number of integer years from now as a string in ISO8601 format             |
+| ```seconds_ago(`5`)```               | The DateTime that is the specified number of integer seconds ago as a string in ISO8601 format                |
+| ```minutes_ago(`10`)```              | The DateTime that is the specified number of integer minutes ago as a string in ISO8601 format                |
+| ```hours_ago(`2`)```                 | The DateTime that is the specified number of integer hours ago as a string in ISO8601 format                  |
+| ```days_ago(`1`)```                  | The DateTime that is the specified number of integer days ago as a string in ISO8601 format                   |
+| ```weeks_ago(`1`)```                 | The DateTime that is the specified number of integer weeks ago as a string in ISO8601 format                  |
+| ```months_ago(`1`)```                | The DateTime that is the specified number of integer months ago as a string in ISO8601 format                 |
+| ```years_ago(`1`)```                 | The DateTime that is the specified number of integer years ago as a string in ISO8601 format                  |
 
 While JSON does not have native date handling, the ISO8601 Date Time string format is lexigraphically sortable, and we use 8601 format throughout Daisychain.
 
