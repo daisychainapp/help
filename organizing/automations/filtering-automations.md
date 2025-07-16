@@ -42,6 +42,47 @@ To access the JMESPath Playground where you can test out your JMESPath code, fol
 
     <figure><img src="../../.gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
 
+### JMESPath Queries
+
+Actions that trigger Dasisychain automations have JSON representations of the activity on an external system or within Daisychain that triggered the automation.
+For Actblue donations this JSON representation might include the details of the contribution, for mobilize the event and timeslot that the person RSVP'd to. For automations triggered via the Daisychain actions API, this JSON is provided by the system that calls the Daisychain API in the API submission.
+
+Automations can be filtered by querying the JSON representation of the activity using JMESPath. If the JMESPath query you write returns an empty or null result we do not run the automation. If the JMESPath query returns part of the JSON document or a true value, we consider it a match and allow the automation to run.
+
+This allows extremely powerful expressions to be written to restrict each automation you setup to specific activity. It also means that JMESPath filters need to be carefully designed and tested in order to ensure they work as you intended.
+
+### JMESPath Extensions
+
+We've extended the official JMESPath standard to add additional functions to allow for querying based on date and time. These functions are particularly useful for working with Event RSVPs and recurring donations.
+
+| Function                            | Description                                                                                                   |
+|--------------------------------------|---------------------------------------------------------------------------------------------------------------|
+| `current_datetime()`                 | Returns the current DateTime as a string in ISO8601 format                                                    |
+| `seconds_from_now(\`2\`)`            | The DateTime that is the specified number of integer seconds from now as a string in ISO8601 format           |
+| `minutes_from_now(\`5\`)`            | The DateTime that is the specified number of integer minutes from now as a string in ISO8601 format           |
+| `hours_from_now(\`3\`)`              | The DateTime that is the specified number of integer hours from now as a string in ISO8601 format             |
+| `days_from_now(\`1\`)`               | The DateTime that is the specified number of integer days from now as a string in ISO8601 format              |
+| `weeks_from_now(\`2\`)`              | The DateTime that is the specified number of integer weeks from now as a string in ISO8601 format             |
+| `months_from_now(\`1\`)`             | The DateTime that is the specified number of integer months from now as a string in ISO8601 format            |
+| `years_from_now(\`1\`)`              | The DateTime that is the specified number of integer years from now as a string in ISO8601 format             |
+| `seconds_ago(\`5\`)`                 | The DateTime that is the specified number of integer seconds ago as a string in ISO8601 format                |
+| `minutes_ago(\`10\`)`                | The DateTime that is the specified number of integer minutes ago as a string in ISO8601 format                |
+| `hours_ago(\`2\`)`                   | The DateTime that is the specified number of integer hours ago as a string in ISO8601 format                  |
+| `days_ago(\`1\`)`                    | The DateTime that is the specified number of integer days ago as a string in ISO8601 format                   |
+| `weeks_ago(\`1\`)`                   | The DateTime that is the specified number of integer weeks ago as a string in ISO8601 format                  |
+| `months_ago(\`1\`)`                  | The DateTime that is the specified number of integer months ago as a string in ISO8601 format                 |
+| `years_ago(\`1\`)`                   | The DateTime that is the specified number of integer years ago as a string in ISO8601 format                  |
+
+While JSON does not have native date handling, the ISO8601 Date Time string format is lexigraphically sortable, and we use 8601 format throughout Daisychain.
+
+This allows us to write date comparisons to the specified date.
+
+For eg, to filter to mobilize attendances to event timeslots that are more than 4 days from now, you could write an expression like this.
+
+```
+action.timeslot.start_at > days_from_now(`4`)
+```
+
 ### Example Automation Filters
 
 Below are are few examples of JMESPath code, but please reach out to support if you have questions about how to use this feature, or need help writing JMESPath code to filter your triggers.
@@ -51,13 +92,13 @@ Below are are few examples of JMESPath code, but please reach out to support if 
 To only run an automation if someone **DOESN'T** have a particular tag, use the following code.
 
 ```
-!person.tag_list [?contains(@, 'volunteer-leader')] 
+!person.tag_list [?contains(@, 'volunteer-leader')]
 ```
 
 To only run an automation if someone DOES have a particular tag, use the following code:
 
 ```
-person.tag_list [?contains(@, 'volunteer-leader' )] 
+person.tag_list [?contains(@, 'volunteer-leader' )]
 ```
 
 Note that this needs to be a tag’s “unique identifier.” In the example above, the original tag was “Volunteer Leader.” A tag’s unique identifier is always lowercase and don’t have any spaces. Any spaces in tags should be replaced by dashes.
