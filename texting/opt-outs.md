@@ -34,3 +34,18 @@ While Daisychain automatically process opt-outs for a variety of keywords (like 
 
 You can also opt-out a person manually by clicking the "opt-out" button, which appears below their name in the [Inbox](inbox.md) and in their Profile.&#x20;
 
+### Opting People Back In
+
+#### **How to opt individual people in**
+
+In the Inbox or a person's profile, hit the  `Opt In` button next to their phone number.
+
+#### **How to opt people in via CSV**
+
+1. **Prepare Your CSV**
+   * Required columns:
+     * `phone` (or `phone_number`)
+     * `sms_opt_in` (set to `true` or `1`)
+   * Optional: `first_name`, `last_name`, etc.
+2. **Upload the CSV:** Go to **People → Import → CSV Upload**.
+3. **Verify:** Spot Check a person’s profile.&#x20;
