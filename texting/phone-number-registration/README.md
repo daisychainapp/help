@@ -66,7 +66,7 @@ A sample statement for your policy could be:
 
 {% hint style="success" %}
 **Information Sharing and SMS Communication**\
-\[Your organization/campaign] upholds stringent privacy standards, guaranteeing that the personal information of our users and members remains confidential. We do not sell, rent out, disclose, or exchange this information with any third parties unless explicitly authorized by the user or required by law. This includes text messaging originator opt-in data and consent.
+\[Your organization/campaign] upholds stringent privacy standards, guaranteeing that the personal information of our users and members remains confidential.  **No mobile opt-in will be shared with third parties for marketing purposes.**
 
 However, we may share information (1) with vendors, consultants, and other service providers who need access to carry out work on our behalf (and who will not use such information for their own purposes), and (2) if we believe disclosure is required by any applicable law, rule, or regulation or to comply with law enforcement or legal process.
 
