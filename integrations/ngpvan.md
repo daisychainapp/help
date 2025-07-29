@@ -1,10 +1,16 @@
 ---
+description: >-
+  The NGPVAN <> Daisychain integration allows you to import lists from VAN, NGP,
+  Votebuilder, and EveryAction into your Daisychain People database.
 icon: poll-people
 ---
 
 # NGPVAN
 
-_The NGPVAN <> Daisychain integration allows you to import lists from VAN and NGP lists into your Daisychain people database._
+{% hint style="info" %}
+**A note on names**\
+This document refers to "NGPVAN" and "VAN", but the instructions also apply if you are importing lists from Bonterra products named VoteBuilder, EveryAction, and more. For information about integrating live form submissions from these products, [click here.](everyaction.md)
+{% endhint %}
 
 To setup this integration, you'll first need to request an API key from NGPVAN by clicking "Contact the Admin" on the Main Menu while logged into your NGPVAN account.
 
