@@ -7,6 +7,8 @@ icon: poll-people
 
 # NGPVAN
 
+### Overview and Setup
+
 {% hint style="info" %}
 **A note on names**\
 This document refers to "NGPVAN" and "VAN", but the instructions also apply if you are importing lists from Bonterra products named VoteBuilder, EveryAction, and more. For information about integrating live form submissions from these products, [click here.](everyaction.md)
