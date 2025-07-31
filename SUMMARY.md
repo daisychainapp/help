@@ -37,6 +37,7 @@
 * [NGPVAN](integrations/ngpvan.md)
 * [Run](integrations/run.md)
 * [Zapier](integrations/zapier.md)
+* [FundraiseUp](integrations/fundraiseup.md)
 
 ## Organizing
 
