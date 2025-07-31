@@ -33,11 +33,11 @@
 * [ActBlue](integrations/actblue.md)
 * [ControlShift](integrations/controlshift.md)
 * [EveryAction](integrations/everyaction.md)
+* [FundraiseUp](integrations/fundraiseup.md)
 * [Mobilize](integrations/mobilize.md)
 * [NGPVAN](integrations/ngpvan.md)
 * [Run](integrations/run.md)
 * [Zapier](integrations/zapier.md)
-* [FundraiseUp](integrations/fundraiseup.md)
 
 ## Organizing
 
