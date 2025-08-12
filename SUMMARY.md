@@ -14,7 +14,7 @@
 * [Phone Number Registration](texting/phone-number-registration/README.md)
   * [About "Campaign Verify"](texting/phone-number-registration/about-campaign-verify.md)
 * [ARCHIVED: Message Snippets](texting/message-snippets.md)
-* [Quick Replies](texting/message-snippets-1.md)
+* [Quick Replies](texting/quick-replies.md)
 * [Understanding SMS Segments](texting/understanding-sms-segments.md)
 * [Opt-Outs](texting/opt-outs.md)
 * [Personalized Content](texting/personalized-content/README.md)

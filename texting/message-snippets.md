@@ -9,6 +9,6 @@ icon: file-lines
 
 
 {% hint style="warning" %}
-Snippets have been deprecated in favor of [message-snippets-1.md](message-snippets-1.md "mention")
+Snippets have been deprecated in favor of [quick-replies.md](quick-replies.md "mention")
 {% endhint %}
 
