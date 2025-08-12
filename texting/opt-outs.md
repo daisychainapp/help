@@ -30,6 +30,21 @@ In addition to the standard keywords listed above, Daisychain will also opt out 
 
 While Daisychain automatically process opt-outs for a variety of keywords (like "stop" and "unsubscribe"), it only does so when that word is the only word in a message in order to prevent "false-positives" — we don't want to accidentally opt someone out who wants to receive your messages.
 
+### Opt-Out Request Detection
+
+In addition to keyword matching, Daisychain’s Opt-Out Request Detection automatically identifies and flags natural-language opt-out requests, even if they don’t use standard keywords and aren't an exact match for our non-standard opt-out keywords (see above). Examples:
+
+* "Please stop texting me."
+* "I don’t want these messages anymore."
+
+When detected, Daisychain displays an **Opt Out** suggestion in the Inbox.&#x20;
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+* Saves organizers time by making it quick and easy to view opt-out requests.&#x20;
+* Keeps contact lists cleaner.
+* Improves long-term deliverability.
+
 ### Manual Opt-Outs
 
 You can also opt-out a person manually by clicking the "opt-out" button, which appears below their name in the [Inbox](inbox.md) and in their Profile.&#x20;
@@ -48,4 +63,4 @@ In the Inbox or a person's profile, hit the  `Opt In` button next to their phone
      * `sms_opt_in` (set to `true` or `1`)
    * Optional: `first_name`, `last_name`, etc.
 2. **Upload the CSV:** Go to **People → Import → CSV Upload**.
-3. **Verify:** Spot Check a person’s profile.&#x20;
+3. **Verify:** Spot-check a person’s profile to confirm it worked.&#x20;

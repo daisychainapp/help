@@ -28,7 +28,7 @@ Once your tag has been created, you can apply tags to people in the following wa
 
 You can filter the People list by Tag. If you'd like to filter by multiple tags, you can choose whether you want to have the results display People who have _all_ of the tags or who have _any_ of the tags.&#x20;
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Removing Tags
 
