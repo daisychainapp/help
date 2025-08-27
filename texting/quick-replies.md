@@ -79,15 +79,17 @@ icon: file-lines
 
 ***
 
-### AI Reply Suggestions
+### Quick Reply Suggestions
 
-If enabled in Settings, Daisychain can suggest the correct quick reply to use based on the context of incoming messages. You can:
+If enabled in Settings, Daisychain can suggest the correct quick reply to use based on the context of incoming messages. The suggested response will be auto-selected, and will pre-populates it in the message composition box.&#x20;
 
 * Accept as-is
 * Choose another option
 * Edit before sending
 
-Note that these are not AI-generated messages — this option merely uses AI to help pre-select the right message.&#x20;
+Daisychain now suggests the most relevant Quick Reply based on an incoming message from your supporter, and Note that these are not AI-generated messages — this option merely uses AI to help pre-select the right message.&#x20;
+
+This feature is optional and off by default – you can toggle it on at any time by heading to _Settings > Channels > Texting > Quick Replies > Settings._&#x20;
 
 ***
 
