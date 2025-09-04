@@ -27,6 +27,10 @@ We currently support:
 * Credit and debit cards
 * Manual ACH transfers (Preferred for large payments)
 
+### How can I estimate my bill in advance?
+
+You can see an estimate of your current bill by navigating to **Settings > Account > Usage.**&#x20;
+
 ### Can I change the billing method used for Daisychain?
 
 Absolutely, you can do this by logging into the [Billing Portal](https://billing.stripe.com/p/login/28o9ExbHU4ev13i4gg) (using primary email address that receives invoices) or by emailing billing@daisychain.app to schedule a call to change your billing information.
@@ -39,8 +43,8 @@ Yes, You can have multiple billing contacts receive invoices and receipts. To up
 
 Your monthly invoice may include:
 
-* **Messaging Usage:** Charges for outgoing texting messages.&#x20;
-* **Subscription Fee:** Monthly access to Daisychain’s core organizing tools like [pathways.md](organizing/pathways.md "mention")and [automations](organizing/automations/ "mention"). Subscription fees do not apply for clients on a "texting only" plan.&#x20;
+* **Messaging Usage:** Charges for outgoing texting messages.
+* **Subscription Fee:** Monthly access to Daisychain’s core organizing tools like [pathways.md](organizing/pathways.md "mention") and [automations](organizing/automations/ "mention"). Subscription fees do not apply for clients on a "texting only" plan.&#x20;
 * **Add-ons:** Custom URLs, concierge service, etc.&#x20;
 
 ### Questions?
