@@ -9,7 +9,7 @@ icon: rocket-launch
 
 Here are the most common things most people do when setting up a brand new Daisychain account.
 
-* [ ] [**Import a list**](managing-data/csv-imports.md) by uploading a CSV of your supporters so you can start your organizing and outreach.\
+* [ ] [**Import a list**](managing-data/csv-imports.md) by uploading a CSV of your supporters to start your organizing and outreach.\
   \
 
 * [ ] [**Create a texting campaign**](texting/campaigns/) to quickly send personalized, outbound text messages.\
