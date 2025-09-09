@@ -87,7 +87,7 @@ If enabled in Settings, Daisychain can suggest the correct quick reply to use ba
 * Choose another option
 * Edit before sending
 
-Daisychain now suggests the most relevant Quick Reply based on an incoming message from your supporter, and Note that these are not AI-generated messages — this option merely uses AI to help pre-select the right message.&#x20;
+Daisychain now suggests the most relevant Quick Reply based on an incoming message from your supporter. Note that these are not AI-generated messages — this option merely uses AI to help pre-select the right message.&#x20;
 
 This feature is optional and off by default – you can toggle it on at any time by heading to _Settings > Channels > Texting > Quick Replies > Settings._&#x20;
 
