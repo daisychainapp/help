@@ -17,7 +17,7 @@ Here's how to create an automation:
 **Some Notes on Triggers**
 
 * The external triggers that are available on your account will depend on which tools have been setup as [**Integrations**](https://help.daisychain.app/integrations-overview) in your Daisychain account.
-* You can select "Manually Triggered", which means you'll be able to manually trigger this automation on a per-person basis by clicking the small lightning icon in a Person's record.\\
+* You can select "Manually Triggered", which means you'll be able to manually trigger this automation on a per-person basis by clicking the small lightning icon in a Person's record.
 * Automations run on all actions by default, but after you choose a trigger you can [add a filter](filtering-automations.md) to only run the automation when it matches certain specified conditions -- such as signups on specific pages, or donations over certain dollar amounts. Filtering your triggers requires using using the [JMESPath language.](https://jmespath.org/) Please reach out to support if you have questions about how to use this feature or need help writing JMESPath code to filter your triggers.​
 {% endhint %}
 
