@@ -1,8 +1,8 @@
 ---
-icon: input-text
 description: >-
   When you import a CSV into Daisychain, you should include column headers for
   each field.
+icon: input-text
 ---
 
 # Standard Fields
@@ -23,11 +23,12 @@ Note that you do not need to include _all_ of the fields below when uploading a 
   Values for this field must be "TRUE" to ensure a person can receive emails through Daisychain.\
   ​
 * **sms\_opt\_in**\
-  Values for this field must be "TRUE" to ensure a person can receive text messages through Daisychain.\
+  A "TRUE" value here is only required for sms\_opt\_in if you plan to send texts from phone numbers that have strict opt-in requirements, such as short codes or phone numbers outside of the US. For standard 10DLC long codes or toll-free numbers in the United States, a contact can still be texted as long as they are [Textable](subscription-statuses.md), even if sms\_opt\_in is not "TRUE."\
   ​
-* **sms\_opt\_out**\
-  If values for this field are "TRUE", the person will be marked as unsubscribed for text messages through Daisychain.\
-  ​
+*   **sms\_opt\_out**\
+    This field indicates whether the person has explicitly opted out of receiving SMS messages.
+
+
 * **post\_office\_box**\
   ​
 * **street\_address**\
