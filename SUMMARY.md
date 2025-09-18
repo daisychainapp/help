@@ -9,6 +9,7 @@
   * [Managing Replies](texting/campaigns/managing-replies.md)
   * [Campaign pausing](texting/campaigns/campaign-pausing.md)
   * ["Sending" Status](texting/campaigns/understanding-the-sending-status-in-daisychain.md)
+  * [A/B Testing](texting/campaigns/a-b-testing.md)
 * [Sending out MMS messages](texting/sending-out-mms-messages.md)
 * [Inbox](texting/inbox.md)
 * [Phone Number Registration](texting/phone-number-registration/README.md)
