@@ -53,6 +53,6 @@ Daisychain also provides a statistical analysis indicator, which activates once 
 #### Tips for Success
 
 * **Test one element at a time:** tone, call to action, framing, use of images, etc.
-* **Give the test enough time** to gather responses before selecting a winner.
+* **Give the test enough time** to generate useful data (replies, clicks, etc.) before selecting a winner.
 * **Apply learnings beyond the test:** use insights to improve all future outreach.
 {% endhint %}
