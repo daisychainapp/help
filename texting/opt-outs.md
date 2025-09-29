@@ -30,7 +30,7 @@ In addition to the standard keywords listed above, Daisychain will also opt out 
 
 While Daisychain automatically process opt-outs for a variety of keywords (like "stop" and "unsubscribe"), it only does so when that word is the only word in a message in order to prevent "false-positives" — we don't want to accidentally opt someone out who wants to receive your messages.
 
-### Opt-Out Request Detection
+### Automatic Opt-Out Request Detection
 
 In addition to keyword matching, Daisychain’s Opt-Out Request Detection automatically identifies and flags natural-language opt-out requests, even if they don’t use standard keywords and aren't an exact match for our non-standard opt-out keywords (see above). Examples:
 
@@ -44,6 +44,12 @@ When detected, Daisychain displays an **Opt Out** suggestion in the Inbox.&#x20;
 * Saves organizers time by making it quick and easy to view opt-out requests.&#x20;
 * Keeps contact lists cleaner.
 * Improves long-term deliverability.
+
+### **Auto-Processing Detected Requests**
+
+By default, Daisychain flags natural-language opt-out requests and shows them in the Inbox as suggestions. You also have the option to automatically process these detected requests: when enabled, contacts who send a natural-language opt-out (like “Please stop texting me”) will be opted out immediately, without requiring manual confirmation.
+
+This saves time and ensures your lists stay clean automatically. This option is toggled off by default, but you you can toggle this option on in **Settings → Texting → Opt-Outs.**&#x20;
 
 ### Manual Opt-Outs
 
