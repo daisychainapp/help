@@ -51,6 +51,8 @@ Let the AI interpret the supporter’s message and respond using your custom ins
 
 * You can choose the **AI model** (for example, GPT-5, _Claude Sonnet 4.5_) after creating it.&#x20;
 * You can toggle whether the AI should **send a reply message** or just analyze silently. (For now, this toggle is always on.)
+* The AI will have access to all [standard-fields.md](../managing-data/standard-fields.md "mention")and [custom-fields.md](../managing-data/custom-fields.md "mention")associated with a given person, and can use the data stored in those fields to inform the conversation.&#x20;
+* Currently, the AI does not have access to [notes.md](../organizing/notes.md "mention") associated with that Person or actions from the Person's timeline.&#x20;
 * Your custom instructions should provide clarity on the role of the AI, how it should respond, what capabilities it does (or doesn't) have, and any guardrails. Example below.&#x20;
 
 {% hint style="success" %}
