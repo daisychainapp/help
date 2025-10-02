@@ -43,7 +43,7 @@ When adding a Node, you’ll choose one of three types:
 
 #### Send a Message Node
 
-Send a quick response back to the supporter — no logic, no AI. Currently, the send message node will only send a single message,&#x20;
+Send a quick response back to the supporter — no logic, no AI. Currently, the send message node will only send a single message, and doesn't have [#node-transitions-coming-soon](flows-beta.md#node-transitions-coming-soon "mention"). Think of it like an "autoresponder", in a "Send a Message" node will always (and repeatedly) send the same message.&#x20;
 
 #### Intelligence Node (AI-powered)
 
