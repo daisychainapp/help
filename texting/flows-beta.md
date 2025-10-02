@@ -41,10 +41,6 @@ Flows can:
 
 When adding a Node, you’ll choose one of three types:
 
-#### Send a Message Node
-
-Send a quick response back to the supporter — no logic, no AI. Currently, the send message node will only send a single message, and doesn't have [#node-transitions-coming-soon](flows-beta.md#node-transitions-coming-soon "mention"). Think of it like an "autoresponder", in a "Send a Message" node will always (and repeatedly) send the same message.&#x20;
-
 #### Intelligence Node (AI-powered)
 
 Let the AI interpret the supporter’s message and respond using your custom instructions.
@@ -72,6 +68,10 @@ Always disclose in your second message that you’re an virtual organizer, and b
 
 If you don't know the answer to a question, disclose that you don't know. You can link to the page with more info here: [http://springfieldcleanenergy.com/](http://springfieldcleanenergy.com/)&#x20;
 {% endhint %}
+
+#### Send a Message Node
+
+This node type allows you to send a quick response back to the supporter — with no logic and no AI. Currently, the send message node will only send a single message, and doesn't have [#node-transitions-coming-soon](flows-beta.md#node-transitions-coming-soon "mention"). Think of it like an "autoresponder", since a "Send a Message" node will always send the same outgoing message, regardless of the content of the incoming message.&#x20;
 
 #### Automation Steps Node _(coming soon)_
 
