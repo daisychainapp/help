@@ -27,6 +27,7 @@
   * [Charm Templates](texting/charms/charm-templates.md)
   * [Charms - Best Practices](texting/charms/charms-best-practices.md)
   * [Charms Coding Tips](texting/charms/charms-coding-tips.md)
+* [Flows (Beta)](texting/flows-beta.md)
 
 ## Integrations
 
