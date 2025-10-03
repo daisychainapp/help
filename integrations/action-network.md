@@ -7,7 +7,7 @@ icon: chevrons-right
 
 ### **Overview**
 
-With the Action Network <> Daisychain integration, when someone takes action on Action Network forms, petitions, events, and donations, that action can be represented in Daisychain and will be viewable in that person's timeline:\
+With the Action Network <> Daisychain integration, when someone takes action on Action Network forms, petitions, events, and donations, they can be added to Daisychain and their will be viewable in that person's timeline in Daisychain:\
 ‍
 
 <figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
