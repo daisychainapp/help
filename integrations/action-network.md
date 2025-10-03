@@ -5,18 +5,17 @@ icon: chevrons-right
 
 # Action Network
 
+{% hint style="info" %}
+This integration is only available to organizations with a [paid plan](https://actionnetwork.org/get-started/) on Action Network.
+{% endhint %}
+
 ### **Overview**
 
-With the Action Network <> Daisychain integration, when someone takes action on Action Network forms, petitions, events, and donations, they can be added to Daisychain and their will be viewable in that person's timeline in Daisychain:\
-‍
+With the Action Network <> Daisychain integration, when someone takes action on Action Network forms, petitions, events, and donations, that person can be added to Daisychain and their action will be viewable in that person's timeline in Daisychain:
 
 <figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
 
 In Daisychain, you can use these actions as triggers for [Automations](../organizing/automations/).&#x20;
-
-{% hint style="info" %}
-This integration is only available to organizations with a [paid plan](https://actionnetwork.org/get-started/) on Action Network.
-{% endhint %}
 
 ### **Setup**
 
