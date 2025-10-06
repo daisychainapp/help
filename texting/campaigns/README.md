@@ -1,8 +1,6 @@
 ---
+description: In Daisychain, it's simple to create powerful text message campaigns.
 icon: bullhorn
-description: >-
-  In Daisychain, it's simple to send a text message campaign with just a few
-  clicks.
 ---
 
 # Campaigns
@@ -27,29 +25,49 @@ To create a campaign, navigate to the Campaigns section of Daisychain and click 
 Here is where you'll set up the basic parameters of your campaign. You'll add the following fields:
 
 * **Campaign Name:** You'll be able to search by this later.
-* **Audience:** Your audience is who you are sending this campaign to. You can either send to your full list or send to a specific subset using [uploads](../../managing-data/csv-imports.md), [saved filters](../../managing-data/filtering-people.md), or lists from external tools.
-* **Goal:** Adding a goal will impact what is tracked in your Campaign Report/Analytics. The default goal is to send a basic message, but other goals will be available if you have the [ActBlue](../../integrations/actblue.md) or [Mobilize](../../integrations/mobilize.md) integrations activated.&#x20;
+* **Audience:** Your audience is who you are sending this campaign to. You can either send to your full list or send to a specific subset using [uploads](../../managing-data/csv-imports.md), [saved filters](../../managing-data/filtering-people.md), or lists from external tools.&#x20;
+
+{% hint style="success" %}
+**Advanced Audience Building**
+
+If you choose more than one list or saved filter when building an audience, they’re combined with an OR.&#x20;
+
+If a person is on a list or saved filter selected in the "Don't send to" menu, they won’t get the campaign—even if they were part of a list or saved filter selected in the "Send to" menu.\
+\
+In the example below, the campaign will be sent to people who are are either in the "Donors and Volunteers" saved filter OR the "CSV Import Test" list, but it will exclude anyone on the "Sample List" imported from EveryAction or the "500 Blue Wall" list. &#x20;
+{% endhint %}
+
+<figure><img src="../../.gitbook/assets/image (57).png" alt=""><figcaption></figcaption></figure>
+
+**Goal:** Adding a goal will impact what is tracked in your Campaign Report/Analytics and enable smart links that can pre-fill the forms on landing pages. The default goal is to send a basic message, but other goals will be available if you have the [ActBlue](../../integrations/actblue.md) or [Mobilize](../../integrations/mobilize.md) integrations activated.&#x20;
 
 ### Step Two: Content
 
 In this step,  is where you will add what is actually sent in your campaign. Add compelling content that will engage your recipients.
 
-* **Content Assistant**The content assistant will help you by previewing your drafted messages. You can use this tool to cycle between recipients to see what your messages look like. You can also add recommended deliverability practices here, such as opt-out language and introductions.
+<figure><img src="../../.gitbook/assets/image (58).png" alt=""><figcaption></figcaption></figure>
 
-![](https://44727351.fs1.hubspotusercontent-na1.net/hubfs/44727351/Screenshot%202024-03-14%20at%201-13-45%E2%80%AFPM-png.png)
+**Message Preview**\
+You can use the message preview tool to cycle between recipients to see what your messages look like and ensure [personalized content](../personalized-content/) is showing up as expected.&#x20;
 
-&#x20;
+**Content Assistant**\
+The "Content Assistant" will display basic information about your messages (such as the SMS segment count) and will flag any possible spam words.&#x20;
 
-* **Testing**\
-  You can send a text message here to yourself or other members of your team.
+**Deliverability Best Practices**\
+In the "Deliverability Best Practices" section, you'll see checkboxes that will turn green when you include opt-out language and introduce yourself using organization name (your Daisychain account name). Following these best practices will help maximize the delivery of your messages.&#x20;
+
+**Send Test Messages**\
+Click "send a test message" link at the bottom of the message preview to send a text message here to yourself or other members of your team. Note that these test messages will send the content displayed for person currently selected in the "preview message."&#x20;
 
 ![](https://44727351.fs1.hubspotusercontent-na1.net/hubfs/44727351/Screenshot%202024-03-14%20at%201-15-53%E2%80%AFPM-png.png)
 
-* **Scheduling:** Your campaign may be sent immediately, or scheduled to be sent at a later date or time. Note that targeting is re-calculated at the time when the campaign is actually sent.&#x20;
+**Scheduling:** Your campaign may be sent immediately, or scheduled to be sent at a later date or time. Note that targeting is re-calculated at the time when the campaign is actually sent.&#x20;
 
 {% hint style="info" %}
 Daisychain checks for scheduled campaigns every 10 minutes. For example, if you schedule a campaign to be sent at 1:03pm, sending won't actually begin until 1:10pm.
 {% endhint %}
+
+**Setup A/B Testing:** When creating your campaign, you can [setup A/B testing](a-b-testing.md) to easily create experiments.
 
 ### Step 3: Review
 
