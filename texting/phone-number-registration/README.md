@@ -7,11 +7,10 @@ icon: phone-plus
 
 ### **Overview**
 
-In Daisychain, there are three different types of phone numbers that your account can use.&#x20;
+In Daisychain, there are three different types of phone number you can use, and you can select whichever type is best for your organization's needs.
 
 * **10DLC** (which stands for "10 digit long code") numbers, which are "normal" phone number that use a local area code.
-* **Toll Free** phone numbers  that usually start with 833 or 844. \
-
+* **Toll Free** phone numbers  that usually start with 833 or 844.&#x20;
 * **Short-Code**, for five-digit phone numbers, like 54321.
 
 At Daisychain, we handle the basics of phone number registration on behalf of our customers.
@@ -109,4 +108,5 @@ Unlike many platforms, Daisychain actively manages these restrictions for you:
 ### Alternatives if You’re Hitting Message Limits
 
 * **Toll-Free Numbers**: No T-Mobile daily cap. Great option if you need to guarantee very high volumes.
-* **10DLC Appeal**: For nonprofits, T-Mobile’s daily caps (2,000–200,000 messages) depend on your Trust Score. If your score is on the lower end, Daisychain can help by working with The Campaign Registry to request a review. This may involve additional vetting and official documentation from your organization.
+* **10DLC Appeal**: T-Mobile’s daily message caps (e.g. 2,000 up to 200,000 messages) depend in part on your organization’s Trust Score. If your score is in the lower tier, Daisychain can submit a request for re-evaluation (often via secondary vetting) to improve that score. That process may require submission of official documentation and verification of your organization’s legitimacy. If you're interested in this, send an email to help@daisychain.app
+
