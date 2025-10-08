@@ -14,17 +14,18 @@ The Inbox is designed to help organizers manage multiple conversations at once. 
 
 * **Tag Filters:** you can filter the inbox to easily see conversations with People who have a particular tags.\
 
-* **Inbox/Unread/Complete Views:** you can switch between these three views by selecting the desired option using this selector on top of the conversations list:\
+* **Inbox, Unread, and Completed Tabs:** you can switch between these three tabs by selecting the desired option using this selector on top of the conversations list:\
   ![](<../.gitbook/assets/image (8).png>)
+  * **Inbox** displays all messages that haven't been marked as "Completed," regardless of whether they've been viewed.\
 
-The Inbox view displays all messages that haven't been marked as "Completed," regardless of whether they've been viewed.\
-​\
-The Unread view displays all messages that haven't been viewed, and so each message will have an unread badge next to them (the red dot).
+  * **Unread** displays all messages that haven't been viewed, and so each message will have an unread badge next to them (the red dot).\
 
-The Completed view will display conversations that have been marked as Complete.
+  * &#x20;**Completed** displays conversations that have been marked as Complete.\
 
-* **Marking Messages as Complete:** Click this button (at the top of each conversation) to mark a message as Complete and move it into the 'Completed' view.\
-  ![](<../.gitbook/assets/image (12).png>)
+* **Marking Messages as Complete:** Click this button (at the top of each conversation) to mark a conversation as Complete and move it into the 'Completed' view.\
+  ![](<../.gitbook/assets/image (12).png>)\
+  If someone responds to a conversation after you've marked as complete, it will automatically go back into the Inbox. \
+
 * **SMS Opt-Out:** if someone requests to stop receiving messages from you, you must press the "Opt Out SMS" button to prevent them from receiving messages in the future.\
 
 * **Viewing and Editing Recipient Info:** the panel on the right side of the Inbox will display information about the recipient, including standard and custom fields. You can easily edit custom fields and assignments from the inbox.​\
