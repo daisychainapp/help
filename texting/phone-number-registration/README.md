@@ -92,11 +92,10 @@ Carriers place limits on how many texts can be sent through a 10DLC number. Thes
 
 ### Typical Caps
 
-| Organization Type | AT\&T (per minute) | T-Mobile (per day) |
-| ----------------- | ------------------ | ------------------ |
-| Political (527)   | Up to 4,500        | Unlimited          |
-| Nonprofit / Gov   | Up to 4,500        | 2,000 – 200,000    |
-| Private Entity    | 240 – 2,400        | 2,000 – 200,000    |
+| Organization Type            | AT\&T (per minute) | T-Mobile (per day) |
+| ---------------------------- | ------------------ | ------------------ |
+| Political Organization (527) | Up to 4,500        | Unlimited          |
+| Nonprofit (501c3/4)          | Up to 4,500        | 2,000 – 200,000    |
 
 ### How Daisychain Handles Limits
 
