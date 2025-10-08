@@ -1,8 +1,8 @@
 ---
-icon: message-dots
 description: >-
   This article shows the difference between "Textable," "Opted In," and "Opted
   Out."
+icon: message-check
 ---
 
 # Subscription Statuses

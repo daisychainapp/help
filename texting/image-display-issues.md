@@ -1,5 +1,5 @@
 ---
-description: Explaining a rare but expected deliverability issue
+description: Explaining a rare but expected deliverability issue.
 icon: image-slash
 ---
 
