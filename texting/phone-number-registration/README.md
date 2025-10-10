@@ -19,7 +19,7 @@ At Daisychain, we handle the basics of phone number registration on behalf of ou
 
 When selecting a phone number for messaging, it’s important to consider your use case, audience size, and compliance requirements. Below is a breakdown of the available number types and their key characteristics.
 
-<table data-header-hidden><thead><tr><th width="144.7421875"></th><th width="170.640625"></th><th width="185.1640625"></th><th width="242.37109375"></th></tr></thead><tbody><tr><td><strong>Number Type</strong></td><td><strong>Best For</strong></td><td><strong>Pros</strong></td><td><strong>Cons</strong></td></tr><tr><td><strong>Toll-Free</strong></td><td>Low-to-medium medium volume messaging</td><td>Solid deliverability, faster approvals, easier registration</td><td>Slower throughput at the highest volumes</td></tr><tr><td><strong>Local 10DLC</strong></td><td>Local outreach</td><td>Great deliverability and fast throughput if you have a high "trust score"</td><td>Registration is slow and often requires website and privacy policy changes. Nonprofits may also face daily message caps, especially to T-Mobile numbers.</td></tr><tr><td><strong>Short Code</strong></td><td>High-volume campaigns, urgent alerts</td><td>Fastest throughput, highest deliverability</td><td>Short-code leasing fee, long registration process. Only makes sense with a large list of opted-in supporters.</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="144.7421875"></th><th width="170.640625"></th><th width="185.1640625"></th><th width="242.37109375"></th></tr></thead><tbody><tr><td><strong>Number Type</strong></td><td><strong>Best For</strong></td><td><strong>Pros</strong></td><td><strong>Cons</strong></td></tr><tr><td><strong>Toll-Free</strong></td><td>Low-to-medium medium volume messaging</td><td>Solid deliverability, faster approvals, easier registration</td><td>Slower throughput at the highest volumes as compared to short code.</td></tr><tr><td><strong>Local 10DLC</strong></td><td>Local outreach</td><td>Great deliverability and fast throughput if you have a high "trust score."</td><td>Registration is slow and often requires website and privacy policy changes. Nonprofits with low "trust scores" may also face daily message caps, especially to T-Mobile numbers.</td></tr><tr><td><strong>Short Code</strong></td><td>High-volume campaigns, urgent alerts</td><td>Fastest throughput, highest deliverability</td><td>Short-code leasing fee, long registration process. Only makes sense with a large list of opted-in supporters.</td></tr></tbody></table>
 
 ### **Toll Free Registration Requirements**
 
@@ -32,7 +32,7 @@ When selecting a phone number for messaging, it’s important to consider your u
 In order to register your organization or campaign to send text messages, you'll want to make sure to have the following:
 
 * [ ] **Legal Name:** As it appears on IRS or government forms.
-* [ ] **Primary Contact Info:** Name, email, and phone number of your registration contact.
+* [ ] **Primary Contact Info:** Name, email, and phone number of the primary contact for the organization.&#x20;
 * [ ] **EIN Number:** EIN as per your IRS records. You can [apply for an EIN here.](https://sa.www4.irs.gov/modiein/individual/index.jsp)&#x20;
 * [ ] **Sign Up Form Link** Your website must contain a [compliant sign up form.](./#sign-up-form-requirements)
 * [ ] **Privacy Policy Link:** Your website must include a link to a [compliant privacy policy.](./#privacy-policy-info)
