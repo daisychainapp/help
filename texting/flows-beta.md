@@ -22,8 +22,9 @@ Flows can:
 
 * Ask follow-up questions
 * Respond with personalized messages
-* Look up legislator info (coming soon)
+* Look up legislator info
 * Schedule messages for later (coming soon)
+* Nudge non-responsive people to reply (coming soon)
 * Update data fields (coming soon)
 
 ## Creating a New Flow

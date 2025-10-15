@@ -1,6 +1,20 @@
 ---
 description: In Daisychain, it's simple to create powerful text message campaigns.
 icon: bullhorn
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: false
 ---
 
 # Campaigns
