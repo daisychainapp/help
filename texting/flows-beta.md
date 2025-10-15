@@ -129,9 +129,9 @@ The AI will check each transition in order and follow the first one that matches
 
 This node type allows you to send a quick response back to the supporter — with no logic and no AI. Currently, the send message node will only send a single message. Think of it like an "autoresponder", since a "Send a Message" node will always send the same outgoing message, regardless of the content of the incoming message.&#x20;
 
-## Automation Steps Node _(coming soon)_
+### Automation Steps Node _(coming soon)_
 
-Perform actions like applying [tags.md](../managing-data/tags.md "mention"), adding people to [pathways.md](../organizing/pathways.md "mention"), making [assignments.md](../organizing/assignments.md "mention"), and more.&#x20;
+Perform actions like applying [tags.md](../managing-data/tags.md "mention"), adding people to [pathways.md](../organizing/pathways.md "mention"), making [assignments.md](../organizing/assignments.md "mention"), sending [emails](../email/email-overview.md), and more.&#x20;
 
 ## Testing Your Flow
 
