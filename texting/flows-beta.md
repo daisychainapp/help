@@ -37,11 +37,11 @@ Flows can:
 
 ***
 
-### Node Types
+## Node Types
 
 When adding a Node, you’ll choose one of three types:
 
-#### Intelligence Node (AI-powered)
+### Intelligence Node (AI-powered)
 
 Let the AI interpret the supporter’s message and respond using your custom instructions.
 
@@ -52,7 +52,15 @@ Let the AI interpret the supporter’s message and respond using your custom ins
 * Your custom instructions should provide clarity on the role of the AI, how it should respond, what capabilities it does (or doesn't) have, and any guardrails. Example below.&#x20;
 
 {% hint style="success" %}
-**Sample Instructions for an Intelligence Node**
+**Best Practices For Using Intelligence Nodes**
+
+* Keep instructions short and clear — AI performs better with direct guidance
+* Always disclose that an AI or "virtual organizer" is generating messages
+* [Test your Flow](flows-beta.md#testing-your-flow) in the the Simulator before going live
+{% endhint %}
+
+{% hint style="info" %}
+**Example Instructions for an Intelligence Node**
 
 You are a friendly community organizer helping supporters decide whether to attend an upcoming event.
 
@@ -69,23 +77,9 @@ Always disclose in your second message that you’re an virtual organizer, and b
 If you don't know the answer to a question, disclose that you don't know. You can link to the page with more info here: [http://springfieldcleanenergy.com/](http://springfieldcleanenergy.com/)&#x20;
 {% endhint %}
 
-#### Send a Message Node
-
-This node type allows you to send a quick response back to the supporter — with no logic and no AI. Currently, the send message node will only send a single message, and doesn't have [#node-transitions-coming-soon](flows-beta.md#node-transitions-coming-soon "mention"). Think of it like an "autoresponder", since a "Send a Message" node will always send the same outgoing message, regardless of the content of the incoming message.&#x20;
-
-#### Automation Steps Node _(coming soon)_
-
-Perform actions like applying [tags.md](../managing-data/tags.md "mention"), adding people to [pathways.md](../organizing/pathways.md "mention"), making [assignments.md](../organizing/assignments.md "mention"), and more.&#x20;
-
-### Node Transitions (Coming Soon)
-
-{% hint style="danger" %}
-While Transitions currently appear in the Flows UI, they do not currently work.&#x20;
-{% endhint %}
+#### Node Transitions
 
 Transitions let your Flow decide what node to proceed to next based on how someone replies.
-
-#### How to Add a Transition&#x20;
 
 Transitions only work with Intelligence Nodes. If you're using an Intelligence Node, you can add one or more Transitions.&#x20;
 
@@ -106,6 +100,14 @@ Return "true" if the message is making an explicit commitment to attend the rall
 {% endhint %}
 
 The AI will check each transition in order and follow the first one that matches.&#x20;
+
+### Send a Message Node
+
+This node type allows you to send a quick response back to the supporter — with no logic and no AI. Currently, the send message node will only send a single message, and doesn't have [#node-transitions-coming-soon](flows-beta.md#node-transitions-coming-soon "mention"). Think of it like an "autoresponder", since a "Send a Message" node will always send the same outgoing message, regardless of the content of the incoming message.&#x20;
+
+### Automation Steps Node _(coming soon)_
+
+Perform actions like applying [tags.md](../managing-data/tags.md "mention"), adding people to [pathways.md](../organizing/pathways.md "mention"), making [assignments.md](../organizing/assignments.md "mention"), and more.&#x20;
 
 ### Testing Your Flow
 
@@ -129,11 +131,3 @@ To connect a Flow:
    1. In Campaigns, this is in Step 2
    2. For Automations, this is available with a "Send a Message" step.&#x20;
 3. Select the Flow you created from the dropdown
-
-### Best Practices
-
-* Keep instructions short and clear — AI performs better with direct guidance
-* Always disclose that an AI or "virtual organizer" is generating messages
-* Use the Simulator before going live
-* Avoid dead ends: have the AI ask a follow-up or offer next steps
-* Treat Flows as an assist (not a replacement) for real conversations
