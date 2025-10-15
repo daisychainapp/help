@@ -14,7 +14,7 @@ Flows are _off_ by default. If you have an active Daisychain subscription and wa
 And if you run into issues or have ideas for improvement, we’d love to hear them.
 {% endhint %}
 
-### What is a Flow?
+## What is a Flow?
 
 A **Flow** is a structured conversation that can be triggered when a supporter replies to a message sent through [campaigns](campaigns/ "mention") or [automations](../organizing/automations/ "mention"). You can think of it as a branching conversation tree: it starts with a supporter’s incoming reply, and your outgoing messages can change based on what your supporters say.
 
@@ -26,7 +26,7 @@ Flows can:
 * Schedule messages for later (coming soon)
 * Update data fields (coming soon)
 
-### Creating a New Flow
+## Creating a New Flow
 
 1. **Go to the Flows tab**\
    From your campaign dashboard, click the Flows icon in the left-hand sidebar.
@@ -77,6 +77,30 @@ Always disclose in your second message that you’re an virtual organizer, and b
 If you don't know the answer to a question, disclose that you don't know. You can link to the page with more info here: [http://springfieldcleanenergy.com/](http://springfieldcleanenergy.com/)&#x20;
 {% endhint %}
 
+#### Tools
+
+Tools extend what an Intelligence Node can do inside a Flow. They allow the AI to take specific actions rather than just sending a message. For example, a tool might look up data, create a tag, or schedule a follow-up.
+
+Each Intelligence Node can be configured with one or more tools, depending on what you want the Flow to accomplish. Tools are selected when configuring the node, below the model and instruction settings.
+
+**Legislative Lookup Tool**
+
+The Legislative Lookup tool lets your Flow automatically identify elected officials based on a person's location. This is especially useful in advocacy campaigns so you can help a person look up their local representative without sending them to a separate lookup tool.&#x20;
+
+When using this tool, you'll want to provide overall instructions that specify what information is needed to look up their elected official. For the US Senate, you only need the person's state. For the US house, you'll need a full address.&#x20;
+
+{% hint style="info" %}
+**Sample Instructions for an Intelligence Node using the Legislative Lookup tool**
+
+You are a friendly community organizer helping supporters take action to stop House Bill 123, a proposed federal law that would restrict clean energy access and reduce funding for solar power.
+
+Your goal is to help people understand why the bill matters, identify their elected officials using the Legislative Lookup tool, and encourage them to contact those officials through the campaign site: energyfreedomnow.org/takeaction.
+
+When someone provides their address and state, use the Legislative Lookup tool to find their representatives. If they don’t include their full address, ask politely so you can make sure their message reaches the right officials.
+
+Keep your tone warm, clear, and factual. You’re a virtual organizer, so disclose that in your second message, and be honest if asked whether you’re an AI. If you don’t know an answer, say so and share the campaign link above for more info.
+{% endhint %}
+
 #### Node Transitions
 
 Transitions let your Flow decide what node to proceed to next based on how someone replies.
@@ -85,7 +109,7 @@ Transitions only work with Intelligence Nodes. If you're using an Intelligence N
 
 1. Click the "Add Transition" Button
 2. Give it a short name (like “Wants to attend the event”)
-3. Describe the condition and provide a few examples of what the reply should sound like. (Example below)
+3. Describe the condition and provide a few examples of what the reply should sound like, and provide "true" and "false" instructions at the end. (Example below)
 
 {% hint style="info" %}
 **Example Transition Instructions**
@@ -93,8 +117,8 @@ Transitions only work with Intelligence Nodes. If you're using an Intelligence N
 The user is making a commitment to take an action. This includes messages like:
 
 * 'I will go to the rally'
-* 'I will ask my friends to join'
-* Any variations where the user is committing to do something.&#x20;
+* 'I'll be there and will ask my friends to join'
+* Any variations where the user is committing to attend
 
 Return "true" if the message is making an explicit commitment to attend the rally, "false" if they are not.
 {% endhint %}
@@ -103,13 +127,13 @@ The AI will check each transition in order and follow the first one that matches
 
 ### Send a Message Node
 
-This node type allows you to send a quick response back to the supporter — with no logic and no AI. Currently, the send message node will only send a single message, and doesn't have [#node-transitions-coming-soon](flows-beta.md#node-transitions-coming-soon "mention"). Think of it like an "autoresponder", since a "Send a Message" node will always send the same outgoing message, regardless of the content of the incoming message.&#x20;
+This node type allows you to send a quick response back to the supporter — with no logic and no AI. Currently, the send message node will only send a single message. Think of it like an "autoresponder", since a "Send a Message" node will always send the same outgoing message, regardless of the content of the incoming message.&#x20;
 
-### Automation Steps Node _(coming soon)_
+## Automation Steps Node _(coming soon)_
 
 Perform actions like applying [tags.md](../managing-data/tags.md "mention"), adding people to [pathways.md](../organizing/pathways.md "mention"), making [assignments.md](../organizing/assignments.md "mention"), and more.&#x20;
 
-### Testing Your Flow
+## Testing Your Flow
 
 Once your Flow is drafted:
 
@@ -120,7 +144,7 @@ Once your Flow is drafted:
 
 This helps preview how your instructions and nodes work together.
 
-### Connecting a Flow to a Broadcast or Automation
+## Connecting a Flow to a Broadcast or Automation
 
 Flows don’t start on their own—they’re triggered when a supporter replies to one of your messages.
 
