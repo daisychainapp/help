@@ -34,7 +34,7 @@ If you'd like to apply [Tags](tags.md) to the people you're importing via CSV, t
    1. Merge new data only: Adds new fields without changing existing data.
    2. Overwrite existing data: Replaces current data with imported values.\
 
-4. **Import.** On this stage you'll see any import errors and your import's stats.
+4. **Import.** On this stage you'll monitor the progress of your import, which includes two distinct phases importing the data and rebuilding the audiences. You'll also be able to view and export errors from your import.&#x20;
 
 After your import is complete, you can press "Continue" to take quick actions like adding the people you imported to a [Pathway](../organizing/pathways.md) or targeting them in a [Campaign](../texting/campaigns/).
 

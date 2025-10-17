@@ -70,7 +70,6 @@
 * [Tags](managing-data/tags.md)
 * [Tags vs. Custom Fields](managing-data/tags-vs.-custom-fields.md)
 * [Exporting Data](managing-data/exporting-data.md)
-* [Opt Out Lists](managing-data/opt-out-lists.md)
 * [Subscription Statuses](managing-data/subscription-statuses.md)
 * [Deduplication](managing-data/deduplication.md)
 * [Data Sync](managing-data/data-sync.md)
