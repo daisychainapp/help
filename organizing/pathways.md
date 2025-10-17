@@ -5,7 +5,9 @@ icon: layer-group
 
 # Pathways
 
-**Pathways** are a feature in Daisychain that allows you to create a flexible, stage-based framework for organizing. Here's how to use them:
+**Pathways** are a feature in Daisychain that allows you to create a flexible, stage-based framework for organizing.
+
+### How to Use Pathways
 
 **1) Add a pathway.**\
 Navigate to the Pathways section of Daisychain. To create an empty Pathway, just click "Add a Pathway" and give your pathway a name. To build off a template, scroll to the bottom of the page and select a template that is a good fit for your work.
@@ -39,3 +41,19 @@ If you use the "Start A Conversation" feature from a filtered view, you will sen
 * **Power Ups:** Certain integrations come with "Power Ups" for Daisychain Pathways. For example:
   * **ControlShift Petitions:** this power-up enables you to view information about ControlShift petitions directly in a card.
   * **Mobilize Nearby Events:** this power-up enables you to view information about the closest Mobilize events directly in a person's card.
+
+### Pathway Automations
+
+You can automate actions when someone moves from one stage to another in a Pathway.&#x20;
+
+#### How to Add a Pathway Automation
+
+1. Open your Pathway and click the **⚡** lightning icon in the top right.
+2. Click Add to create a new automation
+3. Pick which transitions this automation should respond to:
+   * Any stage transition in this pathway: fires whenever someone moves stages
+   * From a specific stage: fires when someone leaves a given stage
+   * To a specific stage: fires when someone arrives at a given stage
+   * From one stage to another: fires only for that exact transition
+4. Click Save
+5. Then, define what action(s) should happen when the automation is triggered. The available actions are the same as the ones in Automations.&#x20;
