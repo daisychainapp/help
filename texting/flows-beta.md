@@ -124,7 +124,13 @@ The user is making a commitment to take an action. This includes messages like:
 Return "true" if the message is making an explicit commitment to attend the rally, "false" if they are not.
 {% endhint %}
 
-The AI will check each transition in order and follow the first one that matches.&#x20;
+The AI will check each transition in order and follow the first one that matches. Here's an example:
+
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="warning" %}
+Transitions must be connected to another node in order to function correctly.&#x20;
+{% endhint %}
 
 ### Send a Message Node
 
@@ -133,6 +139,10 @@ This node type allows you to send a quick response back to the supporter — wit
 ### Automation Steps Node _(coming soon)_
 
 Perform actions like applying [tags.md](../managing-data/tags.md "mention"), adding people to [pathways.md](../organizing/pathways.md "mention"), making [assignments.md](../organizing/assignments.md "mention"), sending [emails](../email/email-overview.md), and more.&#x20;
+
+{% hint style="warning" %}
+While you can currently create an Automation Steps node, it will not work until further updates are made.
+{% endhint %}
 
 ## Testing Your Flow
 

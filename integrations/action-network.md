@@ -28,7 +28,7 @@ In Daisychain, you can use these actions as triggers for [Automations](../organi
 4.  **Add your Web Hook to Action Network.** Head back to the "API & Sync" page in your Action Network account. From there, scroll down to the "Webhooks" section, and hit the "+ New Webhook" button. Paste in the webhook from your clipboard. Then, you'll want to select the "trigger" that imports people from Action Network into Daisychain:\
     ​
 
-    <figure><img src="../.gitbook/assets/image (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
     You can [read more about these options in the Action Network documentation.](https://actionnetwork.org/docs/webhooks)[​](https://actionnetwork.org/docs/webhooks)
 

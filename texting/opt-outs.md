@@ -39,7 +39,7 @@ In addition to keyword matching, Daisychain’s Opt-Out Request Detection automa
 
 When detected, Daisychain displays an **Opt Out** suggestion in the Inbox.&#x20;
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (49).png" alt=""><figcaption></figcaption></figure>
 
 * Saves organizers time by making it quick and easy to view opt-out requests.&#x20;
 * Keeps contact lists cleaner.
