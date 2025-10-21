@@ -86,7 +86,7 @@ Each Intelligence Node can be configured with one or more tools, depending on wh
 
 **Legislative Lookup Tool**
 
-The Legislative Lookup tool lets your Flow automatically identify elected officials based on a person's location. This is especially useful in advocacy campaigns so you can help a person look up their local representative without sending them to a separate lookup tool.&#x20;
+The Legislative Lookup tool lets your Intelligence Node automatically identify federal elected officials in the US based on a person's location. This is especially useful in advocacy campaigns so you can help a person look up their local representative without sending them to a separate lookup tool.&#x20;
 
 When using this tool, you'll want to provide overall instructions that specify what information is needed to look up their elected official. For the US Senate, you only need the person's state. For the US house, you'll need a full address.&#x20;
 
@@ -100,6 +100,16 @@ Your goal is to help people understand why the bill matters, identify their elec
 When someone provides their address and state, use the Legislative Lookup tool to find their representatives. If they don’t include their full address, ask politely so you can make sure their message reaches the right officials.
 
 Keep your tone warm, clear, and factual. You’re a virtual organizer, so disclose that in your second message, and be honest if asked whether you’re an AI. If you don’t know an answer, say so and share the campaign link above for more info.
+{% endhint %}
+
+**Scheduler Tool (Coming Soon)**&#x20;
+
+The Scheduler Tool lets the  Flow automatically schedule a follow-up SMS message at a specific date and time. This is especially useful when you want to check back in about a commitment someone made or an action they are planning to take (like attending a meeting or showing up to an event) without requiring manual follow-up.
+
+When using this tool, you’ll want to guide the person to share when they’re planning to take the action. Once they give a date or time, the Scheduler Tool can trigger a reminder message at that exact moment.
+
+{% hint style="danger" %}
+While it appears in the Flow builder, the Scheduler Tool is not currently functional, and shouldn't be used.&#x20;
 {% endhint %}
 
 #### Node Transitions
@@ -140,7 +150,7 @@ This node type allows you to send a quick response back to the supporter — wit
 
 Perform actions like applying [tags.md](../managing-data/tags.md "mention"), adding people to [pathways.md](../organizing/pathways.md "mention"), making [assignments.md](../organizing/assignments.md "mention"), sending [emails](../email/email-overview.md), and more.&#x20;
 
-{% hint style="warning" %}
+{% hint style="danger" %}
 While you can currently create an Automation Steps node, it will not work until further updates are made.
 {% endhint %}
 
