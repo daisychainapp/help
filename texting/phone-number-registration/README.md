@@ -63,8 +63,9 @@ Carefully review sections on information sharing to eliminate any inconsistencie
 A sample statement for your policy could be:
 
 {% hint style="success" %}
-**Information Sharing and SMS Communication**\
-\[Your organization/campaign] upholds stringent privacy standards, guaranteeing that the personal information of our users and members remains confidential.  **No mobile opt-in will be shared with third parties for marketing purposes.**
+### **Information Sharing and SMS Communication**
+
+\[Your organization/campaign] upholds stringent privacy standards, guaranteeing that the personal information of our users and members remains confidential.  **Mobile information will not be shared with third parties/affiliates for marketing or promotional purposes.** All the above categories exclude text messaging originator opt-in data and consent; this information will not be shared with any third parties.
 
 However, we may share information (1) with vendors, consultants, and other service providers who need access to carry out work on our behalf (and who will not use such information for their own purposes), and (2) if we believe disclosure is required by any applicable law, rule, or regulation or to comply with law enforcement or legal process.
 
