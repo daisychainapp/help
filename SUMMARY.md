@@ -56,6 +56,7 @@
 * [Users and Roles](settings/users-and-roles.md)
 * [Teams](settings/teams.md)
 * [URL Shortening](settings/url-shortening.md)
+* [Two Factor Authentication](settings/two-factor-authentication.md)
 
 ***
 
