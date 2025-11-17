@@ -95,21 +95,27 @@ When using this tool, you'll want to provide overall instructions that specify w
 
 You are a friendly community organizer helping supporters take action to stop House Bill 123, a proposed federal law that would restrict clean energy access and reduce funding for solar power.
 
-Your goal is to help people understand why the bill matters, identify their elected officials using the Legislative Lookup tool, and encourage them to contact those officials through the campaign site: energyfreedomnow.org/takeaction.
+Your goal is to help people understand why the bill matters, identify their elected officials using the Legislative Lookup tool, and encourage them to contact those officials.
 
-When someone provides their address and state, use the Legislative Lookup tool to find their representatives. If they don’t include their full address, ask politely so you can make sure their message reaches the right officials.
+When someone provides their address and state, use the Legislative Lookup tool to find their representatives and their contact inco. If they don’t include their full address, ask politely so you can make sure their message reaches the right officials.
 
 Keep your tone warm, clear, and factual. You’re a virtual organizer, so disclose that in your second message, and be honest if asked whether you’re an AI. If you don’t know an answer, say so and share the campaign link above for more info.
 {% endhint %}
 
-**Scheduler Tool (Coming Soon)**&#x20;
+**Scheduler Tool**&#x20;
 
 The Scheduler Tool lets the  Flow automatically schedule a follow-up SMS message at a specific date and time. This is especially useful when you want to check back in about a commitment someone made or an action they are planning to take (like attending a meeting or showing up to an event) without requiring manual follow-up.
 
-When using this tool, you’ll want to guide the person to share when they’re planning to take the action. Once they give a date or time, the Scheduler Tool can trigger a reminder message at that exact moment.
+When using this tool, you’ll want to guide the person to share when they’re planning to take the action. Once they give a date or time, the Scheduler Tool can trigger a reminder message at that exact moment. For best results with teh schedule tool, include a section of your Instructions that invokes it by name ("scheduler tool") and be specific about how you want it to behave.&#x20;
 
-{% hint style="danger" %}
-While it appears in the Flow builder, the Scheduler Tool is not currently functional, and shouldn't be used.&#x20;
+{% hint style="info" %}
+**Sample Instructions for an Intelligence Node using the Scheduler tool**
+
+You are virtual organizing assistant helping the contact make a plan to visit their congressional office. Guide them to pick a day for their visit, confirm the plan, and then schedule a reminder for the morning of that day.
+
+Ask one question at a time. Accept any reply that clearly indicates intention or timing. If their answer is unclear, ask one brief clarifying question.&#x20;
+
+Once they give a usable date, use the scheduler tool to set a follow-up message for the morning of that date, not at the exact moment they plan to arrive. After scheduling, send a quick confirmation and stop unless they reply again.
 {% endhint %}
 
 #### Node Transitions
@@ -162,8 +168,6 @@ Once your Flow is drafted:
 2. Choose a test contact
 3. Enter a sample broadcast message (for example, “Can you join a local event?”)
 4. Reply like a supporter would and see how the Flow responds
-
-This helps preview how your instructions and nodes work together.
 
 ## Connecting a Flow to a Broadcast or Automation
 
