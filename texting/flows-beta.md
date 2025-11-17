@@ -23,7 +23,7 @@ Flows can:
 * Ask follow-up questions
 * Respond with personalized messages
 * Look up legislator info
-* Schedule messages for later (coming soon)
+* Schedule messages for later
 * Nudge non-responsive people to reply (coming soon)
 * Update data fields (coming soon)
 
