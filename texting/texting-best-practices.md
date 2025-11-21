@@ -24,11 +24,11 @@ Especially if it's your first time messaging someone, you should introduce yours
 {% hint style="info" %}
 **A Note on Opt-Ins in the USA**
 
-In 2021, the Supreme Court issued a ruling in [Facebook vs Duguid](https://en.wikipedia.org/wiki/Facebook,_Inc._v._Duguid) that clarified that text messaging systems like Daisychain are not autodialers, and thus are not subject to the strict opt-in requirements of the [Telephone Consumer Protection Act](https://en.wikipedia.org/wiki/Telephone_Consumer_Protection_Act_of_1991).&#x20;
+In 2021, the Supreme Court issued a ruling in [Facebook vs Duguid](https://en.wikipedia.org/wiki/Facebook,_Inc._v._Duguid) that sharply narrowed the legal definition of an autodialer. As a result, text messaging systems that do not use random or sequential number generation like Daisychain are not classified as autodialers under the [Telephone Consumer Protection Act (TCPA)](https://en.wikipedia.org/wiki/Telephone_Consumer_Protection_Act_of_1991).&#x20;
 
-Various players in the “messaging ecosystem” (including Daisychain) encourage organizations to build a list of people who have granted explicit opt-in consent to send them messages. Building a list of supporters who have opted in to receive your text messages will increase the success and deliverability of your texting campaigns.
+As a result, these systems are therefore not subject to the TCPA’s strict “express written consent” requirements. The broader messaging ecosystem, including carriers and platforms like Daisychain, strongly encourages organizations to build lists of people who have clearly opted in. An opted in list improves deliverability, supporter experience, and long term engagement.
 
-That said, we know many organizations and campaigns have decided to send texts to people who haven't explicitly opted in. This is understandable, given that texting is a powerful way to reach key audiences about important issues like democracy and human rights. While we are not lawyers and this does not constitute legal advice, we believe that texting people who have not opted in is fully compliant with the TCPA.
+Many organizations and campaigns choose to text people who have not explicitly opted in. This is a common and understandable practice, especially when communicating about issues that affect the public interest. While we are not lawyers and this is not legal advice, we believe that sending texts through a system that is not an autodialer is fully compliant with the TCPA. Programs should still follow best practices that respect supporters, avoid unwanted high volume contact, and maintain list hygiene.
 {% endhint %}
 
 
