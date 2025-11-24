@@ -5,9 +5,14 @@ icon: reply
 
 # Managing Replies
 
-After you send out a [Daisychain Campaign](./), you might have hundreds or thousands of supporters text back with questions and other kinds of replies. You have different options for managing replies. One option is to head to the [Inbox](../inbox.md), where all conversations are visible.
+## Options For Managing Replies
 
-### Using the Reply Queue
+After you send out a [Daisychain Campaign](./), you might have hundreds or thousands of supporters text back with questions and other kinds of replies. You have two primary options for managing replies.&#x20;
+
+1. The [Inbox](../inbox.md), where all conversations are visible.
+2. A Reply Queue, which only shows replies for a single campaign, and allows you to provide batches of conversations to other texters.&#x20;
+
+## Reply Queue Overview
 
 The Reply Queue helps streamline the process of letting multiple texters to manage these replies in an organized system and easily track progress. It's useful for managing large volumes of replies.
 
@@ -36,7 +41,6 @@ To use the reply queue for a given Campaign, follow these steps:
 
     <figure><img src="../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
 * The default batch size for the reply queue is 25 conversations.\
-  ​\
   ​
 * The Settings tab on the Manage Replies page enables you to toggle an option to auto-release batches of conversations after an hour of inactivity.
 
