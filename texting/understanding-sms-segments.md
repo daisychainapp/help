@@ -1,8 +1,8 @@
 ---
-icon: comment-sms
 description: >-
   SMS messages are sent using blocks of characters, called segments -- and
   segments are how Daisychain calculates SMS usage for billing purposes.
+icon: comment-sms
 ---
 
 # Understanding SMS Segments
@@ -16,4 +16,4 @@ A standard SMS message segment can have 160 "basic characters" -- which includes
 3. We will automatically combine any incoming multi-segment messages that you might receive into a single message, for easy readability.&#x20;
 4. When you create an [SMS campaign](https://help.daisychain.app/campaigns/campaigns), the message preview will display the number of segments in your message.
 
-If you want to calculate exactly how many segments a message will use (including lots of nerdy details), you can head on over to this [SMS segment calculator.](https://twiliodeved.github.io/message-segment-calculator/)
+If you want to calculate exactly how many segments a message will use (including lots of nerdy details), you can use our [SMS segment calculator.](https://twiliodeved.github.io/message-segment-calculator/)
