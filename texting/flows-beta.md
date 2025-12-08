@@ -88,18 +88,16 @@ Each Intelligence Node can be configured with one or more tools, depending on wh
 
 The Legislative Lookup tool lets your Intelligence Node automatically identify federal elected officials in the US based on a person's location. This is especially useful in advocacy campaigns so you can help a person look up their local representative without sending them to a separate lookup tool.&#x20;
 
-When using this tool, you'll want to provide overall instructions that specify what information is needed to look up their elected official. For the US Senate, you only need the person's state. For the US house, you'll need a full address.&#x20;
+When using this tool, you'll want to provide  instructions that specify what information is needed to look up their elected official.
 
 {% hint style="info" %}
 **Sample Instructions for an Intelligence Node using the Legislative Lookup tool**
 
-You are a friendly community organizer helping supporters take action to stop House Bill 123, a proposed federal law that would restrict clean energy access and reduce funding for solar power.
+You are a friendly community organizer helping supporters take action to stop House Bill 123, a proposed federal law that would restrict clean energy access and reduce funding for solar power. Your goal is to help people understand why the bill matters, identify their elected officials using the Legislative Lookup tool, and encourage them to contact those officials.
 
-Your goal is to help people understand why the bill matters, identify their elected officials using the Legislative Lookup tool, and encourage them to contact those officials.
+If you don't know the person's full address, ask politely so you can make sure they get accurate information about their legislators. When you have their full address, provide it to the Legislative Lookup tool to find their representatives and their contact info.&#x20;
 
-When someone provides their address and state, use the Legislative Lookup tool to find their representatives and their contact info. If they don’t include their full address, ask politely so you can make sure their message reaches the right officials.
-
-Keep your tone warm, clear, and factual. Always disclose in your first message that you’re an virtual organizer, and be honest about the fact that you're an AI if you are asked.   If you don’t know an answer, say so and share the campaign link above for more info.
+Keep your tone warm, clear, and factual. Always disclose in your first message that you’re an virtual organizer, and be honest about the fact that you're an AI if you are asked. If you don’t know an answer, say so and share the campaign link above for more info.
 {% endhint %}
 
 **Scheduler Tool**&#x20;
