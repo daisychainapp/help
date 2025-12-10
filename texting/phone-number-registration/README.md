@@ -84,9 +84,16 @@ By signing up for text message alerts, you consent to receive informational and 
 
 ## 10DLC Limits
 
-Carriers place limits on how many texts can be sent through a 10DLC number. These limits vary by carrier and by your type of organization. Daisychain automatically handles these rules so you don’t have to worry about them.
+Carriers place limits on how many texts can be sent through a 10DLC number. These limits vary by carrier, by your type of organization, and by a "trust score." Daisychain automatically handles limits  so you don’t have to worry about them.
 
-### How Limits Work
+### How Daisychain Handles Limits
+
+Unlike many platforms, Daisychain actively manages these restrictions for you:
+
+* **Automatic queuing**: If you hit T-Mobile’s daily cap, Daisychain automatically holds the extra messages and delivers them the next day when your limit resets.
+* **Rate-aware sending**: Campaigns automatically respect the AT\&T per-minute throttle, so your messages are paced without you needing to adjust anything.
+
+### Carrier Limits
 
 * **AT\&T** controls speed: how many SMS segments or MMS messages can go out each minute.
 * **T-Mobile** controls daily volume: how many total SMS/MMS segments can be delivered in a 24-hour window which resets at midnight Pacific time.&#x20;
@@ -98,14 +105,13 @@ Carriers place limits on how many texts can be sent through a 10DLC number. Thes
 | Political Organization (527) | Up to 4,500        | Unlimited          |
 | Nonprofit (501c3/4)          | Up to 4,500        | 2,000 – 200,000    |
 
-### How Daisychain Handles Limits
+#### Trust Scores
 
-Unlike many platforms, Daisychain actively manages these restrictions for you:
+Your organization's trust score is based on a reputation algorithm that evaluates specific criteria — including factors like  registration data accuracy (such as whether your address matches your EIN), organization age and size, and overall legitimacy as determined through secondary vetting.
 
-* **Automatic queuing**: If you hit T-Mobile’s daily cap, Daisychain automatically holds the extra messages and delivers them the next day when your limit resets.
-* **Rate-aware sending**: Campaigns automatically respect the AT\&T per-minute throttle, so your messages are paced without you needing to adjust anything.
+<table><thead><tr><th width="183.921875">Trust Score</th><th>T-Mobile message limit (SMS segments + MMS Messages)</th></tr></thead><tbody><tr><td>75-100</td><td>200,000/day</td></tr><tr><td>50-74</td><td>40,000/day</td></tr><tr><td>25-49</td><td>10,000/day</td></tr><tr><td>1-24</td><td>2,000/day</td></tr></tbody></table>
 
-### Alternatives if You’re Hitting Message Limits
+### Options if You’re Hitting Message Limits
 
 * **Toll-Free Numbers**: No T-Mobile daily cap. Great option if you need to guarantee very high volumes.
 * **10DLC Appeal**: T-Mobile’s daily message caps (e.g. 2,000 up to 200,000 messages) depend in part on your organization’s Trust Score. If your score is in the lower tier, Daisychain can submit a request for re-evaluation (often via secondary vetting) to improve that score. That process may require submission of official documentation and verification of your organization’s legitimacy. If you're interested in this, send an email to help@daisychain.app

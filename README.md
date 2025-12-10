@@ -10,14 +10,11 @@ icon: rocket-launch
 Here are the most common things most people do when setting up a brand new Daisychain account.
 
 * [ ] [**Import a list**](managing-data/csv-imports.md) by uploading a CSV of your supporters to start your organizing and outreach.\
-  \
-
+  <br>
 * [ ] [**Create a texting campaign**](texting/campaigns/) to quickly send personalized, outbound text messages.\
-  \
-
+  <br>
 * [ ] [**Invite users**](settings/users-and-roles.md) so your team can help manage your outreach and organizing. \
-  \
-
+  <br>
 * [ ] [**Set up integrations**](integrations/integrations-overview.md) with tools like ActBlue and Mobilize so data can flow into Daisychain.
 
 
