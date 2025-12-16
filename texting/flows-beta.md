@@ -156,10 +156,6 @@ This node type allows you to send a quick response back to the supporter — wit
 
 Perform actions like applying [tags.md](../managing-data/tags.md "mention"), adding people to [pathways.md](../organizing/pathways.md "mention"), making [assignments.md](../organizing/assignments.md "mention"), sending [emails](../email/email-overview.md), and more.&#x20;
 
-{% hint style="danger" %}
-While you can currently create an Automation Steps node, it will not work until further updates are made.
-{% endhint %}
-
 ## Testing Your Flow
 
 Once your Flow is drafted:
