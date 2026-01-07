@@ -33,9 +33,9 @@ icon: filter-list
 
 ### **Saved Filters**
 
-* After filtering your list in the People section, you you can create a **Saved Filter** by pressing the "Save Filter" link. \
-  \
-  ![](../.gitbook/assets/SCR-20260106-smll.png)<br>
+*   After filtering your People list, you you can create a **Saved Filter** by pressing the "Save Filter" button. <br>
+
+    <figure><img src="../.gitbook/assets/SCR-20260106-smll.png" alt=""><figcaption></figcaption></figure>
 * Saved Filters can be easily used again in the future. To do so, just click the "Filter" button, then click "Saved Filters" and select the filter you'd like to use. <br>
 * Saved Filters can be used used for targeting [Message Campaigns](../texting/campaigns/).
 
