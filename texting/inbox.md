@@ -7,29 +7,20 @@ icon: inbox
 
 The Inbox is designed to help organizers manage multiple conversations at once. Here's a few Inbox features to be aware of:
 
-* **Unread Conversations Badges and Notifications:** Unread conversations will be indicated by a red dot next to the conversation, and a red numerical badge on the Inbox. Additionally, users will receive [notifications via email](notification-emails.md) if conversations remain unread after an hour.\
-
+* **Unread Conversations Badges and Notifications:** Unread conversations will be indicated by a red dot next to the conversation, and a red numerical badge on the Inbox. Additionally, users will receive [notifications via email](notification-emails.md) if conversations remain unread after an hour.<br>
 * **Assignment Filters:** you can filter the inbox to easily see All conversations ("Any Assignment"), Unassigned conversations, or conversations assigned to you or another User on your account. Here's what the Inbox Assignment Filter looks like:\
-  ![](<../.gitbook/assets/image (7).png>)\
-
-* **Tag Filters:** you can filter the inbox to easily see conversations with People who have a particular tags.\
-
+  ![](<../.gitbook/assets/image (7).png>)<br>
+* **Tag Filters:** you can filter the inbox to easily see conversations with People who have a particular tags.<br>
 * **Inbox, Unread, and Completed Tabs:** you can switch between these three tabs by selecting the desired option using this selector on top of the conversations list:\
   ![](<../.gitbook/assets/image (8).png>)
-  * **Inbox** displays all messages that haven't been marked as "Completed," regardless of whether they've been viewed.\
-
-  * **Unread** displays all messages that haven't been viewed, and so each message will have an unread badge next to them (the red dot).\
-
-  * &#x20;**Completed** displays conversations that have been marked as Complete.\
-
+  * **Inbox** displays all messages that haven't been marked as "Completed," regardless of whether they've been viewed.<br>
+  * **Unread** displays all messages that haven't been viewed, and so each message will have an unread badge next to them (the red dot).<br>
+  * &#x20;**Completed** displays conversations that have been marked as Complete.<br>
 * **Marking Messages as Complete:** Click this button (at the top of each conversation) to mark a conversation as Complete and move it into the 'Completed' view.\
   ![](<../.gitbook/assets/image (12).png>)\
-  If someone responds to a conversation after you've marked as complete, it will automatically go back into the Inbox. \
-
-* **SMS Opt-Out:** if someone requests to stop receiving messages from you, you must press the "Opt Out SMS" button to prevent them from receiving messages in the future.\
-
-* **Viewing and Editing Recipient Info:** the panel on the right side of the Inbox will display information about the recipient, including standard and custom fields. You can easily edit custom fields and assignments from the inbox.​\
-
+  If someone responds to a conversation after you've marked as complete, it will automatically go back into the Inbox. <br>
+* **SMS Opt-Out:** if someone requests to stop receiving messages from you, you must press the "Opt Out SMS" button to prevent them from receiving messages in the future.<br>
+* **Viewing and Editing Recipient Info:** the panel on the right side of the Inbox will display information about the recipient, including standard and custom fields. You can easily edit custom fields and assignments from the inbox.​<br>
 * **Viewing and Editing Pathway Stages:** In addition, you can view a person's Pathway in the inbox (and change their stage), but only if the Person's most recent conversation was originally initiated from a pathway.\
   ​\
   ​
@@ -44,8 +35,7 @@ The Inbox is designed to help organizers manage multiple conversations at once. 
 ​
 
 *   **Campaign Names:** outbound messages that were sent as part of a large-scale [Campaign](https://help.daisychain.app/en/articles/6960950-messaging-campaigns) and which were sent individually.\
-    \
-
+    <br>
 
     <figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 * **Emojis:** when writing messages, you can use the emoji picker to bring a bit of fun and personality to your conversations. 🙃

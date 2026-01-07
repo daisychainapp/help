@@ -24,8 +24,7 @@ Tips on Using Pathways:
 
 * **List View**: You can toggle from the default pathway view to see a simplified "list view" that displays name, stage, and basic contact info (email and phone) without the stage-based visualization:\
   ![](<../.gitbook/assets/image (4).png>)​
-*   **Assignment Filters:** If multiple people are using the same pathway, it can be useful to filter it by Assignment. Just click the initials of a given User to filter the Pathway to only show the People assigned to that User.\
-
+*   **Assignment Filters:** If multiple people are using the same pathway, it can be useful to filter it by Assignment. Just click the initials of a given User to filter the Pathway to only show the People assigned to that User.<br>
 
     <figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 

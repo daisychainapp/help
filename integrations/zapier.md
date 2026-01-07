@@ -15,10 +15,8 @@ Here's the basics of setting up Zapier with Daisychain:
    ​
 3. In Zapier, click the "Create a Zap" button.\
    ​
-4. Then, Zapier will walk you through the setup process. This will include:\
-
-   1. **Selecting a Trigger.** This could be something like a Google Form submission.\
-
+4. Then, Zapier will walk you through the setup process. This will include:<br>
+   1. **Selecting a Trigger.** This could be something like a Google Form submission.<br>
    2. **Setting up your Action.** This will be where you search for and select Daisychain from the list of available apps. To connect Zapier to Daisychain, you'll need an API key, which you can get by Navigating to Daisychain Settings > API Keys, and generating a key that you can paste into the authentication box in Zapier.
 
 A few notes about using Zapier with Daisychain:
@@ -27,11 +25,9 @@ A few notes about using Zapier with Daisychain:
   ​
 * When a new person is imported via Zapier, you can use that as a trigger for Automations _within_ Daisychain. Just head to the Automations section and select "Record Person Action" as a trigger.\
   ​
-*   When setting up your "Zap", you'll need to select the "Action" that is performed when the Zap runs, and you'll have two options:​\
+*   When setting up your "Zap", you'll need to select the "Action" that is performed when the Zap runs, and you'll have two options:​<br>
 
-
-    1\) "Record Person Action"\
-
+    1\) "Record Person Action"<br>
 
     2\) "Create Person Tag"\
     ​\

@@ -30,8 +30,7 @@ Before saving your filter expression in an automation, you can test it using Dai
 To access the JMESPath Playground where you can test out your JMESPath code, follow these steps:
 
 1. Create an automation, pick your trigger, and select the "Filter automation to actions that meet specific criteria."
-2.  From there, click the JMESPath Playground link, highlighted below:\
-
+2.  From there, click the JMESPath Playground link, highlighted below:<br>
 
     <figure><img src="../../.gitbook/assets/image (49) (1).png" alt=""><figcaption></figcaption></figure>
 3. Find a recent action that matches the filter you're creating.

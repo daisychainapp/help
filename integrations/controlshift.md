@@ -15,8 +15,7 @@ You can use Daisychain to create a high-touch organizing workflow to support Con
   * Petition name
   * Link to the petition on ControlShift
   * Current signature count
-  * Moderation status\
-
+  * Moderation status<br>
 * If a petition has a ["Mentor" in ControlShift](https://support.controlshiftlabs.com/hc/en-us/articles/202041276-Moderation-Workflow-for-New-Petitions), there will be an attempt to sync it with an [Assignment](../organizing/assignments/) in Daisychain, and vice-versa.
 
 **Here's how to setup the integration between Daisychain and ControlShift:**
@@ -25,14 +24,12 @@ You can use Daisychain to create a high-touch organizing workflow to support Con
    ​
 2. Give your application a name (like "Daisychain") and a Redirect URI (use "urn:ietf:wg:oauth:2.0:oob"), and hit the "Add" button.​\
    ​
-3. In a new browser tab, go to your Daisychain account. Navigate to Settings > Integrations > ControlShift (Add). You'll see you need to enter in a few items on this page:\
-
+3. In a new browser tab, go to your Daisychain account. Navigate to Settings > Integrations > ControlShift (Add). You'll see you need to enter in a few items on this page:<br>
    1. Hostname (the base URL for your ControlShift account)\
       ​​
    2. REST API Application ID (Copy and paste this from the REST application page you have open in your browser)\
       ​
-   3. REST API Application Secret (Copy and paste this from the REST application page you have open in your browser. \
-
+   3. REST API Application Secret (Copy and paste this from the REST application page you have open in your browser. <br>
 4. Click "Save" to activate the integration.
 
 Now go to the Pathways section in Daisychain and scroll down to Pathway Templates. Create a Pathway using the "ControlShift Petitions" template. A few things to know about your new Pathway:

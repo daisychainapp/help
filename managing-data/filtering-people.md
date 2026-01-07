@@ -31,18 +31,22 @@ icon: filter-list
 * **Region / State** – Filter by U.S. state or regional designation.
 * **Tags** – Filter by [tags](tags.md) applied to people in your database.
 
-### **Notes on Using Filters**
+### **Saved Filters**
 
-* After filtering your list, you you can create a **Saved Filter** by pressing the "Save Filter" link. Saved Filters can be easily used again in the future. To do so, just click the "Filter" button, then click "Saved Filters" and select the filter you'd like to use. Saved Filters can be used used for targeting [Message Campaigns](../texting/campaigns/).\
+* After filtering your list in the People section, you you can create a **Saved Filter** by pressing the "Save Filter" link. \
+  \
+  ![](../.gitbook/assets/SCR-20260106-smll.png)<br>
+* Saved Filters can be easily used again in the future. To do so, just click the "Filter" button, then click "Saved Filters" and select the filter you'd like to use. <br>
+* Saved Filters can be used used for targeting [Message Campaigns](../texting/campaigns/).
+
+### **Notes on Using Filters**
 
 * You can apply multiple filters at once. If you do, they will be additive, meaning you will be filtering down to people who match ALL the filters you apply.\
   ​
-* You can remove filters by pressing the X button.\
-
+* You can remove filters by pressing the X button.<br>
 * When filtering people by **Tags**, you can choose to use multiple tags. When you do so, you can select "All of the Tags" (an "AND" condition) or "Any of the Tags" (an "OR" condition.)\
   ​
 *   To select everyone in a filtered list (in order to take a bulk action) you can select the checkbox in the top-left corner of the list. When you do, you'll select everyone on that page -- which is generally limited to 30 records. If you'd like to select more people, click the link highlighted in the screenshot below:\
-    \
-
+    <br>
 
     <figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>

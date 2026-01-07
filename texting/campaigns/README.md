@@ -28,7 +28,7 @@ Campaigns are Daisychain's feature that lets you quickly send messages to as man
 * Scheduling
 * Advanced analytics
 * Message validation and suggestions
-* Optimized outreach for [integrated tools (like ActBlue and Mobilize)](broken-reference)
+* Optimized outreach for [integrated tools (like ActBlue and Mobilize)](/broken/pages/llwdLYezFIRWokIsPIWu)
 * Access to the [Reply Queue](managing-replies.md)
 * Advanced targeting using Includes and Excludes
 

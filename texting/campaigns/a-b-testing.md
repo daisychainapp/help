@@ -10,8 +10,7 @@ A/B testing helps you figure out which message resonates best with your supporte
 ### Starting an A/B Test
 
 1. **Create a Campaign**: Start as you normally would.&#x20;
-2.  **Click "Create A/B Test"** button on the top-right of the Initial Message bo&#x78;**:**\
-
+2.  **Click "Create A/B Test"** button on the top-right of the Initial Message bo&#x78;**:**<br>
 
     <figure><img src="../../.gitbook/assets/SCR-20250918-mdeg.png" alt=""><figcaption></figcaption></figure>
 
@@ -27,16 +26,12 @@ This will then be able to access tabs in your Initial Message box where you can 
     <figure><img src="../../.gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure>
 
 * Edit the names of your variants. Daisychain automatically splits the experimental group evenly across your variants.\
-  \
+  <br>
 
+4. **Review Message Variants:**  on Step 3 of the Campaign Wizard you'll have a chance to ensure message previews, personalization, and counts all look right. <br>
+5. **View the Report:** After sending, you'll land on the [campaign-report.md](campaign-report.md "mention"), where you'll see:<br>
 
-4. **Review Message Variants:**  on Step 3 of the Campaign Wizard you'll have a chance to ensure message previews, personalization, and counts all look right. \
-
-5. **View the Report:** After sending, you'll land on the [campaign-report.md](campaign-report.md "mention"), where you'll see:\
-
-
-* A funnel chart showing performance by variant.\
-
+* A funnel chart showing performance by variant.<br>
 * A results table with side-by-side stats for each variant:
   * Delivered
   * Clicks (if there’s a link)
@@ -44,8 +39,7 @@ This will then be able to access tabs in your Initial Message box where you can 
   * Replies
   * Opt-outs
 
-Daisychain also provides a statistical analysis indicator, which activates once each variant has at least 30 recipients.\
-
+Daisychain also provides a statistical analysis indicator, which activates once each variant has at least 30 recipients.<br>
 
 5. **Pick a Winner:** When you’re ready, click Mark Winner next to your chosen variant. The winning message will then be sent to the remaining audience (the percentage you held back).
 
