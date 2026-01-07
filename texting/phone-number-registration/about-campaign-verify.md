@@ -5,17 +5,15 @@ icon: message-check
 
 # About "Campaign Verify"
 
-If your organization is a 527 (a political campaign, party committee, or PAC) using [10DLC](./) phone number, you'll likely need to register with "[Campaign Verify](https://www.campaignverify.org/)" to ensure your messages don't get filtered.&#x20;
+If your organization is a 527 (a political campaign, party committee, or PAC), you need to register with "[Campaign Verify](https://www.campaignverify.org/)" to ensure your text messages don't get filtered.&#x20;
 
-**What's Campaign Verify?**
+### **What's Campaign Verify?**
 
-"Campaign Verify" is a third-party vetting provider for "[The Campaign Registry](https://www.campaignregistry.com/)", the organization that manages 10DLC registrations. These are both third-party organizations Daisychain works with to ensure your messages get delivered.
+"Campaign Verify" is a third-party vetting provider for "[The Campaign Registry](https://www.campaignregistry.com/)", the organization that manages phone number registrations. These are both third-party organizations Daisychain works with to ensure your messages get delivered.
 
 The verification process costs $95 and provides access to a token that authenticates your organization's identity and unlocks high-volume texting capacity on 10DLC.
 
-
-
-**Does my organization need to register for Campaign Verify?**
+### **Does my organization need to register for Campaign Verify?**
 
 Only if your organization is a 527 under US Tax Code — which is a designation specifically for federal political campaigns, PACs, and party committees. Non-federal political campaigns may choose to register for Campaign Verify, though this isn't required.&#x20;
 
@@ -23,9 +21,9 @@ Only if your organization is a 527 under US Tax Code — which is a designation 
 
 
 
-**How does it work?**
+### **How do I register with Campaign Verify?**
 
-To register with Campaign Verify, follow the steps below:
+To register with Campaign Verify, follow the steps below:<br>
 
 1. **Submit Verification Request**\
    To obtain a Campaign Verify token, fill out [the form on the Campaign Verify website](https://www.campaignverify.org/get-started) and follow their instructions. Please note there is a $95 verification fee. Once submitted, Campaign Verify will approve or reject your request, on a timeline that varies from just a few minutes to two business days.\
