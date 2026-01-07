@@ -14,7 +14,7 @@ icon: poll-people
 This document refers to "NGPVAN" and "VAN", but the instructions also apply if you are importing lists from Bonterra products named VoteBuilder, EveryAction, and more. For information about integrating live form submissions from these products, [click here.](everyaction.md)
 {% endhint %}
 
-To setup this integration, you'll first need to request an API key from NGPVAN by clicking "Contact the Admin" on the Main Menu while logged into your NGPVAN account.
+To setup this integration, you'll first need to request an API key from NGPVAN by following [their instructions.](https://help.ngpvan.com/van/s/article/2969508-requesting-and-approving-api-keys)
 
 Once you have this API key and API application name, go to your Daisychain account and navigate to Settings → Integrations and click "Add" in the VAN CRM box:
 
