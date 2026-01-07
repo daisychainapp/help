@@ -55,8 +55,8 @@ Let the AI interpret the supporter’s message and respond using your custom ins
 {% hint style="success" %}
 **Best Practices For Using Intelligence Nodes**
 
-* Keep instructions short and clear — AI performs better with direct guidance
-* Always disclose that an AI or "virtual organizer" is generating messages
+* Keep instructions clear — AI performs better with direct guidance
+* Always disclose that an AI, chatbot, or "virtual organizer" is generating messages
 * [Test your Flow](flows-beta.md#testing-your-flow) in the the Simulator before going live
 {% endhint %}
 
@@ -71,7 +71,7 @@ Your goal is to answer questions about the event and the Affordable Clean Energy
 
 Use a warm, supportive tone.
 
-You cannot register people yourself or send emails, so never promise that. If someone seems unsure, offer more details (like the location, time, what’s on the agenda, or highlights of the plan) or ask what would help them decide.
+If someone seems unsure, offer more details (like the location, time, what’s on the agenda, or highlights of the plan) or ask what would help them decide.
 
 Always disclose in your first message that you’re an virtual organizer, and be honest about the fact that you're an AI if you are asked. &#x20;
 
@@ -152,9 +152,9 @@ Transitions must be connected to another node in order to function correctly.&#x
 
 This node type allows you to send a quick response back to the supporter — with no logic and no AI. Currently, the send message node will only send a single message. Think of it like an "autoresponder", since a "Send a Message" node will always send the same outgoing message, regardless of the content of the incoming message.&#x20;
 
-### Automation Steps Node _(coming soon)_
+### Automation Steps Node
 
-Perform actions like applying [tags.md](../managing-data/tags.md "mention"), adding people to [pathways.md](../organizing/pathways.md "mention"), making [assignments.md](../organizing/assignments.md "mention"), sending [emails](../email/email-overview.md), and more.&#x20;
+Perform actions like applying [tags.md](../managing-data/tags.md "mention"), adding people to [pathways.md](../organizing/pathways.md "mention"), making [assignments.md](../organizing/assignments.md "mention"), sending [emails](../email/email-overview.md), and more.
 
 ## Testing Your Flow
 
