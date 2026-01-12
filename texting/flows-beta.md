@@ -176,3 +176,69 @@ To connect a Flow:
    1. In Campaigns, this is in Step 2
    2. For Automations, this is available with a "Send a Message" step.&#x20;
 3. Select the Flow you created from the dropdown
+
+
+
+## Frequently Asked Questions
+
+<details>
+
+<summary><a data-footnote-ref href="#user-content-fn-1"><strong>Can a Flow be triggered by inbound keywords or messages?</strong></a></summary>
+
+Not yet, but this feature is coming soon! Currently, Flows can be triggered by replies to outbound campaigns and replies to messages sent through Automations.
+
+</details>
+
+<details>
+
+<summary><strong>How do I set up Flows to respond to Campaign replies?</strong></summary>
+
+Campaigns can be configured to ensure that any replies are handled by a Flow. This is managed in Step 2 when creating a Campaign.&#x20;
+
+</details>
+
+<details>
+
+<summary><strong>Do we need to disclose that people are messaging with an AI-powered chatbot?</strong></summary>
+
+We recommend disclosing that it's a chatbot in the first message for transparency and to build trust. You can use whatever language works for you — examples we've seen include "chatbot", "AI bot", "virtual organizing assistant", "AI-powered voting coach," etc.&#x20;
+
+{% hint style="warning" %}
+Some states and jurisdictions may have laws or regulations that require pro-active disclosure when communicating with a chatbot.
+{% endhint %}
+
+</details>
+
+<details>
+
+<summary><strong>Will people still engage if they know it's a bot?</strong></summary>
+
+Pilot programs show people are willing to engage with Flows even after disclosure. In some cases, using Flows leads to longer conversations and deeper engagement than human texters – primarily due to speed of response.
+
+</details>
+
+<details>
+
+<summary><strong>Does the AI model train on our conversation data?</strong></summary>
+
+If you're concerned about this issue, we recommend using a model from Anthropic (Sonnet or Haiku), which does not train on client data accessed through their API. Your conversations remain private.
+
+</details>
+
+<details>
+
+<summary><strong>How do we monitor AI conversations?</strong></summary>
+
+Conversations appear in the "Completed" tab where you can review the full conversation history. You have visibility into all AI interactions.
+
+</details>
+
+<details>
+
+<summary><strong>Can someone from my team jump in and take over from the AI?</strong></summary>
+
+Yes. Staff can manually jump into any conversation at any time, which automatically ends the AI Flow. This human handoff capability ensures you maintain control.
+
+</details>
+
+[^1]: 
