@@ -154,5 +154,3 @@ When using this code, you can swap in whatever your numerical Zap ID is.
 ```sql
 action.type == `"run-form"`
 ```
-
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
