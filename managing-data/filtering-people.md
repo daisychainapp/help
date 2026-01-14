@@ -49,4 +49,4 @@ icon: filter-list
 *   To select everyone in a filtered list (in order to take a bulk action) you can select the checkbox in the top-left corner of the list. When you do, you'll select everyone on that page -- which is generally limited to 30 records. If you'd like to select more people, click the link highlighted in the screenshot below:\
     <br>
 
-    <figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>

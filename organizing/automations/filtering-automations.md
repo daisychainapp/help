@@ -146,3 +146,13 @@ action.zap.id == '123456789' || action.zap.id == `123456789`
 ```
 
 When using this code, you can swap in whatever your numerical Zap ID is.
+
+
+
+#### API ("Record Person Action"): only run automation on RUN! Form Submissions
+
+```sql
+action.type == `"run-form"`
+```
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
