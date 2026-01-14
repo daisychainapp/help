@@ -31,6 +31,8 @@ Automations can be filtered by querying the JSON representation of the activity 
 
 This allows extremely powerful expressions to be written to restrict each automation you setup to specific activity. It also means that JMESPath filters need to be carefully designed and tested in order to ensure they work as you intended.
 
+If you'd like assistance writing a JMESPath query, this [custom GPT](https://chatgpt.com/g/g-689f6cc4c8148191af065b2225b7054f-daisychain-automation-expert) might help — or you can reach out to [help@daisychain.app](mailto:help@daisychain.app).
+
 ### Testing Filters with the JMESPath Playground
 
 Before saving your filter expression in an automation, you can test it using Daisychain’s built-in "JMESPath Playground". This tool lets you preview whether a given filter expression will match recent incoming actions.
@@ -49,7 +51,7 @@ To access the JMESPath Playground where you can test out your JMESPath code, fol
 
 
 
-If you'd like assistance writing a JMESPath query, this custom GPT might help — or you can reach out to [help@daisychain.app](mailto:help@daisychain.app).
+
 
 ### JMESPath Extensions
 
