@@ -23,6 +23,14 @@ The AI assistant is not 100% accurate, and automations using AI-generated JMESPa
 
 * Write or edit the JMESPath code directly in the "JMESPath Expression" box.
 
+### About JMESPath Queries
+
+Actions that trigger Dasisychain automations have JSON representations of the activity on an external system or within Daisychain that triggered the automation. For Actblue donations this JSON representation might include the details of the contribution, for mobilize the event and timeslot that the person RSVP'd to. For automations triggered via the Daisychain actions API, this JSON is provided by the system that calls the Daisychain API in the API submission.
+
+Automations can be filtered by querying the JSON representation of the activity using JMESPath. If the JMESPath query you write returns an empty or null result we do not run the automation. If the JMESPath query returns part of the JSON document or a true value, we consider it a match and allow the automation to run.
+
+This allows extremely powerful expressions to be written to restrict each automation you setup to specific activity. It also means that JMESPath filters need to be carefully designed and tested in order to ensure they work as you intended.
+
 ### Testing Filters with the JMESPath Playground
 
 Before saving your filter expression in an automation, you can test it using Daisychain’s built-in "JMESPath Playground". This tool lets you preview whether a given filter expression will match recent incoming actions.
@@ -39,13 +47,9 @@ To access the JMESPath Playground where you can test out your JMESPath code, fol
 
     <figure><img src="../../.gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
 
-### JMESPath Queries
 
-Actions that trigger Dasisychain automations have JSON representations of the activity on an external system or within Daisychain that triggered the automation. For Actblue donations this JSON representation might include the details of the contribution, for mobilize the event and timeslot that the person RSVP'd to. For automations triggered via the Daisychain actions API, this JSON is provided by the system that calls the Daisychain API in the API submission.
 
-Automations can be filtered by querying the JSON representation of the activity using JMESPath. If the JMESPath query you write returns an empty or null result we do not run the automation. If the JMESPath query returns part of the JSON document or a true value, we consider it a match and allow the automation to run.
-
-This allows extremely powerful expressions to be written to restrict each automation you setup to specific activity. It also means that JMESPath filters need to be carefully designed and tested in order to ensure they work as you intended.
+If you'd like assistance writing a JMESPath query, this custom GPT might help — or you can reach out to [help@daisychain.app](mailto:help@daisychain.app).
 
 ### JMESPath Extensions
 
