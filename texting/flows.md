@@ -1,10 +1,9 @@
 ---
 description: Flows let you automate multi-step conversations with supporters.
-hidden: true
 icon: code-branch
 ---
 
-# Flows (Beta)
+# Flows
 
 {% hint style="warning" %}
 **Beta Feature**
@@ -57,7 +56,7 @@ Let the AI interpret the supporter’s message and respond using your custom ins
 
 * Keep instructions clear — AI performs better with direct guidance
 * Always disclose that an AI, chatbot, or "virtual organizer" is generating messages
-* [Test your Flow](flows-beta.md#testing-your-flow) in the the Simulator before going live
+* [Test your Flow](flows.md#testing-your-flow) in the the Simulator before going live
 {% endhint %}
 
 {% hint style="info" %}
@@ -177,13 +176,29 @@ To connect a Flow:
    2. For Automations, this is available with a "Send a Message" step.&#x20;
 3. Select the Flow you created from the dropdown
 
+## Versioning
 
+When you update a Flow, Daisychain creates a new version. This ensures that active conversations remain stable while allowing you to iterate and improve.
+
+**How it works:**
+
+* Contacts already in active conversations stay on the version of the Flow they started with
+* People added after an update will use the latest version
+* You can update instructions, transitions, or nodes at any time without disrupting ongoing conversations
+
+**Why this matters:**
+
+Versioning gives you the flexibility to refine your Flow in an ongoing way. If you discover better phrasing for your instructions or want to add new transitions, you can make those changes knowing that:
+
+* Existing supporters continue their conversations seamlessly with consistent context
+* New supporters benefit from your improvements right away
+* No conversations are interrupted or broken by your updates
 
 ## Frequently Asked Questions
 
 <details>
 
-<summary><a data-footnote-ref href="#user-content-fn-1"><strong>Can a Flow be triggered by inbound keywords or messages?</strong></a></summary>
+<summary><strong>Can a Flow be triggered by inbound keywords or messages?</strong></summary>
 
 Not yet, but this feature is coming soon! Currently, Flows can be triggered by replies to outbound campaigns and replies to messages sent through Automations.
 
@@ -240,5 +255,3 @@ Conversations appear in the "Completed" tab where you can review the full conver
 Yes. Staff can manually jump into any conversation at any time, which automatically ends the AI Flow. This human handoff capability ensures you maintain control.
 
 </details>
-
-[^1]: 
