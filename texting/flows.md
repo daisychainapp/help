@@ -6,7 +6,7 @@ icon: code-branch
 # Flows
 
 {% hint style="warning" %}
-**Beta Feature**
+**Experimental Feature**
 
 Flows are _off_ by default. If you have an active Daisychain subscription and want to try Flows, just reach out to help@daisychain.app.&#x20;
 
@@ -23,8 +23,8 @@ Flows can:
 * Respond with personalized messages
 * Look up legislator info
 * Schedule messages for later
-* Nudge non-responsive people to reply (coming soon)
-* Update data fields (coming soon)
+* Nudge non-responsive people to reply
+* Update data fields
 
 ## Creating a New Flow
 
@@ -77,11 +77,13 @@ Always disclose in your first message that you’re an virtual organizer, and be
 If you don't know the answer to a question, disclose that you don't know. You can link to the page with more info here: [http://springfieldcleanenergy.com/](http://springfieldcleanenergy.com/)&#x20;
 {% endhint %}
 
-#### Tools
+#### Tools and Procedures
 
-Tools extend what an Intelligence Node can do inside a Flow. They allow the AI to take specific actions rather than just sending a message. For example, a tool might look up data, create a tag, or schedule a follow-up.
+Tools and Procedures can extend what an Intelligence Node can do inside a Flow. They allow the AI to take specific actions rather than just sending a message. For example, a tool might look up data, create a tag, or schedule a follow-up.
 
-Each Intelligence Node can be configured with one or more tools, depending on what you want the Flow to accomplish. Tools are selected when configuring the node, below the model and instruction settings.
+Each Intelligence Node can be configured with one or more tools, depending on what you want the Flow to accomplish. To add a tool to your Intelligence Node, type `@` in the Instructions box and select from the available tools. You can also click the "+ Add Tool" button. Added tools appear as chips below the Instructions field, and you can click "Edit" on any tool to configure it further.
+
+Referencing tools by name in your Instructions (e.g., "use the @Collect Custom Field tool to record their answer") helps the AI understand when and how to use them.
 
 **Legislative Lookup Tool**
 
@@ -94,7 +96,7 @@ When using this tool, you'll want to provide  instructions that specify what inf
 
 You are a friendly community organizer helping supporters take action to stop House Bill 123, a proposed federal law that would restrict clean energy access and reduce funding for solar power. Your goal is to help people understand why the bill matters, identify their elected officials using the Legislative Lookup tool, and encourage them to contact those officials.
 
-If you don't know the person's full address, ask politely so you can make sure they get accurate information about their legislators. When you have their full address, provide it to the Legislative Lookup tool to find their representatives and their contact info.&#x20;
+As for their ZIP code first to look up their representative in the US House of Representatives. If their ZIP code isn't enough to determine who their representative is, explain the situation to the supporter and ask for their full address.&#x20;
 
 Keep your tone warm, clear, and factual. Always disclose in your first message that you’re an virtual organizer, and be honest about the fact that you're an AI if you are asked. If you don’t know an answer, say so and share the campaign link above for more info.
 {% endhint %}
@@ -116,6 +118,34 @@ Once they give a usable date, use the scheduler tool to set a follow-up message 
 
 Always disclose in your first message that you’re an virtual organizer, and be honest about the fact that you're an AI if you are asked. &#x20;
 {% endhint %}
+
+**Collect Email Tool**
+
+Collects and stores an email address for the person in the conversation. Use this when you want the AI to ask for and save an email — for example, at the end of a survey or intake conversation.
+
+**Collect Custom Field Tool**
+
+Collects and stores custom field values for the person in the conversation. This is useful for surveys, intake questions, or any scenario where you want the AI to ask a question and record the answer to a specific field. When adding this tool, hit the "Edit" button to select custom field(s) the AI should populate, and whether it should be able to overwrite existing values.&#x20;
+
+**Collect Name Tool**
+
+Collects and stores first name and/or last name for the person in the conversation.
+
+**Polling Place Lookup Tool**
+
+Finds the nearest polling place using the DNC's I Will Vote API based on a provided address. Useful for voter engagement and GOTV campaigns.
+
+**Inactivity Follow-up**
+
+Intelligence Nodes can automatically follow up when someone stops responding after the AI asks a question. This is configured in the "Procedures" section of the node.
+
+You can customize:
+
+* **Wait time**: How long to wait before following up (e.g., 30 minutes)
+* **Max follow-ups**: Maximum number of nudge messages to send (e.g., 2)
+* **Follow-up message guidance**: Instructions for how the AI should craft follow-up messages
+
+The default guidance tells the AI to write short, polite follow-ups that reference the outstanding question. You can customize this to change the AI's behavior -- for example, pivoting the conversation to a different topic if someone goes quiet.
 
 #### Node Transitions
 

@@ -36,7 +36,7 @@ If you’d like to sync lists of your voters, select “My Voters” under “AP
 {% step %}
 ### Go to VAN to Share Your Folders
 
-To ensure a list in VAN is available in Daisychain, edit your folder and scroll down to “User Access,” you will see something like this:
+To ensure a list in VAN is available in Daisychain, it needs to be in a Folder shared with Daisychain. After you add your list to your folder and scroll down to “User Access,” you will see something like this:
 
 <figure><img src="../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
 
@@ -45,17 +45,16 @@ Select the Daisychain API user, and click “Add”. Verify that the access look
 <figure><img src="../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
-Lists which appear in multiple folders will cause errors in Daisychain; please ensure that each list is only in one unique folder.
+Lists which appear in multiple folders will cause errors in Daisychain; please ensure that each list is only in one unique folder. Additionally, Daisychain can only import saved _Lists,_ and can't import the results of saved _Searches._&#x20;
 {% endhint %}
 {% endstep %}
 
 {% step %}
 ### Go to Daisychain to Import Your List
 
-All folders you have shared with the Daisychain API will be listed under the “Lists" Tab when you visit **Settings > Integrations > VAN CRM/**
-{% endstep %}
+All folders you have shared with the Daisychain API will be listed under the “Lists" Tab when you visit **Settings > Integrations > VAN CRM/**\
+<br>
 
-{% step %}
 <figure><img src="../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
 
 To import a list, click the arrow button to reveal the folder's contents:
