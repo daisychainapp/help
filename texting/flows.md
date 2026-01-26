@@ -79,15 +79,15 @@ If you don't know the answer to a question, disclose that you don't know. You ca
 
 #### Tools and Procedures
 
-Tools and Procedures can extend what an Intelligence Node can do inside a Flow. They allow the AI to take specific actions rather than just sending a message. For example, a tool might look up data, create a tag, or schedule a follow-up.
+Tools and Procedures can extend what an Intelligence Node can do inside a Flow. They allow the Flow to take specific actions rather than just sending a message. For example, a tool might look up data, create a tag, or schedule a follow-up.
 
 Each Intelligence Node can be configured with one or more tools, depending on what you want the Flow to accomplish. To add a tool to your Intelligence Node, type `@` in the Instructions box and select from the available tools. You can also click the "+ Add Tool" button. Added tools appear as chips below the Instructions field, and you can click "Edit" on any tool to configure it further.
 
-Referencing tools by name in your Instructions (e.g., "use the @Collect Custom Field tool to record their answer") helps the AI understand when and how to use them.
+Referencing tools by name in your Instructions (e.g., "use the @Collect Custom Field tool to record their answer") helps the Flow understand when and how to use them.
 
 **Legislative Lookup Tool**
 
-The Legislative Lookup tool lets your Intelligence Node automatically identify federal elected officials in the US based on a person's location. This is especially useful in advocacy campaigns so you can help a person look up their local representative without sending them to a separate lookup tool.&#x20;
+The Legislative Lookup tool lets your Flow automatically identify federal elected officials in the US based on a person's location. This is especially useful in advocacy campaigns so you can help a person look up their local representative without sending them to a separate lookup tool.&#x20;
 
 When using this tool, you'll want to provide  instructions that specify what information is needed to look up their elected official.
 
@@ -103,7 +103,7 @@ Keep your tone warm, clear, and factual. Always disclose in your first message t
 
 **Scheduler Tool**&#x20;
 
-The Scheduler Tool lets the  Flow automatically schedule a follow-up SMS message at a specific date and time. This is especially useful when you want to check back in about a commitment someone made or an action they are planning to take (like attending a meeting or showing up to an event) without requiring manual follow-up.
+The Scheduler Tool lets the Flow automatically schedule a follow-up SMS message at a specific date and time. This is especially useful when you want to check back in about a commitment someone made or an action they are planning to take (like attending a meeting or showing up to an event) without requiring manual follow-up.
 
 When using this tool, you’ll want to guide the person to share when they’re planning to take the action. Once they give a date or time, the Scheduler Tool can trigger a reminder message at that exact moment. For best results with teh schedule tool, include a section of your Instructions that invokes it by name ("scheduler tool") and be specific about how you want it to behave.&#x20;
 
@@ -121,11 +121,11 @@ Always disclose in your first message that you’re an virtual organizer, and be
 
 **Collect Email Tool**
 
-Collects and stores an email address for the person in the conversation. Use this when you want the AI to ask for and save an email — for example, at the end of a survey or intake conversation.
+Collects and stores an email address for the person in the conversation. Use this when you want the Flow to ask for and save an email — for example, at the end of a survey or intake conversation.
 
 **Collect Custom Field Tool**
 
-Collects and stores custom field values for the person in the conversation. This is useful for surveys, intake questions, or any scenario where you want the AI to ask a question and record the answer to a specific field. When adding this tool, hit the "Edit" button to select custom field(s) the AI should populate, and whether it should be able to overwrite existing values.&#x20;
+Collects and stores custom field values for the person in the conversation. This is useful for surveys, intake questions, or any scenario where you want the Flow to ask a question and record the answer to a specific field. When adding this tool, hit the "Edit" button to select custom field(s) the Flow should populate, and whether it should be able to overwrite existing values.&#x20;
 
 **Collect Name Tool**
 
@@ -145,7 +145,7 @@ You can customize:
 * **Max follow-ups**: Maximum number of nudge messages to send (e.g., 2)
 * **Follow-up message guidance**: Instructions for how the AI should craft follow-up messages
 
-The default guidance tells the AI to write short, polite follow-ups that reference the outstanding question. You can customize this to change the AI's behavior -- for example, pivoting the conversation to a different topic if someone goes quiet.
+The default guidance tells the Flow to write short, polite follow-ups that reference the outstanding question. You can customize this to change the AI's behavior -- for example, pivoting the conversation to a different topic if someone goes quiet.
 
 #### Node Transitions
 
