@@ -64,6 +64,7 @@
 
 ## Managing Data
 
+* [Questions](managing-data/questions.md)
 * [CSV Imports](managing-data/csv-imports.md)
 * [Filters](managing-data/filtering-people.md)
 * [Standard Fields](managing-data/standard-fields.md)
