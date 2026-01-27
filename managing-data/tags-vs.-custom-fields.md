@@ -10,19 +10,17 @@ icon: lightbulb
 
 ### Quick Comparison
 
-|                                     | Tags                       | Custom Fields                        | Questions                                                 |
-| ----------------------------------- | -------------------------- | ------------------------------------ | --------------------------------------------------------- |
-| **Best for**                        | Simple labels              | Static attributes                    | Data that changes over time                               |
-| **Example**                         | "Volunteer", "Donor"       | "Preferred Language", "T-Shirt Size" | "Support Score", "Volunteer Availability"                 |
-| **Multiple values**                 | Yes (many tags per person) | No (one value per field)             | Yes (full answer history)                                 |
-| **Tracks who recorded it and when** | No                         | No                                   | Yes                                                       |
-| **Easy to remove/change**           | Yes                        | Not always (dropdowns are tricky)    | History is preserved -- new answers don't delete old ones |
-| **Filter People list**              | Yes (with AND/OR logic)    | Limited (single field, exact match)  | No                                                        |
-| **Filter Inbox**                    | Yes                        | No                                   | No                                                        |
-| **Insert into messages**            | No                         | Yes                                  | No                                                        |
-|                                     |                            |                                      |                                                           |
+|                                     | Tags                    | Custom Fields                        | Questions                                                |
+| ----------------------------------- | ----------------------- | ------------------------------------ | -------------------------------------------------------- |
+| **Best for**                        | Simple labels           | Static attributes                    | Data that changes over time                              |
+| **Example**                         | "Volunteer", "Donor"    | "Preferred Language", "T-Shirt Size" | "Support Score", "Volunteer Availability"                |
+| **Tracks who recorded it and when** | No                      | No                                   | Yes                                                      |
+| **Easy to remove/change**           | Yes                     | Moderately                           | History is preserved — new answers don't delete old ones |
+| **Filter People list**              | Yes (with AND/OR logic) | Limited (single field, exact match)  | No                                                       |
+| **Filter Inbox**                    | Yes                     | No                                   | No                                                       |
+| **Insert into messages**            | No                      | Yes                                  | No                                                       |
 
-### Tags
+### Tags Overview
 
 Tags are simple labels you can add or remove from people. They're best for binary information —  someone either has the tag or they don't.
 
@@ -38,7 +36,7 @@ Tags are simple labels you can add or remove from people. They're best for binar
 Learn more in the [tags.md](tags.md "mention") article.&#x20;
 {% endhint %}
 
-### Custom Fields
+### Custom Fields Overview
 
 Custom Fields store a single value for each person. When you update a Custom Field, it overwrites the previous value — there's no history.
 
@@ -54,7 +52,7 @@ Custom Fields store a single value for each person. When you update a Custom Fie
 Learn more in the [custom-fields.md](custom-fields.md "mention") article.&#x20;
 {% endhint %}
 
-### Questions
+### Questions Overview
 
 Questions let you record answers that change over time. Each answer is saved with who recorded it and when — so you can track how someone's responses evolve.
 
