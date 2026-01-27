@@ -54,3 +54,7 @@ Both features let you store data about people beyond standard fields like name a
 | **Use in messages**  | Not available for personalization                     | Can be inserted into messages                             |
 
 **Example:** If you're tracking voter support on a 1-5 scale, use a Question. You might ask the same person their support level in March, then again in October -- and you'll want to see both answers and how they changed. If you're storing someone's preferred pronoun, use a Custom Field since you only need the current value.
+
+{% hint style="info" %}
+Read more about the differences between three custom data types in the [tags-vs.-custom-fields.md](tags-vs.-custom-fields.md "mention")article.&#x20;
+{% endhint %}

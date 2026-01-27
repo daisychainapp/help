@@ -3,7 +3,7 @@ description: >-
   Learn the key differences between Tags, Questions, and Custom Fields in
   Daisychain and understand how to effectively use each to manage and engage
   your contacts.
-icon: question
+icon: lightbulb
 ---
 
 # Tags vs. Custom Fields vs. Questions
