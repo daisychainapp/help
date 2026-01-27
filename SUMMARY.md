@@ -64,13 +64,13 @@
 
 ## Managing Data
 
-* [Questions](managing-data/questions.md)
 * [CSV Imports](managing-data/csv-imports.md)
 * [Filters](managing-data/filtering-people.md)
 * [Standard Fields](managing-data/standard-fields.md)
 * [Custom Fields](managing-data/custom-fields.md)
 * [Tags](managing-data/tags.md)
-* [Tags vs. Custom Fields](managing-data/tags-vs.-custom-fields.md)
+* [Questions](managing-data/questions.md)
+* [Tags vs. Custom Fields vs. Questions](managing-data/tags-vs.-custom-fields.md)
 * [Exporting Data](managing-data/exporting-data.md)
 * [Subscription Statuses](managing-data/subscription-statuses.md)
 * [Deduplication](managing-data/deduplication.md)

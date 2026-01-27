@@ -1,8 +1,8 @@
 ---
-icon: pen-field
 description: >-
   Daisychain allows you set up custom fields to assign to people in your
   database.
+icon: pen-field
 ---
 
 # Custom Fields
@@ -25,10 +25,6 @@ Choose your **Field Type**:
 * **Multiple Lines of Text:** good for more text, like longer survey responses.
 * **Number:** good for various kinds of numbers, and only accepts numerical values.​
 * **Select:** good for when you have a set of values where you want Users to be able to select a single value from a dropdown field.
-
-{% hint style="warning" %}
-Options for "Select" fields cannot currently be edited after they have been created. If you need to add an option, you can Delete the existing field, and recreate it with the exact same name. Note that deleting an existing custom field will also delete all data stored in that custom field.&#x20;
-{% endhint %}
 
 {% hint style="info" %}
 The "identifier" listed for your custom field is all lowercase with spaces replaced by underscores, and is what you'll need to use for your column headers if you want to [import a CSV](csv-imports.md) with custom fields.

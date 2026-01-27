@@ -1,36 +1,71 @@
 ---
 description: >-
-  Learn the key differences between Tags and Custom Fields in Daisychain and
-  understand how to effectively use each to manage and engage your contacts.
+  Learn the key differences between Tags, Questions, and Custom Fields in
+  Daisychain and understand how to effectively use each to manage and engage
+  your contacts.
 icon: question
 ---
 
-# Tags vs. Custom Fields
+# Tags vs. Custom Fields vs. Questions
 
-#### [**Tags**](tags.md)
+### Quick Comparison
 
-Tags are best used for simple, binary information that is easy to add, filter, and remove. Use Tags when you need to:
+|                                     | Tags                       | Custom Fields                        | Questions                                                 |
+| ----------------------------------- | -------------------------- | ------------------------------------ | --------------------------------------------------------- |
+| **Best for**                        | Simple labels              | Static attributes                    | Data that changes over time                               |
+| **Example**                         | "Volunteer", "Donor"       | "Preferred Language", "T-Shirt Size" | "Support Score", "Volunteer Availability"                 |
+| **Multiple values**                 | Yes (many tags per person) | No (one value per field)             | Yes (full answer history)                                 |
+| **Tracks who recorded it and when** | No                         | No                                   | Yes                                                       |
+| **Easy to remove/change**           | Yes                        | Not always (dropdowns are tricky)    | History is preserved -- new answers don't delete old ones |
+| **Filter People list**              | Yes (with AND/OR logic)    | Limited (single field, exact match)  | No                                                        |
+| **Filter Inbox**                    | Yes                        | No                                   | No                                                        |
+| **Insert into messages**            | No                         | Yes                                  | No                                                        |
+|                                     |                            |                                      |                                                           |
 
-* **Easily Remove a Recorded Value for a Given Person**: If you anticipate needing to frequently add and remove a label for your People, Tags are ideal.&#x20;
-* **Filter the** [**Inbox**](https://help.daisychain.app/inbox) **by a Specific Criterion**: Tags allow you to filter your inbox efficiently, so you can see just the conversations with People who have a particular Tag.&#x20;
-* [**Filter the People List**](filtering-people.md) **Using Complex Logic:** Tags support flexible filtering using "AND" and "OR" logic, making it easy to segment People who meet one or several criteria—e.g., everyone tagged as both "volunteer" AND "Spanish-speaking," or anyone tagged as either "donor" OR "event attendee."
+### Tags
 
-#### [Custom Fields](custom-fields.md)
+Tags are simple labels you can add or remove from people. They're best for binary information —  someone either has the tag or they don't.
 
-Custom Fields are more versatile and are used for storing detailed or variable information. Use Custom Fields when you need to:
+**Use Tags when you need to:**
 
-* **Record Freeform Content**: If you need to capture detailed notes or varied information about a contact, Custom Fields are the way to go. They allow for more flexibility in the type of data you store.
-* **Insert Variable Content in Messages**: Custom Fields enable you to personalize messages by inserting specific details about your contacts directly into your communications.
+* Quickly add and remove labels
+* Filter the Inbox by a specific criterion
+* Filter the People list using AND/OR logic across multiple tags
 
-However, be aware that Custom Fields are not always as easy to manage in terms of removal of values. Unlike Tags, removing a recorded value in Custom Fields can be more complex and not always straightforward -- especially for "Select" (AKA "dropdown") custom field types.
+**Examples:** "Volunteer", "Donor", "Spanish-Speaker", "Event-Attendee"
 
+{% hint style="info" %}
+Learn more in the [tags.md](tags.md "mention") article.&#x20;
+{% endhint %}
 
+### Custom Fields
 
-|                                 | **Tags**                                                      | **Custom Fields**                                                                                                              |
-| ------------------------------- | ------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
-| **Best for...**                 | Simple, binary labels (e.g. “Volunteer”)                      | Detailed, varied, or structured info (e.g. “Preferred Language”)                                                               |
-| **Easily add/remove values**    | ✅ Yes – quick to update or clear                              | ⚠️ Not always – especially tricky with dropdowns                                                                               |
-| **Filter Inbox**                | ✅ Yes – filter by a single Tag                                | 🚫 No – not supported in Inbox filters                                                                                         |
-| **Filter People list**          | ✅ Yes – supports flexible AND/OR filtering with multiple Tags | ⚠️ Limited – you can filter by an exact match of a single custom field, but not with compound logic or multiple custom fields. |
-| **Insert into messages**        | 🚫 No – not supported for merge fields                        | ✅ Yes – values can be inserted dynamically                                                                                     |
-| **Freeform notes or long text** | 🚫 Not ideal                                                  | ✅ Great for open-ended or detailed content                                                                                     |
+Custom Fields store a single value for each person. When you update a Custom Field, it overwrites the previous value — there's no history.
+
+**Use Custom Fields when you need to:**
+
+* Store static information that rarely changes
+* Insert personalized content into messages (e.g. "Hi \{{ person.preferred\_name \}}")
+* Record structured data like numbers or dropdown selections
+
+**Examples:** "Preferred Language", "T-Shirt Size", "Employer", "Congressional District"
+
+{% hint style="info" %}
+Learn more in the [custom-fields.md](custom-fields.md "mention") article.&#x20;
+{% endhint %}
+
+### Questions
+
+Questions let you record answers that change over time. Each answer is saved with who recorded it and when — so you can track how someone's responses evolve.
+
+**Use Questions when you need to:**
+
+* Ask the same question multiple times over weeks or months
+* See a history of how answers have changed
+* Know which team member recorded each answer
+
+**Examples:** "Support Score (1-5)", "Will you volunteer this weekend?", "Top issue priority"
+
+{% hint style="info" %}
+Learn more in the [questions.md](questions.md "mention") article.&#x20;
+{% endhint %}
