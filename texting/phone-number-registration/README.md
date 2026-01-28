@@ -19,7 +19,7 @@ At Daisychain, we handle the basics of phone number registration on behalf of ou
 
 When selecting a phone number for messaging, it’s important to consider your use case, audience size, and compliance requirements. Below is a breakdown of the available number types and their key characteristics.
 
-<table data-header-hidden><thead><tr><th width="144.7421875"></th><th width="170.640625"></th><th width="185.1640625"></th><th width="242.37109375"></th></tr></thead><tbody><tr><td><strong>Number Type</strong></td><td><strong>Best For</strong></td><td><strong>Pros</strong></td><td><strong>Cons</strong></td></tr><tr><td><strong>Toll-Free</strong></td><td>Low-to-medium medium volume messaging</td><td>Solid deliverability, faster approvals, easier registration</td><td>Slower throughput at the highest volumes as compared to short code.</td></tr><tr><td><strong>Local 10DLC</strong></td><td>Local outreach</td><td>Great deliverability and fast throughput if you have a high "trust score."</td><td>Registration is slow and often requires website and privacy policy changes. Nonprofits with low "trust scores" may also face daily message caps, especially to T-Mobile numbers.</td></tr><tr><td><strong>Short Code</strong></td><td>High-volume campaigns, urgent alerts</td><td>Fastest throughput, highest deliverability</td><td>Short-code leasing fee, long registration process. Only makes sense with a large list of opted-in supporters.</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="144.7421875"></th><th width="170.640625"></th><th width="185.1640625"></th><th width="242.37109375"></th></tr></thead><tbody><tr><td><strong>Number Type</strong></td><td><strong>Best For</strong></td><td><strong>Pros</strong></td><td><strong>Cons</strong></td></tr><tr><td><strong>Toll-Free</strong></td><td>Low-to-medium medium volume messaging</td><td>Solid deliverability, faster approvals, easier registration</td><td>Slower throughput at the highest volumes as compared to short code.</td></tr><tr><td><strong>Local 10DLC</strong></td><td>Local outreach</td><td>Great deliverability and fast throughput if you have a high "trust score."</td><td>Registration can be slow and often requires website and privacy policy changes. Nonprofits with low "trust scores" may also face daily message caps, especially to T-Mobile numbers.</td></tr><tr><td><strong>Short Code</strong></td><td>High-volume campaigns, urgent alerts</td><td>Fastest throughput, highest deliverability</td><td>Short-code leasing fee, long registration process. Only makes sense with a large list of opted-in supporters.</td></tr></tbody></table>
 
 ### **Toll Free Registration Requirements**
 
@@ -37,10 +37,11 @@ In order to register your organization or campaign to send text messages, you'll
 * [ ] **Sign Up Form Link** Your website must contain a [compliant sign up form.](./#sign-up-form-requirements)
 * [ ] **Privacy Policy Link:** Your website must include a link to a [compliant privacy policy.](./#privacy-policy-info)
 * [ ] **Mobile Terms of Use:** Your website must contain compliant [Mobile Terms of Use](./#terms-of-use-info), either as a dedicated page or a section of your privacy policy.&#x20;
+* [ ] **Campaign Verify Token:** If your organization is a 527 (a Federal political campaign, political party, or PAC) you'll also need to register with [Campaign Verify](about-campaign-verify.md).&#x20;
 
-### **Sign-Up Form Requirements (10DLC)**
+### **Sign-Up Form Requirements**
 
-When registering your  10DLC phone number, you'll be asked to submit a URL of a website that contains a sign-up form where people can opt-in to receive mobile messages. To ensure your registration is approved, please make sure your form includes the following three elements:
+When registering your phone number, you may be asked to submit a URL of a website that contains a sign-up form where people can opt-in to receive mobile messages. To ensure your registration is approved, please make sure your form includes the following three elements:
 
 1. a non-required field for collecting mobile phone numbers
 2. an _unticked_ checkbox to opt-in to receive text message
@@ -52,9 +53,9 @@ Here's an example:&#x20;
 
 <figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
 
-### **Privacy Policy Info (10DLC)**
+### **Privacy Policy Info**&#x20;
 
-When registering a 10DLC phone number, a compliant privacy policy must be easily found on your organization's website, with **a clear link to this privacy policy in your website's footer.** An example complete privacy policy can be found [here.](https://fastform.org/progress-kingston-privacy-policy/)&#x20;
+When registering a phone number, a compliant privacy policy must be easily found on your organization's website, with **a clear link to this privacy policy in your website's footer.** An example complete privacy policy can be found [here.](https://fastform.org/progress-kingston-privacy-policy/)&#x20;
 
 Ensure your policy explicitly states non-sharing of personal data with third parties without consent, except under legal obligations, and provides clear opt-out instructions for communications, especially text messages. It's crucial to avoid language that implies sharing private data for marketing purposes.&#x20;
 
@@ -72,9 +73,9 @@ However, we may share information (1) with vendors, consultants, and other servi
 To opt out of SMS messages at any time, simply reply STOP to any of our text messages. You can also opt back in by texting START to the same number.
 {% endhint %}
 
-### **Terms of Use Info (10DLC)**
+### **Terms of Use Info**
 
-When registering a 10DLC phone number, you must have compliant Mobile Terms of Use — either as a dedicated page on your website linked in your website's footer, or as a dedicated section of your Privacy Policy. Your Mobile Terms of Use must contain a section that mirrors the text on the opt-in disclaimer. Here's an example:
+When registering a phone number, you must have compliant Mobile Terms of Use — either as a dedicated page on your website linked in your website's footer, or as a dedicated section of your Privacy Policy. Your Mobile Terms of Use must contain a section that mirrors the text on the opt-in disclaimer. Here's an example:
 
 {% hint style="success" %}
 **Mobile Terms of Use**
