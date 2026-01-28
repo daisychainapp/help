@@ -26,11 +26,22 @@ Questions let you ask and record answers that may change over time — like supp
 6. Optionally assign to a **Question group** to organize related questions together
 7. Click **Save Question**
 
-### Question Groups
+### How to Organize Questions
 
-Question groups let you organize related questions so they display together when recording answers. For example, you might group all your Voter ID questions or all your volunteer intake questions.
+You can organize questions in 2 ways:<br>
 
-To create a new group, click **+ New** next to the Question group dropdown when adding or editing a question.
+1. **Question Groups**\
+   Question Groups control how questions appear when recording answers. Questions in the same group display together, making it faster to record related information at once.\
+   \
+   **Example:** Group your voter ID questions ("Support Score", "Top Issue", "Volunteer Interest") so they appear together when a texter is entering responses in the Inbox.\
+   \
+   To assign a question to a group, select or create a group from the **Question group** dropdown when adding or editing a question.<br>
+2. **Folders**\
+   Folders help you organize your questions list in Settings —  they're purely for admin convenience and don't affect how questions appear when recording answers.\
+   \
+   **Example:** If your organization has 100+ questions accumulated over multiple cycles, you might create folders like "2026 Primary", "2026 General", and "Volunteer Intake" to keep your Settings page manageable.\
+   \
+   To create a folder, click **+ New Folder** from the Questions settings page. Drag questions into folders or assign them when editing a question.
 
 ### Recording Answers
 
