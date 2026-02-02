@@ -78,6 +78,35 @@ To view errors, click the list name, and you will be taken to the import summary
 {% endstep %}
 {% endstepper %}
 
+### Syncing Survey Questions and Activist Codes
+
+You can sync data collected in Daisychain back to VAN in two ways: Survey Question responses and Activist Codes.
+
+#### Survey Questions
+
+Map Daisychain [questions.md](../managing-data/questions.md "mention") to VAN Survey Questions to sync answers recorded in Daisychain back to VAN as Survey Responses.
+
+**Setup:**
+
+1. First, create a matching [Question](../managing-data/questions.md) in Daisychain (Settings > People > Questions). For a support question, you'd create a multiple choice or dropdown question with response options like "Strong Support," "Lean Support," "Undecided," etc. — matching whatever response options exist on the VAN side.
+2. Go to Settings > Integrations > VAN CRM > Questions.
+3. Find the VAN Survey Question you want to map.
+4. In the "Mapped Question" column, select the Daisychain Question you created.
+5. Expand the Survey Response Mappings and map each VAN Survey Response to the corresponding Daisychain answer option.
+
+#### Activist Codes
+
+Map Daisychain [tags.md](../managing-data/tags.md "mention") to VAN Activist Codes to sync Tags applied in back to VAN as Activist Codes.
+
+**Setup:**
+
+1. Go to Settings > Integrations > VAN CRM > Activist Codes.
+2. If your Daisychain account is connected to multiple VAN committees, select the appropriate one from the dropdown.
+3. Find the VAN Activist Code you want to map.
+4. In the "Mapped Tag" column, select the Daisychain Tag that should trigger this Activist Code.
+
+Once mapped, whenever that Tag is added to someone in Daisychain, the Activist Code will sync to their VAN record.
+
 ## Viewing VAN information inside Daisychain
 
 Once you have imported a list to Daisychain, information from VAN will appear on the People page in Daisychain.
@@ -93,4 +122,3 @@ You can select a VAN list to filter by, and on an individual person’s page you
 
 Whenever you opt someone out in Daisychain, that information will sync back to VAN as an opt out as well. [Learn more about subscription statuses here.](../managing-data/subscription-statuses.md)
 {% endhint %}
-

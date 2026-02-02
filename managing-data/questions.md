@@ -43,6 +43,10 @@ You can organize questions in 2 ways:<br>
    \
    To create a folder, click **+ New Folder** from the Questions settings page. Drag questions into folders or assign them when editing a question.
 
+{% hint style="warning" %}
+**Note:** If you delete a question, all recorded answers for that question will be permanently deleted as well.
+{% endhint %}
+
 ### Recording Answers
 
 You can record answers to questions from a person's profile in the Questions tab. Each answer is saved with:
@@ -55,4 +59,10 @@ Previous answers are preserved, so you can see how responses have changed over t
 
 {% hint style="info" %}
 Read more about the differences between three custom data types in the [tags-vs.-custom-fields.md](tags-vs.-custom-fields.md "mention") article.&#x20;
+{% endhint %}
+
+{% hint style="info" %}
+### Syncing with VAN Survey Questions
+
+If you use EveryAction / VoteBuidler / VAN, you can map Daisychain Questions to  Survey Questions so that answers recorded in Daisychain automatically sync back. See the [ngpvan.md](../integrations/ngpvan.md "mention") help doc for setup instructions.
 {% endhint %}
