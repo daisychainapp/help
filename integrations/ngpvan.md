@@ -78,7 +78,7 @@ To view errors, click the list name, and you will be taken to the import summary
 {% endstep %}
 {% endstepper %}
 
-### Syncing Survey Questions and Activist Codes
+## Syncing Survey Questions and Activist Codes
 
 You can sync data collected in Daisychain back to VAN in two ways: Survey Question responses and Activist Codes.
 
