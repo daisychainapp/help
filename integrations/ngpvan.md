@@ -105,7 +105,11 @@ Map Daisychain [tags.md](../managing-data/tags.md "mention") to VAN Activist Cod
 3. Find the VAN Activist Code you want to map.
 4. In the "Mapped Tag" column, select the Daisychain Tag that should trigger this Activist Code.
 
-Once mapped, whenever that Tag is added to someone in Daisychain, the Activist Code will sync to their VAN record. And whenever a Tag is _removed_ from someone in Daisychain, the mapped Activist Code will be removed from their VAN record.&#x20;
+Once mapped, whenever that Tag is added to an individual person in Daisychain, the Activist Code will sync to their VAN record. And whenever a Tag is _removed_ from someone in Daisychain, the mapped Activist Code will be removed from their VAN record.&#x20;
+
+{% hint style="warning" %}
+Activist codes will only be synced to VAN when a Tag is applied to an individual Person. A bulk action to apply a Tag to >1 person will _not_ apply the Activist Code in VAN.&#x20;
+{% endhint %}
 
 ## Viewing VAN information inside Daisychain
 
