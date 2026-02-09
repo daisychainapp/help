@@ -78,11 +78,11 @@ To view errors, click the list name, and you will be taken to the import summary
 {% endstep %}
 {% endstepper %}
 
-## Syncing Survey Questions and Activist Codes
+## Syncing Data Back to VAN
 
-You can sync data collected in Daisychain back to VAN in two ways: Survey Question responses and Activist Codes.
+You can sync data collected in Daisychain back to VAN. Daisychain currently syncs back data in for Survey Questions, Activist Codes, and Opt-Outs.&#x20;
 
-#### Survey Questions
+### Syncing Survey Questions
 
 Map Daisychain [questions.md](../managing-data/questions.md "mention") to VAN Survey Questions to sync answers recorded in Daisychain back to VAN as Survey Responses.
 
@@ -94,7 +94,7 @@ Map Daisychain [questions.md](../managing-data/questions.md "mention") to VAN Su
 4. In the "Mapped Question" column, select the Daisychain Question you created.
 5. Expand the Survey Response Mappings and map each VAN Survey Response to the corresponding Daisychain answer option.
 
-#### Activist Codes
+### Syncing Activist Codes
 
 Map Daisychain [tags.md](../managing-data/tags.md "mention") to VAN Activist Codes to sync Tags applied in back to VAN as Activist Codes.
 
@@ -111,6 +111,15 @@ Once mapped, whenever that Tag is added to an individual person in Daisychain, t
 Activist codes will only be synced to VAN when a Tag is applied to an individual Person. A bulk action to apply a Tag to >1 person will _not_ apply the Activist Code in VAN.&#x20;
 {% endhint %}
 
+### Syncing Opt-outs
+
+[opt-outs.md](../texting/opt-outs.md "mention") created in Daisychain — whether through automated keyword detection (like "STOP") or a manual opt-out — are automatically synced back to VAN. Specifically:
+
+* A "Do Not Text" canvass result is added to their contact history
+* Their SMS opt-in status is set to "Opt-Out" on the phone record
+
+This sync happens for contacts with a valid VAN ID.
+
 ## Viewing VAN information inside Daisychain
 
 Once you have imported a list to Daisychain, information from VAN will appear on the People page in Daisychain.
@@ -121,8 +130,3 @@ You can select a VAN list to filter by, and on an individual person’s page you
 
 <figure><img src="../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
 
-{% hint style="info" %}
-### Syncing Opt-outs
-
-Whenever you opt someone out in Daisychain, that information will sync back to VAN as an opt out as well. [Learn more about subscription statuses here.](../managing-data/subscription-statuses.md)
-{% endhint %}
