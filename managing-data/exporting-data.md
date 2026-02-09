@@ -66,7 +66,7 @@ A complete export of all incoming and outgoing SMS messages for your account. Cl
 * `opt_out_reason` — If the message triggered an opt-out, the reason
 * `person_id` — The Daisychain person ID associated with the message
 * `card_id` — The card ID, if applicable
-* `automation_execution_id` — The automation execution ID, if the message was sent by a Flow
+* `automation_execution_id` — The automation execution ID
 * `automation_id` — The automation ID, if applicable
 * `accepted_at` — When the message was accepted by the carrier
 * `created_at` — When the message was created
