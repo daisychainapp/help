@@ -33,4 +33,34 @@ A few notes about using Zapier with Daisychain:
     ​\
     If you want, you can configure your Zap to first record the person, and then add a tag to that person as a subsequent Action step.
 
+{% hint style="info" %}
 Using Zapier can be tricky, so don't hesitate to reach out to our team if you need any help!
+{% endhint %}
+
+### Using Zapier with Automations
+
+When someone is imported into Daisychain via a Zap, you can automatically trigger an Automation to take action — like sending a welcome text, adding a tag, creating a card on a Pathway, or assigning someone to an organizer.
+
+Here's how to set it up:
+
+1. Go to **Settings > Automations** and click **Add**.
+2. Select **Record Person Action** as the trigger.
+3. Add your automation steps (send a message, add a tag, create a card, etc.).
+
+By default, the automation will fire for _all_ Record Person Action triggers — not just those from Zapier. If you have multiple integrations using this trigger, you'll want to add a filter so the automation only runs for your specific Zap.
+
+#### Filtering by Zap ID
+
+To limit the automation to a specific Zap, click the **Filter Automation** option after selecting your trigger, and add the following JMESPath expression:
+
+```
+action.zap.id == '123456789'
+```
+
+Replace `123456789` with your actual Zap ID, which you can find in the URL when editing your Zap in Zapier.
+
+If you'd like the automation to fire for multiple Zaps, you can use the `||` (or) operator:
+
+```
+action.zap.id == '123456789' || action.zap.id == '987654321'
+```
