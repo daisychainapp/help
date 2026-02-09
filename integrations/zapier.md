@@ -17,7 +17,7 @@ Here's the basics of setting up Zapier with Daisychain:
    ​
 4. Then, Zapier will walk you through the setup process. This will include:<br>
    1. **Selecting a Trigger.** This could be something like a Google Form submission.<br>
-   2. **Setting up your Action.** This will be where you search for and select Daisychain from the list of available apps. To connect Zapier to Daisychain, you'll need an API key, which you can get by Navigating to Daisychain Settings > API Keys, and generating a key that you can paste into the authentication box in Zapier.
+   2. **Setting up your Action.** This will be where you search for and select Daisychain from the list of available apps. When you select Daisychain, Zapier will prompt you to authenticate your account. To do so, generate an API key in Daisychain under Settings > API Keys, and paste it into the authentication box in Zapier. This is a one-time step — once your Daisychain account is connected, all future Zaps can use the same connection.
 
 A few notes about using Zapier with Daisychain:
 
