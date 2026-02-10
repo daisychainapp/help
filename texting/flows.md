@@ -77,76 +77,6 @@ Always disclose in your first message that you’re an virtual organizer, and be
 If you don't know the answer to a question, disclose that you don't know. You can link to the page with more info here: [http://springfieldcleanenergy.com/](http://springfieldcleanenergy.com/)&#x20;
 {% endhint %}
 
-#### Tools and Procedures
-
-Tools and Procedures can extend what an Intelligence Node can do inside a Flow. They allow the Flow to take specific actions rather than just sending a message. For example, a tool might look up data, create a tag, or schedule a follow-up.
-
-Each Intelligence Node can be configured with one or more tools, depending on what you want the Flow to accomplish. To add a tool to your Intelligence Node, type `@` in the Instructions box and select from the available tools. You can also click the "+ Add Tool" button. Added tools appear as chips below the Instructions field, and you can click "Edit" on any tool to configure it further.
-
-Referencing tools by name in your Instructions (e.g., "use the @Collect Custom Field tool to record their answer") helps the Flow understand when and how to use them.
-
-**Legislative Lookup Tool**
-
-The Legislative Lookup tool lets your Flow automatically identify federal elected officials in the US based on a person's location. This is especially useful in advocacy campaigns so you can help a person look up their local representative without sending them to a separate lookup tool.&#x20;
-
-When using this tool, you'll want to provide  instructions that specify what information is needed to look up their elected official.
-
-{% hint style="info" %}
-**Sample Instructions for an Intelligence Node using the Legislative Lookup tool**
-
-You are a friendly community organizer helping supporters take action to stop House Bill 123, a proposed federal law that would restrict clean energy access and reduce funding for solar power. Your goal is to help people understand why the bill matters, identify their elected officials using the Legislative Lookup tool, and encourage them to contact those officials.
-
-As for their ZIP code first to look up their representative in the US House of Representatives. If their ZIP code isn't enough to determine who their representative is, explain the situation to the supporter and ask for their full address.&#x20;
-
-Keep your tone warm, clear, and factual. Always disclose in your first message that you’re an virtual organizer, and be honest about the fact that you're an AI if you are asked. If you don’t know an answer, say so and share the campaign link above for more info.
-{% endhint %}
-
-**Scheduler Tool**&#x20;
-
-The Scheduler Tool lets the Flow automatically schedule a follow-up SMS message at a specific date and time. This is especially useful when you want to check back in about a commitment someone made or an action they are planning to take (like attending a meeting or showing up to an event) without requiring manual follow-up.
-
-When using this tool, you’ll want to guide the person to share when they’re planning to take the action. Once they give a date or time, the Scheduler Tool can trigger a reminder message at that exact moment. For best results with teh schedule tool, include a section of your Instructions that invokes it by name ("scheduler tool") and be specific about how you want it to behave.&#x20;
-
-{% hint style="info" %}
-**Sample Instructions for an Intelligence Node using the Scheduler tool**
-
-You are virtual organizing assistant helping the contact make a plan to visit their congressional office. Guide them to pick a day for their visit, confirm the plan, and then schedule a reminder for the morning of that day.
-
-Ask one question at a time. Accept any reply that clearly indicates intention or timing. If their answer is unclear, ask one brief clarifying question.&#x20;
-
-Once they give a usable date, use the scheduler tool to set a follow-up message for the morning of that date, not at the exact moment they plan to arrive. After scheduling, send a quick confirmation and stop unless they reply again.
-
-Always disclose in your first message that you’re an virtual organizer, and be honest about the fact that you're an AI if you are asked. &#x20;
-{% endhint %}
-
-**Collect Email Tool**
-
-Collects and stores an email address for the person in the conversation. Use this when you want the Flow to ask for and save an email — for example, at the end of a survey or intake conversation.
-
-**Collect Custom Field Tool**
-
-Collects and stores custom field values for the person in the conversation. This is useful for surveys, intake questions, or any scenario where you want the Flow to ask a question and record the answer to a specific field. When adding this tool, hit the "Edit" button to select custom field(s) the Flow should populate, and whether it should be able to overwrite existing values.&#x20;
-
-**Collect Name Tool**
-
-Collects and stores first name and/or last name for the person in the conversation.
-
-**Polling Place Lookup Tool**
-
-Finds the nearest polling place using the DNC's I Will Vote API based on a provided address. Useful for voter engagement and GOTV campaigns.
-
-**Inactivity Follow-up**
-
-Intelligence Nodes can automatically follow up when someone stops responding after the AI asks a question. This is configured in the "Procedures" section of the node.
-
-You can customize:
-
-* **Wait time**: How long to wait before following up (e.g., 30 minutes)
-* **Max follow-ups**: Maximum number of nudge messages to send (e.g., 2)
-* **Follow-up message guidance**: Instructions for how the AI should craft follow-up messages
-
-The default guidance tells the Flow to write short, polite follow-ups that reference the outstanding question. You can customize this to change the AI's behavior -- for example, pivoting the conversation to a different topic if someone goes quiet.
-
 #### Node Transitions
 
 Transitions let your Flow decide what node to proceed to next based on how someone replies.
@@ -184,6 +114,76 @@ This node type allows you to send a quick response back to the supporter — wit
 ### Automation Steps Node
 
 Perform actions like applying [tags.md](../managing-data/tags.md "mention"), adding people to [pathways.md](../organizing/pathways.md "mention"), making [assignments.md](../organizing/assignments.md "mention"), sending [emails](../email/email-overview.md), and more.
+
+## Tools for Intelligence Nodes
+
+Tools and Procedures can extend what an Intelligence Node can do inside a Flow. They allow the Flow to take specific actions rather than just sending a message. For example, a tool might look up data, create a tag, or schedule a follow-up.
+
+Each Intelligence Node can be configured with one or more tools, depending on what you want the Flow to accomplish. To add a tool to your Intelligence Node, type `@` in the Instructions box and select from the available tools. You can also click the "+ Add Tool" button. Added tools appear as chips below the Instructions field, and you can click "Edit" on any tool to configure it further.
+
+Referencing tools by name in your Instructions (e.g., "use the @Collect Custom Field tool to record their answer") helps the Flow understand when and how to use them.
+
+### **Legislative Lookup Tool**
+
+The Legislative Lookup tool lets your Flow automatically identify federal elected officials in the US based on a person's location. This is especially useful in advocacy campaigns so you can help a person look up their local representative without sending them to a separate lookup tool.&#x20;
+
+When using this tool, you'll want to provide  instructions that specify what information is needed to look up their elected official.
+
+{% hint style="info" %}
+**Sample Instructions for an Intelligence Node using the Legislative Lookup tool**
+
+You are a friendly community organizer helping supporters take action to stop House Bill 123, a proposed federal law that would restrict clean energy access and reduce funding for solar power. Your goal is to help people understand why the bill matters, identify their elected officials using the Legislative Lookup tool, and encourage them to contact those officials.
+
+As for their ZIP code first to look up their representative in the US House of Representatives. If their ZIP code isn't enough to determine who their representative is, explain the situation to the supporter and ask for their full address.&#x20;
+
+Keep your tone warm, clear, and factual. Always disclose in your first message that you’re an virtual organizer, and be honest about the fact that you're an AI if you are asked. If you don’t know an answer, say so and share the campaign link above for more info.
+{% endhint %}
+
+### **Scheduler Tool**&#x20;
+
+The Scheduler Tool lets the Flow automatically schedule a follow-up SMS message at a specific date and time. This is especially useful when you want to check back in about a commitment someone made or an action they are planning to take (like attending a meeting or showing up to an event) without requiring manual follow-up.
+
+When using this tool, you’ll want to guide the person to share when they’re planning to take the action. Once they give a date or time, the Scheduler Tool can trigger a reminder message at that exact moment. For best results with teh schedule tool, include a section of your Instructions that invokes it by name ("scheduler tool") and be specific about how you want it to behave.&#x20;
+
+{% hint style="info" %}
+**Sample Instructions for an Intelligence Node using the Scheduler tool**
+
+You are virtual organizing assistant helping the contact make a plan to visit their congressional office. Guide them to pick a day for their visit, confirm the plan, and then schedule a reminder for the morning of that day.
+
+Ask one question at a time. Accept any reply that clearly indicates intention or timing. If their answer is unclear, ask one brief clarifying question.&#x20;
+
+Once they give a usable date, use the scheduler tool to set a follow-up message for the morning of that date, not at the exact moment they plan to arrive. After scheduling, send a quick confirmation and stop unless they reply again.
+
+Always disclose in your first message that you’re an virtual organizer, and be honest about the fact that you're an AI if you are asked. &#x20;
+{% endhint %}
+
+### **Collect Email Tool**
+
+Collects and stores an email address for the person in the conversation. Use this when you want the Flow to ask for and save an email — for example, at the end of a survey or intake conversation.
+
+### **Collect Custom Field Tool**
+
+Collects and stores custom field values for the person in the conversation. This is useful for surveys, intake questions, or any scenario where you want the Flow to ask a question and record the answer to a specific field. When adding this tool, hit the "Edit" button to select custom field(s) the Flow should populate, and whether it should be able to overwrite existing values.&#x20;
+
+### **Collect Name Tool**
+
+Collects and stores first name and/or last name for the person in the conversation.
+
+### **Polling Place Lookup Tool**
+
+Finds the nearest polling place using the DNC's I Will Vote API based on a provided address. Useful for voter engagement and GOTV campaigns.
+
+### **Inactivity Follow-up**
+
+Intelligence Nodes can automatically follow up with a friendly nudge when someone stops responding after the AI asks a question. This is configured in the "Procedures" section of the node.
+
+You can customize:
+
+* **Wait time**: How long to wait before following up (e.g., 30 minutes)
+* **Max follow-ups**: Maximum number of nudge messages to send (e.g., 2)
+* **Follow-up message guidance**: Instructions for how the AI should craft follow-up messages
+
+The default guidance tells the Flow to write short, polite follow-ups that reference the outstanding question. You can customize this to change the AI's behavior — for example, pivoting the conversation to a different topic if someone goes quiet.
 
 ## Testing Your Flow
 
@@ -266,7 +266,7 @@ Pilot programs show people are willing to engage with Flows even after disclosur
 
 <summary><strong>Does the AI model train on our conversation data?</strong></summary>
 
-If you're concerned about this issue, we recommend using a model from Anthropic (Sonnet or Haiku), which does not train on client data accessed through their API. Your conversations remain private.
+The AI models Daisychain uses do not train on client data accessed through their API. Your conversations remain private.
 
 </details>
 
@@ -282,6 +282,6 @@ Conversations appear in the "Completed" tab where you can review the full conver
 
 <summary><strong>Can someone from my team jump in and take over from the AI?</strong></summary>
 
-Yes. Staff can manually jump into any conversation at any time, which automatically ends the AI Flow. This human handoff capability ensures you maintain control.
+Yes. Staff can manually jump into any conversation at any time by sending a message in the conversation manually from the Inbox or a Person's profile. This will automatically end the AI Flow. This human handoff capability ensures you maintain control.
 
 </details>
