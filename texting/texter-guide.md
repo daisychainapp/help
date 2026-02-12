@@ -6,7 +6,7 @@ icon: person-waving
 # Texter Guide
 
 {% hint style="info" %}
-This is a sample texter guide you can share with your volunteers. Feel free to customize it for your organization — add your own tips, remove sections that don't apply, or include specific instructions for your campaigns. You know your texters best!
+This guide covers the basics of texting in Daisychain, including working the Reply Queue, using Quick Replies, and handling opt-outs. If you're an admin, feel free to customize this for your organization — add your own tips, remove sections that don't apply, or include specific instructions for your campaigns. If you're a texting volunteer, you might want to ask your admin if there's any custom guidance specific to this texting effort!&#x20;
 {% endhint %}
 
 ### Getting Set Up
