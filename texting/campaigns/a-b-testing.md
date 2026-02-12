@@ -24,10 +24,6 @@ This will then be able to access tabs in your Initial Message box where you can 
     2. Use the **Experiment Audience Percentage slider** to choose what portion of your audience will receive the test messages. For example, if you set the slider to 50%, and you have 100,000 people, then about 25,000 people will receive each of Variant A and Variant B, and the remaining 50,000 people will be held back.
 
     <figure><img src="../../.gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure>
-
-* Edit the names of your variants. Daisychain automatically splits the experimental group evenly across your variants.\
-  <br>
-
 4. **Review Message Variants:**  on Step 3 of the Campaign Wizard you'll have a chance to ensure message previews, personalization, and counts all look right. <br>
 5. **View the Report:** After sending, you'll land on the [campaign-report.md](campaign-report.md "mention"), where you'll see:<br>
 
@@ -44,7 +40,7 @@ Daisychain also provides a statistical analysis indicator, which activates once 
 5. **Pick a Winner:** When you’re ready, click Mark Winner next to your chosen variant. The winning message will then be sent to the remaining audience (the percentage you held back).
 
 {% hint style="success" %}
-#### Tips for Success
+#### Tips for A/B Testing
 
 * **Test one element at a time:** tone, call to action, framing, use of images, etc.
 * **Give the test enough time** to generate useful data (replies, clicks, etc.) before selecting a winner.
