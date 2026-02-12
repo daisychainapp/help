@@ -29,6 +29,7 @@
   * [Charms Coding Tips](texting/charms/charms-coding-tips.md)
 * [Flows](texting/flows.md)
 * [Notification Emails](texting/notification-emails.md)
+* [Texter Guide](texting/texter-guide.md)
 
 ## Integrations
 
