@@ -236,7 +236,7 @@ To connect a Flow:
    2. For Automations, this is available with a "Send a Message" step.&#x20;
 3. Select the Flow you created from the dropdown
 
-## Versioning
+## Versions and Revisions
 
 When you update a Flow, Daisychain creates a new version. This ensures that active conversations remain stable while allowing you to iterate and improve.
 
