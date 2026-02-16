@@ -62,13 +62,11 @@ Let the AI interpret the supporter’s message and respond using your custom ins
 {% hint style="info" %}
 **Example Instructions for an Intelligence Node**
 
-You are a friendly community organizer helping supporters decide whether to attend an upcoming event.
+You are a community organizer helping supporters decide whether to attend an upcoming event.
 
 The event is a community rally for climate action, focused on pressuring City Council to pass the Affordable Clean Energy Plan — a proposal that would cut citywide carbon emissions by 40% by 2030, expand access to renewable energy for low-income residents, and create hundreds of local green jobs. It takes place on Saturday, October 12th at 3 PM at Springfield Park. There will be speakers, music, and snacks. The vibe is family-friendly and welcoming to newcomers.
 
 Your goal is to answer questions about the event and the Affordable Clean Energy Plan, explain why it matters, and encourage people to come — without being pushy.
-
-Use a warm, supportive tone.
 
 If someone seems unsure, offer more details (like the location, time, what’s on the agenda, or highlights of the plan) or ask what would help them decide.
 
@@ -76,6 +74,38 @@ Always disclose in your first message that you’re an virtual organizer, and be
 
 If you don't know the answer to a question, disclose that you don't know. You can link to the page with more info here: [http://springfieldcleanenergy.com/](http://springfieldcleanenergy.com/)&#x20;
 {% endhint %}
+
+#### AI Agent Guidelines
+
+AI Agent Guidelines let you control the personality, tone, and style of AI-generated messages across your Flows. Guidelines are applied at two levels: **account-level** (default for all Flows) and **flow-level** (custom overrides for individual Flows).
+
+**Account-Level Guidelines**
+
+Account-level guidelines apply to every Flow in your account by default. This is the best place to define your organization's general voice and tone so you don't have to repeat yourself in every Flow.
+
+To configure account-level guidelines, go to **Settings > Account > Flows**. You'll see the current guidelines displayed under "AI Agent Guidelines." Click **Edit** to customize them.
+
+By default, Daisychain includes a set of system guidelines focused on SMS best practices — things like keeping messages short, using plain text, and not inventing URLs. You can customize these to reflect your organization's brand voice, communication style, or any universal rules you want the AI to follow.
+
+**Flow-Level Guidelines**
+
+Individual Flows can override the account-level guidelines with their own custom settings. This is useful when a specific Flow needs a different tone or personality — for example, a fundraising Flow might be more direct, while a volunteer recruitment Flow might be warmer and more conversational.
+
+To set flow-level guidelines, open your Flow and click **Flow Settings** in the right sidebar. Under "AI Agent Guidelines," click **Edit Guidelines**. You'll see the inherited account-level guidelines pre-populated. Edit the text to create flow-specific guidelines, then click **Save Guidelines**.
+
+If a Flow has custom guidelines, those will be used _instead of_ the account-level defaults. If no custom guidelines are set, the Flow inherits the account-level guidelines automatically.
+
+#### What to Include in Your Guidelines
+
+Guidelines are inserted directly into the AI's prompt, so write them as clear instructions. Some things you might include:
+
+* **Tone and voice:** e.g., "Be friendly and casual" or "Use a professional, respectful tone"
+* **Message length:** e.g., "Keep messages to 1–2 sentences"
+* **Emoji and formatting rules:** e.g., "No emojis" or "Use emojis sparingly"
+* **Language preferences:** e.g., "Respond in Spanish if the supporter writes in Spanish"
+* **Guardrails:** e.g., "Never discuss topics outside of the upcoming election" or "Always disclose that you are an AI"
+
+These guidelines work alongside the custom instructions you write in each Intelligence Node. Think of it this way: guidelines define _how_ the AI communicates (style and personality), while node instructions define _what_ the AI is communicating about (context, goals, and content).
 
 #### Node Transitions
 
@@ -132,11 +162,11 @@ When using this tool, you'll want to provide  instructions that specify what inf
 {% hint style="info" %}
 **Sample Instructions for an Intelligence Node using the Legislative Lookup tool**
 
-You are a friendly community organizer helping supporters take action to stop House Bill 123, a proposed federal law that would restrict clean energy access and reduce funding for solar power. Your goal is to help people understand why the bill matters, identify their elected officials using the Legislative Lookup tool, and encourage them to contact those officials.
+You are a community organizer helping supporters take action to stop House Bill 123, a proposed federal law that would restrict clean energy access and reduce funding for solar power. Your goal is to help people understand why the bill matters, identify their elected officials using the <mark style="color:$primary;">**@Legislative Lookup tool**</mark>, and encourage them to contact those officials.
 
 As for their ZIP code first to look up their representative in the US House of Representatives. If their ZIP code isn't enough to determine who their representative is, explain the situation to the supporter and ask for their full address.&#x20;
 
-Keep your tone warm, clear, and factual. Always disclose in your first message that you’re an virtual organizer, and be honest about the fact that you're an AI if you are asked. If you don’t know an answer, say so and share the campaign link above for more info.
+Always disclose in your first message that you’re an virtual organizer, and be honest about the fact that you're an AI if you are asked. If you don’t know an answer, say so and share the campaign link above for more info.
 {% endhint %}
 
 ### **Scheduler Tool**&#x20;
@@ -152,7 +182,7 @@ You are virtual organizing assistant helping the contact make a plan to visit th
 
 Ask one question at a time. Accept any reply that clearly indicates intention or timing. If their answer is unclear, ask one brief clarifying question.&#x20;
 
-Once they give a usable date, use the scheduler tool to set a follow-up message for the morning of that date, not at the exact moment they plan to arrive. After scheduling, send a quick confirmation and stop unless they reply again.
+Once they give a usable date, use the <mark style="color:$primary;">**@Scheduler Tool**</mark> to set a follow-up message for the morning of that date, not at the exact moment they plan to arrive. After scheduling, send a quick confirmation and stop unless they reply again.
 
 Always disclose in your first message that you’re an virtual organizer, and be honest about the fact that you're an AI if you are asked. &#x20;
 {% endhint %}
