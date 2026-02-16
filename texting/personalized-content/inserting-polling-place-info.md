@@ -7,10 +7,12 @@ icon: check-to-slot
 
 # Inserting Polling Place Info
 
+
+
 {% hint style="warning" %}
 This integration will only work if two conditions are met:&#x20;
 
-**1) Polling place information needs to be available on the DNC's iwillvote.com website.** The DNC aims offer comprehensive coverage for major elections.&#x20;
+**1) Polling place information needs to be available on the DNC's iwillvote.com website.** The DNC aims offer comprehensive coverage for major elections. More info about this [below](inserting-polling-place-info.md#where-does-the-data-come-from).
 
 **2) The people you are texting have ZIP codes.** Without zip codes, the polling place lookup will not work.&#x20;
 {% endhint %}
@@ -78,9 +80,22 @@ Using the code above will output a message that looks something like this:
 
 ![](https://44727351.fs1.hubspotusercontent-na1.net/hubfs/44727351/image-png-Oct-14-2024-09-29-10-7274-PM.png)
 
-**A note on data availability:** Data is available for major elections via the iWillVote API, but in some states polling place information isn't available until closer to the election. Additionally, some states don't have early voting and/or vote-by-mail at all.
 
-**Accurate Addresses Needed:** We can't send out accurate polling place information to people in your Daisychain account unless they have accurate addresses. If the address information is missing, malformed, or inaccurate, they can't be geocoded, and Daisychain won't be able to determine their polling place.
+
+### Where Does the Data Come From?
+
+The polling place data in Daisychain comes from the DNC's iWillVote API, which aggregates voting location information from state parties and state election authorities. Daisychain does not control when this data becomes available — it depends on when each state's data is published and loaded into the iWillVote system.
+
+#### What to Do When Data Isn't Available Yet
+
+It's common for polling place data to be unavailable in some states or races, especially ahead of early voting periods. This can happen even when early voting is about to start or is already underway. A few things to keep in mind:
+
+* **State parties are the source.** The data flows from state election authorities to state parties to the DNC's iWillVote platform to Daisychain. If data is missing, the state party's data director is typically the best person to contact about when it will be available and what the plan is to get it loaded.
+* **Coverage varies by race and state.** Major statewide and federal elections tend to have the best coverage. Smaller or off-cycle races may not be included at all.
+
+#### Using Fallback Messages
+
+Because data availability can be unpredictable, we strongly recommend using the `{% if %}` / `{% else %}` conditional blocks shown in the sample messages above. This ensures that if polling place data isn't available for a given person, they'll receive a fallback message directing them to [iwillvote.com](https://iwillvote.com) to look up their info manually, rather than receiving a broken or empty message.
 
 ### Full List of Daisychain Variables Using Info From iwillvote.com
 
