@@ -58,23 +58,19 @@ Using the code above will output a message that looks something like this:
 ### **Sample Message - Early Vote**
 
 ```
-Hey {{ person.first\_name }}, Election Day is Tuesday, November 5th, but you might be able to vote early!   
-  
-{% if person.primary\_address.dnc\_will\_vote and person.primary\_address.dnc\_will\_vote.locate %}  
-  
-Based on our records, here's all the info you need for early voting in {{ person.primary\_address.locality }}:  
-  
-🗳️ Your early voting location is {{ person.primary\_address.dnc\_will\_vote.locate.early\_vote\_locations[0].location\_name }}.  
-  
-📍 Address: {{ person.primary\_address.dnc\_will\_vote.locate.early\_vote\_locations[0].address\_line\_1 }}, {{ person.primary\_address.dnc\_will\_vote.locate.early\_vote\_locations[0].city }}, {{ person.primary\_address.dnc\_will\_vote.locate.early\_vote\_locations[0].state\_code }} {{ person.primary\_address.dnc\_will\_vote.locate.early\_vote\_locations[0].zip }}  
-  
-🕒 Early voting hours: {{ person.primary\_address.dnc\_will\_vote.locate.early\_vote\_locations[0].dates\_hours }}.  
-  
-🗳️ Please double-check to confirm your voting info here: https://iwillvote.com  
-  
-{% else %}  
-  
-🗳️ You can get all the info you need to vote here:: https://iwillvote.com.  
+Hey {{ person.first_name }}, Election Day is Tuesday, November 5th, but you might be able to vote early!
+{% if person.primary_address.dnc_will_vote and person.primary_address.dnc_will_vote.locate %}
+Based on our records, here's all the info you need for early voting in {{ person.primary_address.locality }}:
+
+🗳️ Your early voting location is {{ person.primary_address.dnc_will_vote.locate.early_vote_locations[0].location_name }}.
+
+📍 Address: {{ person.primary_address.dnc_will_vote.locate.early_vote_locations[0].address_line_1 }}, {{ person.primary_address.dnc_will_vote.locate.early_vote_locations[0].city }}, {{ person.primary_address.dnc_will_vote.locate.early_vote_locations[0].state_code }} {{ person.primary_address.dnc_will_vote.locate.early_vote_locations[0].zip }}
+
+🕒 Early voting hours: {{ person.primary_address.dnc_will_vote.locate.early_vote_locations[0].dates_hours }}.
+
+🗳️ Please double-check to confirm your voting info here: https://iwillvote.com
+{% else %}
+🗳️ You can get all the info you need to vote here: https://iwillvote.com.
 {% endif %}
 ```
 
