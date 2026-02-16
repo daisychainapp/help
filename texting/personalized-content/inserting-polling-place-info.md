@@ -32,7 +32,7 @@ To put it all together, below are few example messages that include variables.
 **Sample Message - Election Day**
 
 ```
-Hey {{ person.first_name }}, 📅 Election Day is Tuesday, November 5th.  
+Hey {{ person.first_name }}, 📅 Election Day is Tuesday, November 3rd.  
   
 {% if person.primary_address.dnc_will_vote and person.primary_address.dnc_will_vote.locate %}  
 
@@ -58,7 +58,7 @@ Using the code above will output a message that looks something like this:
 ### **Sample Message - Early Vote**
 
 ```
-Hey {{ person.first_name }}, Election Day is Tuesday, November 5th, but you might be able to vote early!
+Hey {{ person.first_name }}, Election Day is Tuesday, November 3rd, but you might be able to vote early!
 {% if person.primary_address.dnc_will_vote and person.primary_address.dnc_will_vote.locate %}
 Based on our records, here's all the info you need for early voting in {{ person.primary_address.locality }}:
 
