@@ -35,8 +35,6 @@ Flows can:
 3. **Add your first Node**\
    A Flow starts when a supporter replies to your broadcast message. Click the green **+** button to add a Node.
 
-***
-
 ## Node Types
 
 When adding a Node, you’ll choose one of three types:
@@ -214,8 +212,6 @@ You can customize:
 * **Follow-up message guidance**: Instructions for how the AI should craft follow-up messages
 
 The default guidance tells the Flow to write short, polite follow-ups that reference the outstanding question. You can customize this to change the AI's behavior — for example, pivoting the conversation to a different topic if someone goes quiet.
-
-Here's the updated draft:
 
 ### URL Guardrail
 
