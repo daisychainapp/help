@@ -145,7 +145,7 @@ This node type allows you to send a quick response back to the supporter — wit
 
 Perform actions like applying [tags.md](../managing-data/tags.md "mention"), adding people to [pathways.md](../organizing/pathways.md "mention"), making [assignments.md](../organizing/assignments.md "mention"), sending [emails](../email/email-overview.md), and more.
 
-## Tools for Intelligence Nodes
+## Tools and Settings for Intelligence Nodes
 
 Tools and Procedures can extend what an Intelligence Node can do inside a Flow. They allow the Flow to take specific actions rather than just sending a message. For example, a tool might look up data, create a tag, or schedule a follow-up.
 
@@ -214,6 +214,31 @@ You can customize:
 * **Follow-up message guidance**: Instructions for how the AI should craft follow-up messages
 
 The default guidance tells the Flow to write short, polite follow-ups that reference the outstanding question. You can customize this to change the AI's behavior — for example, pivoting the conversation to a different topic if someone goes quiet.
+
+Here's the updated draft:
+
+### URL Guardrail
+
+The URL Guardrail helps ensure your AI-powered Flow only shares links you've explicitly approved. When enabled, Daisychain checks every AI response for URLs before sending it. If a URL in the response doesn't match your approved list, the message won't be sent -- instead, the conversation is automatically moved to your Daisychain Inbox for a human to handle.
+
+This prevents the AI from sharing unexpected or hallucinated links with supporters.
+
+#### Enabling the Guardrail
+
+In the Intelligence Node settings, toggle **Enable Guardrail** on. Once enabled, you'll see an **Allowed URL Patterns** field where you can add the URLs you want to permit.
+
+#### Adding Allowed URL Patterns
+
+Enter the beginning of each URL you want to allow. Any URL that starts with one of your patterns will be approved. For example:
+
+* `https://yourorg.com/`  allows all pages on your site, excluding subdomains.
+* `https://act.yourorg.com/events/` allows only URLs under that specific path
+
+You can add as many patterns as needed using the **+** button.
+
+#### What Happens When a URL is Blocked
+
+If the AI generates a response containing a URL that doesn't match any of your approved patterns, the message is held and the conversation moves to your Inbox. From there, a team member can review the situation and respond directly.
 
 ## Testing Your Flow
 
