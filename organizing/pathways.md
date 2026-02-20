@@ -55,4 +55,4 @@ You can automate actions when someone moves from one stage to another in a Pathw
    * To a specific stage: fires when someone arrives at a given stage
    * From one stage to another: fires only for that exact transition
 4. Click Save
-5. Then, define what action(s) should happen when the automation is triggered. The available actions are the same as the ones in Automations.&#x20;
+5. Then, define what action(s) should happen when the automation is triggered. The available actions are the same as the ones in [automations](automations/ "mention"), including sending text messages and emails, tagging people, making assignments, etc.&#x20;
