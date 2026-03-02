@@ -32,6 +32,6 @@ Phone numbers are "sticky" for "active conversations" — once a conversation is
 
 There are three situations where Daisychain always uses the current default number, regardless of any prior conversation history:
 
-* [**Campaigns**](campaigns/)**:** Each Campaign creates a fresh conversation per recipient. The sending number is whatever the default is at the moment the messages go out.
-* [**Automations**](../organizing/automations/)**:** Messages sent automatically when a contact reaches a certain stage always use the current default.
-* [**Flows:**](flows.md) Automated replies in that Flow use the current default, not the number the original broadcast came from.
+* [**Campaigns**](campaigns/)**:** Each Campaign creates a fresh conversation per recipient. The sending number is whatever the default number is at the moment the messages go out.
+* [**Automations**](../organizing/automations/)**:** Messages sent automatically when a Person reaches a "Send Message" Automation Step always use the current default phone number.
+* [**Flows:**](flows.md) Automated replies in that Flow use the current default phone number, even if that's different than the default phone number the original broadcast came from.
