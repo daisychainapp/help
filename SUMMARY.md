@@ -30,6 +30,7 @@
 * [Flows](texting/flows.md)
 * [Notification Emails](texting/notification-emails.md)
 * [Texter Guide](texting/texter-guide.md)
+* [Phone Number Switching](texting/phone-number-switching.md)
 
 ## Integrations
 
