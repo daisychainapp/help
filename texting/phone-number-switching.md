@@ -24,7 +24,7 @@ Daisychain uses your **default phone number** as the sending number for new conv
 
 ### How phone numbers work in active conversations
 
-Phone numbers are "sticky" in most situations — once a conversation is started on a particular number, that number is preserved for follow-up messages, even if you later change the default.
+Phone numbers are "sticky" for "active conversations" — once a conversation is started on a particular number, that number is preserved for follow-up messages, even if you later change the default.
 
 **What counts as an active conversation?** If you've exchanged messages with a contact within the past week, Daisychain considers that conversation active and will continue using the same number. If it's been more than a week since the last message, the conversation is no longer considered active and the next message will go out from the current default.
 
