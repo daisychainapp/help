@@ -39,12 +39,12 @@ For example, if you would like to display a certain message based on a voter’s
 
 {% code overflow="wrap" %}
 ```liquid
-Hey {{ person.first_name }}! 
-{% if person.sweet_treat_preference == "Honey" %}  
-Win a trip to eat honey with Christopher Robin!  
-{% else %}    
-You can win a trip to see Christopher Robin! 
-{% endif %} 
+Hey {{ person.first_name }}!
+{% if person.volunteer_availability == "Weekends" %}
+We have a canvassing shift this Saturday. Can you join us?
+{% else %}
+We have a phone banking shift this Wednesday evening. Can you join us?
+{% endif %}
 ```
 {% endcode %}
 
