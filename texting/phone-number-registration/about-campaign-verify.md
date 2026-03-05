@@ -13,13 +13,25 @@ If your organization is a 527 (a political campaign, party committee, or PAC), y
 
 The verification process costs $95 and provides access to a token that authenticates your organization's identity and unlocks high-volume texting capacity on 10DLC.
 
-### **Does my organization need to register for Campaign Verify?**
+**Who needs Campaign Verify?**
 
-Only if your organization is a 527 under US Tax Code — which is a designation specifically for federal political campaigns, PACs, and party committees. Non-federal political campaigns may choose to register for Campaign Verify, though this isn't required.&#x20;
+Campaign Verify is required for any 527 political organization that wants to use the Political special use case with higher messaging throughput. This includes:
 
-501(c) non-profits, private companies, and other non-political entities do not need to register through Campaign Verify.&#x20;
+* Federal candidate committees&#x20;
+* State and local candidate committees&#x20;
+* Party committees at any level
+* PACs
+* Ballot initiative committees organized as 527s
 
+**Who does NOT need Campaign Verify?**
 
+* 501(c)(3) nonprofits&#x20;
+* 501(c)(4) advocacy organizations not sending explicitly political messages
+* Businesses and other non-political entities
+
+**Why bother?**
+
+Without Campaign Verify you're limited to sending 2,000 messages per day to T-Mobile and 75 messages/minute to AT\&T. With Campaign Verify and the Political use case, T-Mobile throughput is uncapped.
 
 ### **How do I register with Campaign Verify?**
 
@@ -44,6 +56,3 @@ To create a new token, please login to Campaign Verify, and scroll to the bottom
 
 _Some users may need to enroll in Multi Factor Authentication with Campaign Verify to complete this step._
 {% endhint %}
-
-
-

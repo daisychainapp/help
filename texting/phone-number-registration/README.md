@@ -88,6 +88,12 @@ By signing up for text message alerts, you consent to receive informational and 
 
 Carriers place limits on how many texts can be sent through a 10DLC number. These limits vary by carrier, by your type of organization, and by a "trust score." Daisychain automatically handles limits  so you don’t have to worry about them.
 
+{% hint style="info" %}
+**Note for Political Campaigns**
+
+If your organization is a candidate committee, party committee, PAC, or ballot initiative committee at any level — federal, state, or local — you are likely a 527 political organization and should register with Campaign Verify. This unlocks significantly higher throughput (uncapped on T-Mobile vs. 2,000 messages/day with standard use cases). See the [help doc for Campaign Verify](about-campaign-verify.md) for details.
+{% endhint %}
+
 ### How Daisychain Handles Limits
 
 Unlike many platforms, Daisychain actively manages these restrictions for you:
@@ -115,6 +121,5 @@ Your organization's trust score is based on a reputation algorithm that evaluate
 
 ### Options if You’re Hitting Message Limits
 
-* **Toll-Free Numbers**: No T-Mobile daily cap. Great option if you need to guarantee very high volumes.
+* **Toll-Free Numbers**: No T-Mobile daily cap. Great option if you need to guarantee very high volumes and can't get a high Trust Score or qualify for a Political use case on 10DLC.&#x20;
 * **10DLC Appeal**: T-Mobile’s daily message caps (e.g. 2,000 up to 200,000 messages) depend in part on your organization’s Trust Score. If your score is in the lower tier, Daisychain can submit a request for re-evaluation (often via secondary vetting) to improve that score. That process may require submission of official documentation and verification of your organization’s legitimacy. If you're interested in this, send an email to help@daisychain.app
-
