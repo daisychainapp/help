@@ -7,8 +7,22 @@ icon: bolt
 
 # Automations
 
+Automations let you build powerful, multi-step workflows that run automatically when something happens — a donation comes in, someone RSVPs to an event, a new signup lands in your account. Instead of manually tagging, texting, and assigning people one by one, automations handle it for you.
+
+**Here are a few examples of what you can do:**
+
+* **Route new signups to organizers.** When someone signs up through EveryAction, tag them based on the signup page, assign them to the right team member, and kick off an introductory personalized text sequence with built-in delays.
+* **Welcome new donors instantly.** When someone donates via ActBlue, automatically send them a personalized thank-you text, tag them as a donor, and assign them to an organizer for follow-up.
+* **Onboard event RSVPs.** When someone RSVPs on Mobilize, send them a personalized confirmation text with event details, wait until the day before the event, then send a reminder message.
+* **Escalate high-value actions.** When a donation over $100 comes in, create a card on a "High-Value Donors" pathway, assign the person to a senior donor organizer, and send a personal outreach text after a short delay.
+
+### Creating an Automation
+
 Here's how to create an automation:
 
+* Navigate to **Settings**, and then click on **Automations.**
+* Click the **Add** button.
+* Choose a **Trigger,** which is the event that will begin an automation. Triggers can be from tools you've integrated in your account (like a donation from ActBlue or an RSVP on Mobilize), though some triggers (like "Stage Transition") are based purely on things happening within Daisychain.
 * Navigate to **Settings**, and then click on **Automations.**
 * Click the **Add** button.
 * Choose a **Trigger,** which is the event that will begin an automation. Triggers can be from tools you've integrated in your account (like a donation from [ActBlue](../../integrations/actblue.md) or an RSVP on [Mobilize](../../integrations/mobilize.md)), though some triggers (like "Stage Transition") are based purely on things happening within Daisychain.&#x20;
@@ -36,3 +50,7 @@ Here's how to create an automation:
 
 * You can add as many **Steps** as you'd like to an automation.
 * You can also **Edit** an automation after you've created it if you need to modify, add, or remove steps.
+
+### Re-ordering Steps
+
+If you need to change the order of steps in your automation, you can easily re-arrange them. Hover over any step to reveal the re-order icon (the up/down arrows). Click it to see **Move up** and **Move down** options, then select the direction you want to move the step. This makes it easy to insert a new step and then shuffle it into the right position, or rearrange an existing automation without having to delete and re-create steps.
