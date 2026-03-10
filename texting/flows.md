@@ -5,20 +5,21 @@ icon: code-branch
 
 # Flows
 
-{% hint style="warning" %}
-**Experimental Feature**
-
-Flows are _off_ by default. If you have an active Daisychain subscription and want to try Flows, just reach out to help@daisychain.app.&#x20;
-
-And if you run into issues or have ideas for improvement, we’d love to hear them.
+{% hint style="info" %}
+**Want help getting started with your first Flow?** We'd love to talk. Just [book a training](https://daisychain.app/training) with our team.&#x20;
 {% endhint %}
 
 ## What is a Flow?
 
-A **Flow** is a structured conversation that can be triggered when a supporter replies to a message sent through [campaigns](campaigns/ "mention") or [automations](../organizing/automations/ "mention"). You can think of it as a branching conversation tree: it starts with a supporter’s incoming reply, and your outgoing messages can change based on what your supporters say.
+A **Flow** is a conversation that can be triggered when a supporter replies to a message sent through [campaigns](campaigns/ "mention") or [automations](../organizing/automations/ "mention"), or when they text into using one of your [keywords.md](keywords.md "mention").&#x20;
+
+Unlike traditional peer-to-peer texting, supporters get instant responses instead of waiting for the next available volunteer, and replies can be hyper-personalized rather than pulled from a set of static templates.
+
+Flows can be AI-powered, use specific templated messages that you write, or combine both approaches. They can answer questions, ask follow-up questions, look up legislators, find polling places, collect personal stories and data, schedule reminders, nudge people who go quiet, and escalate to a bigger ask — all without manual intervention.
 
 Flows can:
 
+* Use AI to generate personalized replies OR use specific templated messages that you write
 * Ask follow-up questions
 * Respond with personalized messages
 * Look up legislator info
