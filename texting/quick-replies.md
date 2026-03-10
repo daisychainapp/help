@@ -17,11 +17,8 @@ icon: file-lines
 
 #### 2. **Campaign-Specific Quick Replies**
 
-* Created directly during campaign creation (Step 2 – Content).
-* Only available to select in conversations with people who received that campaign.
-* Can be added during Campaign Creation, and edited or edited after launch via **Manage Replies > Settings > Quick Replies.**
-
-***
+* Can be added during Campaign Creation or added/edited after campaign launch via **Manage Replies > Settings > Quick Replies.**&#x43;reated directly during campaign creation (Step 2 – Content).
+* Customized Campaign-Specific Quick Replies are only available in conversations with people who received that campaign.
 
 ### Organizing Quick Replies with Reply Sets
 
@@ -47,7 +44,7 @@ icon: file-lines
 1. In Step 2 – Content while creating a campaign, click Customize under Quick Replies.
 2. Click Add Individual Reply.
 3. In the pop-up window, you can add the the Name, Shortcut, Message Body, and optional Tags. The default name format `{Quick Reply Original Name} ({Campaign Name})` and will show at the top of the quick replies list in for texters managing conversations in the Inbox.&#x20;
-4. Click Save. The reply will be available only in that campaign.
+4. Click Save. The reply will appear in a set below the standard Global Quick Replies, and will be available to texters only in that campaign.
 
 #### Edit or Delete
 
