@@ -5,8 +5,8 @@ icon: code-branch
 
 # Flows
 
-{% hint style="info" %}
-**Want help getting started with your first Flow?** We'd love to talk. Just [book a training](https://daisychain.app/training) with our team.&#x20;
+{% hint style="success" %}
+**Want help getting started with your first Flow?** We'd love to talk. Just [book a training](https://daisychain.app/training) with our team. Flows are included with any [Daisychain subscription.](https://www.daisychain.app/pricing)
 {% endhint %}
 
 ## What is a Flow?
