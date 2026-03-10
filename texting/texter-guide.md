@@ -73,7 +73,7 @@ Quick Replies are pre-written messages that your admin has set up to help you re
 
 #### How to Use Them
 
-1. Open a conversation and click the **Quick Replies icon** (looks like a small document) in the bottom-left of the message box.
+1. Open a conversation and click the **Quick Replies icon** (looks like a small document: /icon) in the bottom-left of the message box.
 2. Browse or search for the right reply. You can filter by tags if there are a lot of options.
 3. Click a Quick Reply to insert it into the message field.
 4. Review the message — personalization tokens like `{{ person.first_name }}` will automatically fill in with the recipient's actual name after you send the message.
@@ -83,13 +83,13 @@ Quick Replies are pre-written messages that your admin has set up to help you re
 **Tip:** Your admin may set up keyboard shortcuts for common replies (like `/yes` or `/rsvp`). Ask your admin if any shortcuts are available for your campaign.
 {% endhint %}
 
-***
+
 
 ### Handling Opt-Outs
 
-If someone asks to stop receiving messages — whether they say "stop," "unsubscribe," or anything similar — you need to opt them out.
+If someone asks to stop receiving messages, it's important to ensure they get opted out.&#x20;
 
-* **Automatic opt-outs:** If someone texts a standard opt-out keyword (like "STOP"), Daisychain will automatically opt them out.
+* **Automatic opt-outs:** If someone texts a standard opt-out keyword (like "STOP" or "END"), Daisychain will automatically opt them out. Daisychain may also automatically detect and process opt-outs from people who send non-standard opt-out requests.&#x20;
 * **Manual opt-outs:** If someone asks to be removed in a less standard way (like "please don't text me anymore"), click the **"Opt Out SMS"** button in the conversation. This button appears below their name in the Inbox.
 
 Once someone is opted out, you will no longer be able to send them messages through Daisychain. This is both a best practice and a compliance requirement — always honor opt-out requests.
