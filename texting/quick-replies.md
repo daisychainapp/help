@@ -18,8 +18,8 @@ icon: file-lines
 #### 2. **Campaign-Specific Quick Replies**
 
 * Created directly during campaign creation (Step 2 – Content).
-* Only available within that campaign.
-* Can be added or edited after launch via Manage Replies → Settings → Quick Replies.
+* Only available to select in conversations with people who received that campaign.
+* Can be added during Campaign Creation, and edited or edited after launch via **Manage Replies > Settings > Quick Replies.**
 
 ***
 
@@ -33,7 +33,7 @@ icon: file-lines
 
 #### Add a Global Quick Reply
 
-1. Go to Settings → Channels → Texting → Quick Replies&#x20;
+1. Go to Settings > Channels > Texting > Quick Replies&#x20;
 2. Global tab and click Add.
 3. Enter:
    * **Name:** for internal reference
@@ -46,7 +46,7 @@ icon: file-lines
 
 1. In Step 2 – Content while creating a campaign, click Customize under Quick Replies.
 2. Click Add Individual Reply.
-3. In the pop-up window the Name, Shortcut, Message Body, and optional Tags.
+3. In the pop-up window, you can add the the Name, Shortcut, Message Body, and optional Tags. The default name format `{Quick Reply Original Name} ({Campaign Name})` and will show at the top of the quick replies list in for texters managing conversations in the Inbox.&#x20;
 4. Click Save. The reply will be available only in that campaign.
 
 #### Edit or Delete
