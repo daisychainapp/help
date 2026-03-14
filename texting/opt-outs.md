@@ -66,7 +66,7 @@ In the Inbox or a person's profile, hit the  `Opt In` button next to their phone
 1. **Prepare Your CSV**
    * Required columns:
      * `phone` (or `phone_number`)
-     * `sms_opt_in` (set to `true` or `1`)
+     * `sms_opt_in` (set to `true` or `1` or `yes`)
    * Optional: `first_name`, `last_name`, etc.
 2. **Upload the CSV:** Go to **People → Import → CSV Upload**.
 3. **Verify:** Spot-check a person’s profile to confirm it worked.&#x20;
