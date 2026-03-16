@@ -55,6 +55,18 @@ This saves time and ensures your lists stay clean automatically. This option is 
 
 You can also opt-out a person manually by clicking the "opt-out" button, which appears below their name in the [Inbox](inbox.md) and in their Profile.&#x20;
 
+### Bulk Opt-Outs via CSV
+
+If you need to opt out a large number of phone numbers at once, you can upload a CSV of phone numbers at **Settings > Channels > Texting > Opt-Outs**.
+
+The CSV should contain only one column with a phone number on each line. A header row is optional.
+
+This is useful for:
+
+* Syncing opt-outs from another platform or texting tool
+* Restoring opt-outs that were accidentally overridden (for example, by a CSV import that mapped a column to SMS Opt-In — see [CSV Imports](https://daisychain.gitbook.io/help/managing-data/csv-imports) for details)
+* Honoring opt-out requests received outside of Daisychain (such as via email or a web form)
+
 ### Opting People Back In
 
 #### **How to opt individual people in**

@@ -7,67 +7,8 @@ icon: input-text
 
 # Standard Fields
 
-Standard headers found in the template file (available [here](https://go.daisychain.app/uploads/people.csv) and in Step One of the [CSV Import Wizard](https://help.daisychain.app/daisychain-csv-imports)). Alternative header names will be auto-matched by our importer -- see the table a the bottom of this help doc for more details.&#x20;
+Standard headers found in the template file (available [here](https://go.daisychain.app/uploads/people.csv) and in Step One of the [CSV Import Wizard](https://help.daisychain.app/daisychain-csv-imports)). Alternative header names will be auto-matched by our importer — see the table below for more details.&#x20;
 
-Note that you do not need to include _all_ of the fields below when uploading a CSV file -- the minimal requirement for successful CSV upload is email address and/or phone number.&#x20;
+Note that you do not need to include _all_ of the fields below when uploading a CSV file. The minimal requirement for successful CSV upload is email address and/or phone number.&#x20;
 
-* **first\_name**\
-  ​
-* **last\_name**\
-  ​
-* **email**\
-  ​
-* **phone\_number**\
-  ​
-* **email\_opt\_in**\
-  Values for this field must be "TRUE" to ensure a person can receive emails through Daisychain.\
-  ​
-* **sms\_opt\_in**\
-  A "TRUE" value here is only required for sms\_opt\_in if you plan to send texts from phone numbers that have strict opt-in requirements, such as short codes or phone numbers outside of the US. For standard 10DLC long codes or toll-free numbers in the United States, a contact can still be texted as long as they are [Textable](subscription-statuses.md), even if sms\_opt\_in is not "TRUE."\
-  ​
-*   **sms\_opt\_out**\
-    This field indicates whether the person has explicitly opted out of receiving SMS messages.
-
-
-* **post\_office\_box**\
-  ​
-* **street\_address**\
-  ​
-* **extended\_address**\
-  Often known as "line two" of an address.\
-  ​
-* **locality**\
-  Town or city\
-  ​
-* **region**\
-  State, province, or region. Values for this field should be two or three letters, following the [ISO 3166 standard](https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes). In the United States, use the two letter abbreviation for the state.\
-  ​
-* **postal\_code**\
-  Also known as a ZIP code or post code.\
-  ​
-* **country**\
-  Values for this field should be two letters. If you're unsure of the right two-letter country code, please reference the [List of ISO 3166 country codes](https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes), and look for the Alpha-2 column.\
-  ​
-* **tags**\
-  Values for this field should be lowercase and without any spaces -- any spaces in tags should be replaced by dashes. Multiple tags can included in a single column, separated by commas. [Tags need to first be created in Daisychain](https://help.daisychain.app/tags) before they can be added with a CSV upload.
-
-#### Full List of Accepted Header Names
-
-| Field Name           | Accepted Inputs                                                                                                                                                                                                                   |
-| -------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **First Name**       | first\_name, firstname, FirstName, First Name, first name, fname, FName, First                                                                                                                                                    |
-| **Last Name**        | last\_name, lastname, LastName, Last Name, last name, lname, LName, Last                                                                                                                                                          |
-| **Email**            | email, Email, email\_address, emailaddress, EmailAddress, email address, Email Address                                                                                                                                            |
-| **Phone Number**     | phone\_number, phonenumber, PhoneNumber, phone number, Phone Number, phone, Phone, Cell Phone, cell\_phone, cellphone, CellPhone, cell phone, mobile, Mobile, Mobile Phone, mobile\_phone, mobilephone, MobilePhone, mobile phone |
-| **Email Opt-In**     | email\_opt\_in, emailoptin, EmailOptIn, email opt in                                                                                                                                                                              |
-| **Email Opt-Out**    | email\_opt\_out, emailoptout, EmailOptOut, email opt out                                                                                                                                                                          |
-| **SMS Opt-In**       | sms\_opt\_in, smsoptin, SmsOptIn, sms opt in                                                                                                                                                                                      |
-| **SMS Opt-Out**      | sms\_opt\_out, smsoptout, SmsOptOut, sms opt out                                                                                                                                                                                  |
-| **Post Office Box**  | post\_office\_box, postofficebox, PostOfficeBox, post office box                                                                                                                                                                  |
-| **Street Address**   | street\_address, streetaddress, StreetAddress, street address, Street Address, address, Address                                                                                                                                   |
-| **Postal Code**      | postal\_code, postalcode, PostalCode, postal code, zip\_code, zipcode, ZipCode, zip code, Zip Code, Zip, zip                                                                                                                      |
-| **Extended Address** | extended\_address, extendedaddress, ExtendedAddress, extended address                                                                                                                                                             |
-| **City**             | locality, Locality, City, Town, city, town                                                                                                                                                                                        |
-| **State/Region**     | region, Region, State, state, province, Province                                                                                                                                                                                  |
-| **Country**          | country, Country                                                                                                                                                                                                                  |
-| **Tags**             | tags, Tags, tag, Tag                                                                                                                                                                                                              |
+<table><thead><tr><th width="142.375">Field Name</th><th width="266.7421875">Accepted Inputs</th><th>Notes</th></tr></thead><tbody><tr><td><strong>First Name</strong></td><td>first_name, firstname, FirstName, First Name, first name, fname, FName, First</td><td></td></tr><tr><td><strong>Last Name</strong></td><td>last_name, lastname, LastName, Last Name, last name, lname, LName, Last</td><td></td></tr><tr><td><strong>Email</strong></td><td>email, Email, email_address, emailaddress, EmailAddress, email address, Email Address</td><td></td></tr><tr><td><strong>Phone Number</strong></td><td>phone_number, phonenumber, PhoneNumber, phone number, Phone Number, phone, Phone, Cell Phone, cell_phone, cellphone, CellPhone, cell phone, mobile, Mobile, Mobile Phone, mobile_phone, mobilephone, MobilePhone, mobile phone</td><td></td></tr><tr><td><strong>Email Opt-In</strong></td><td>email_opt_in, emailoptin, EmailOptIn, email opt in</td><td>Values for this field must be "TRUE" to ensure a person can receive emails through Daisychain.</td></tr><tr><td><strong>Email Opt-Out</strong></td><td>email_opt_out, emailoptout, EmailOptOut, email opt out</td><td></td></tr><tr><td><strong>SMS Opt-In</strong></td><td>sms_opt_in, smsoptin, SmsOptIn, sms opt in</td><td>A "TRUE" value here is only required for sms_opt_in if you plan to send texts from phone numbers that have strict opt-in requirements, such as short codes or phone numbers outside of the US. For standard 10DLC long codes or toll-free numbers in the United States, a contact can still be texted as long as they are <a href="subscription-statuses.md">Textable</a>, even if sms_opt_in is not "TRUE."</td></tr><tr><td><strong>SMS Opt-Out</strong></td><td>sms_opt_out, smsoptout, SmsOptOut, sms opt out</td><td>This field indicates whether the person has explicitly opted out of receiving SMS messages. </td></tr><tr><td><strong>Post Office Box</strong></td><td>post_office_box, postofficebox, PostOfficeBox, post office box</td><td></td></tr><tr><td><strong>Street Address</strong></td><td>street_address, streetaddress, StreetAddress, street address, Street Address, address, Address</td><td></td></tr><tr><td><strong>Postal Code</strong></td><td>postal_code, postalcode, PostalCode, postal code, zip_code, zipcode, ZipCode, zip code, Zip Code, Zip, zip</td><td>Also known as a ZIP code or post code.</td></tr><tr><td><strong>Extended Address</strong></td><td>extended_address, extendedaddress, ExtendedAddress, extended address</td><td>Often known as "line two" of an address.</td></tr><tr><td><strong>City</strong></td><td>locality, Locality, City, Town, city, town</td><td></td></tr><tr><td><strong>State/Region</strong></td><td>region, Region, State, state, province, Province</td><td>State, province, or region. Values for this field should be two or three letters, following the <a href="https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes">ISO 3166 standard</a>. In the United States, use the two letter abbreviation for the state.</td></tr><tr><td><strong>Country</strong></td><td>country, Country</td><td>Values for this field should be two letters. If you're unsure of the right two-letter country code, please reference the <a href="https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes">List of ISO 3166 country codes</a>, and look for the Alpha-2 column.</td></tr><tr><td><strong>Tags</strong></td><td>tags, Tags, tag, Tag</td><td>Values for this field should be lowercase and without any spaces -- any spaces in tags should be replaced by dashes. Multiple tags can included in a single column, separated by commas. <a href="https://help.daisychain.app/tags">Tags need to first be created in Daisychain</a> before they can be added with a CSV upload.</td></tr></tbody></table>

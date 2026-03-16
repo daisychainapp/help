@@ -28,11 +28,25 @@ CSV files can include data for both [Standard Fields](standard-fields.md) and [C
 If you'd like to apply [Tags](tags.md) to the people you're importing via CSV, tags must first be created. Values for this field should be lowercase and without any spaces — any spaces in tags should be replaced by dashes. So a "Super Volunteer" tag would get imported as "super-volunteer." Multiple tags can included in a single column, separated by commas.&#x20;
 {% endhint %}
 
-2. **Map Fields.** This step is where you can look at how your fields are being mapped and identify any problems before proceeding to the actual Import step. You can adjust how fields are mapped on this step as well.<br>
-3. **Settings:** Decide how Daisychain handles existing contacts based on phone and email matching. If Daisychain finds matching records in your CSV that correspond to existing People in your Daisychain account (records that have identical phone number or email address as the people you're uploading) you can choose how to handle the new data:
+2. **Map Fields.** This step is where you can look at how your fields are being mapped and identify any problems before proceeding to the actual Import step. You can adjust how fields are mapped on this step as well.
+
+{% hint style="info" %}
+If your CSV has columns that aren't relevant to Daisychain (for example, columns from a voter file export), leave them unmapped — don't try to map every column. Unmapped columns are simply ignored during import.
+{% endhint %}
+
+
+
+2. **Settings:** Decide how Daisychain handles existing contacts based on phone and email matching. If Daisychain finds matching records in your CSV that correspond to existing People in your Daisychain account (records that have identical phone number or email address as the people you're uploading) you can choose how to handle the new data:
    1. Merge new data only: Adds new fields without changing existing data.
-   2. Overwrite existing data: Replaces current data with imported values.<br>
-4. **Import.** On this stage you'll monitor the progress of your import, which includes two distinct phases importing the data and rebuilding the audiences. You'll also be able to view and export errors from your import.&#x20;
+   2. Overwrite existing data: Replaces current data with imported values.
+
+{% hint style="warning" %}
+"Merge new data only" setting applies to standard contact fields like name, address, and email. Subscription fields (such as SMS Opt-In and Email Opt-In) are handled differently — if a column is mapped to SMS Opt-In, it will opt in contacts regardless of which setting you choose here.
+{% endhint %}
+
+"Merge new data only" setting applies to standard contact fields like name, address, and email. SMS Opt-In is handled differently — if a column is mapped to SMS Opt-In, it will opt in contacts regardless of which setting you choose here.<br>
+
+2. **Import.** On this stage you'll monitor the progress of your import, which includes two distinct phases importing the data and rebuilding the audiences. You'll also be able to view and export errors from your import.&#x20;
 
 After your import is complete, you can press "Continue" to take quick actions like adding the people you imported to a [Pathway](../organizing/pathways.md) or targeting them in a [Campaign](../texting/campaigns/).
 
