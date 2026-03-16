@@ -2,7 +2,7 @@
 description: >-
   Keywords let you automatically respond when someone texts a specific word to
   your number. You can use keywords to send an auto-reply message, trigger a
-  Flow, or opt people in to receive messages from
+  Flow, or opt people in.
 icon: key
 ---
 
