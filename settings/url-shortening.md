@@ -14,8 +14,6 @@ Head to **Settings > URL Shortening** to turn this feature on or off, and to sel
 * givelink.io
 * eventlinks.org
 
-**Custom Short Links:** We may be able to set up a custom short link for you! Custom short links may increase deliverability and brand recognition. If you're interested, email hello@daisychain.app
-
 We provide URL shortening for a few reasons:
 
 * URL shortening enables Daisychain to track who clicked/tapped on the link you sent out.
@@ -24,6 +22,10 @@ We provide URL shortening for a few reasons:
 {% hint style="warning" %}
 Using a generic URL shortener (like bit.ly or TinyURL) makes it more likely that your messages gets flagged as spam and filtered out.
 {% endhint %}
+
+### Custom URLs
+
+We can set up a custom short link for you upon request! Custom short links can increase deliverability and brand recognition. If you're interested, email hello@daisychain.app
 
 ### URL Shortening FAQ
 
