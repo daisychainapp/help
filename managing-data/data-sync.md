@@ -1,8 +1,8 @@
 ---
-icon: cloud-check
 description: >-
   Daisychain can keep an Amazon S3 bucket automatically synchronized with raw
   database table data from your account.
+icon: cloud-check
 ---
 
 # Data Sync
@@ -37,28 +37,6 @@ This should enable you to access the AWS interface, which should look like this:
 
 ### Data Details
 
-We currently expose the following tables:
-
-* **people**\
-  Each person with your Daisychain account
-* **phones**\
-  Phone numbers associated with people
-* **emails**\
-  Email addresses associated with people
-* **addresses**\
-  Physical addresses associated with people
-* **messages**\
-  Incoming and outgoing messages
-* **conversations**\
-  Messages are grouped into conversations
-* **broadcasts**\
-  Campaigns initiated from your account that send messages to people
-* **sms\_opt\_outs**\
-  Opt-outs associated with particular phone numbers
-* **subscriptions**\
-  Affirmative subscriptions to a particular communication channel based on an opt-in
+All tables available via Data Sync are documented in our [Data Dictionary](https://go.daisychain.app/api-docs/data-dictionary), which includes column types, relationships, and enum values for every table. You can also download the schema as [JSON](https://go.daisychain.app/api-docs/data-dictionary/json) or [DDL](https://go.daisychain.app/api-docs/data-dictionary/ddl) for use in your data warehouse setup.
 
 Each of these tables is offered in CSV format and is refreshed nightly shortly after midnight UTC.
-
-
-### Google Cloud
