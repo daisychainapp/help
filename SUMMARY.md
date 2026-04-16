@@ -28,6 +28,7 @@
   * [Charms - Best Practices](texting/charms/charms-best-practices.md)
   * [Charms Coding Tips](texting/charms/charms-coding-tips.md)
 * [Flows](texting/flows.md)
+* [Skills](texting/skills.md)
 * [Notification Emails](texting/notification-emails.md)
 * [Texter Guide](texting/texter-guide.md)
 * [Phone Number Switching](texting/phone-number-switching.md)
