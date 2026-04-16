@@ -26,7 +26,7 @@ You add Skills to a Flow the same way you add built-in tools: open the Intellige
 
 Use a **Content Skill** when the AI needs access to a body of information that is too long or too nuanced to put directly in the Intelligence Node instructions — for example, a position paper, a list of FAQs, or a set of talking points. Keeping this content in a Skill lets the AI pull it in only when needed, which keeps prompts focused and makes the content reusable across Flows.
 
-Use a **Code Skill** when the AI needs to do something dynamic — look up data in an external service, check inventory, fetch a supporter's order history, or any other operation that can't be answered from static text.
+Use a **Code Skill** when the AI needs to do something dynamic — look up data in an external service, find nearby events for a supporter, check a supporter's donation history, or any other operation that can't be answered from static text.
 
 ## Creating a Skill
 
@@ -283,7 +283,6 @@ Code Skills run in an isolated [Deno](https://deno.com) 2.x runtime. If you've w
 A few things are deliberately **not** available:
 
 * **Only `fetch` over `https://` is allowed for network access.** Plain `http://` is blocked. `Deno.connect`, `WebSocket`, and the Node.js modules `node:net`, `node:http`, `node:https`, `node:tls`, `node:dgram`, and `node:dns` all throw if you try to use them. This prevents Skills from reaching internal infrastructure or bypassing the egress proxy.
-* **Private network destinations are blocked.** The proxy resolves each hostname and refuses to connect if it resolves to a private IP (`10.0.0.0/8`, `172.16.0.0/12`, `192.168.0.0/16`, `127.0.0.0/8`, `169.254.0.0/16`). This is what prevents SSRF against internal services.
 * **No remote imports.** You cannot `import` code from `https://`, `npm:`, or `jsr:` specifiers. Everything you need should be written inline in `skill.ts`.
 * **No file system access, no subprocesses, no FFI.**
 * **30-second timeout.** A single Skill execution must complete within 30 seconds or it is killed.
@@ -334,7 +333,7 @@ Yes. If a Skill has both code and markdown content, the code runs when the AI ca
 
 <summary><strong>Can a Skill write data back into Daisychain?</strong></summary>
 
-Not directly — Skills are read-only outbound today. To capture data onto a Person or tag them, use the built-in [Collect Custom Field, Collect Email, or Collect Name tools](flows.md#tools-and-settings-for-intelligence-nodes). Let us know if you have a use case that needs write-back from a Skill.
+Not directly — Skills are read-only outbound today. To capture data onto a Person or tag them, use the built-in [Collect Custom Field, Collect Email, or Collect Name tools](flows.md#tools-and-settings-for-intelligence-nodes). You can also write a Code Skill that calls the Daisychain API itself, using an API key stored as an environment variable. Let us know if you have a use case that needs write-back from a Skill.
 
 </details>
 
