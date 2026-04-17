@@ -30,7 +30,7 @@ Use a **Code Skill** when the AI needs to do something dynamic — look up data 
 
 ## Creating a Skill
 
-1. **Go to the Skills tab** inside the Flows section (from the left-hand sidebar, click Flows, then the Skills tab).
+1. **Naviate to the Flows section of Daisychain** and click the "Customize" link in the top-right. Then, click "Skills."
 2. **Click "New Skill"** and give it a name. The name becomes the Skill's tool name (for example, "Healthcare Talking Points" → `skill_healthcare_talking_points`).
 3. **Write a description.** The description is shown to the AI, so write it for the AI, not for humans. For example: "Returns the campaign's current talking points about healthcare policy."
 4. **Fill in the content or code** depending on the Skill type. A Skill can be content-only, code-only, or both — if both are present, the AI sees the code; the markdown content is available as documentation.
