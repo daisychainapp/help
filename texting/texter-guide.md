@@ -6,7 +6,7 @@ icon: person-waving
 # Texter Guide
 
 {% hint style="info" %}
-This guide covers the basics of texting in Daisychain, including working the Reply Queue, using Quick Replies, and handling opt-outs. If you're an admin, feel free to customize this for your organization — add your own tips, remove sections that don't apply, or include specific instructions for your campaigns. If you're a texting volunteer, you might want to ask your admin if there's any custom guidance specific to this texting effort!&#x20;
+This guide covers the basics of texting in Daisychain, including working the Reply Queue, using Quick Replies, and handling opt-outs. If you're an admin, feel free to customize this for your organization — add your own tips, remove sections that don't apply, or include specific instructions for your campaigns. If you're a texting volunteer, you might want to ask your admin if there's any custom guidance specific to this texting effort!
 {% endhint %}
 
 ### Getting Set Up
@@ -62,7 +62,9 @@ When you open a conversation, you can:
 * **Use Emojis:** Click the emoji picker to add some personality to your messages. 🙃
 * **View recipient info:** The right-hand panel shows details about the person you're texting, including custom fields.
 * **Tag people:** You can add or remove tags on a person's record directly from the conversation. Your admin may ask you to tag people based on their responses (for example, tagging someone as "Interested" or "Volunteer").
-* **Record question responses:** If your admin has set up questions for the campaign, you can record answers based on what the person tells you.
+*   **Record question responses:** If your admin has set up a survey for the campaign, the questions will appear in a Survey panel on the right side of the conversation. Each question shows its answer type (multiple choice, Yes/No, dropdown, text, etc.) so you can record answers directly as you chat. Your answers save to the person's profile with your name and the time — and if your organization uses VAN, they sync back automatically.
+
+
 * **Opt someone out:** If someone asks to stop receiving messages, you **must** press the **"Opt Out SMS"** button. This is important — it prevents them from receiving any future messages. More on this below.
 
 ***
@@ -83,13 +85,11 @@ Quick Replies are pre-written messages that your admin has set up to help you re
 **Tip:** Your admin may set up keyboard shortcuts for common replies (like `/yes` or `/rsvp`). Ask your admin if any shortcuts are available for your campaign.
 {% endhint %}
 
-
-
 ### Handling Opt-Outs
 
-If someone asks to stop receiving messages, it's important to ensure they get opted out.&#x20;
+If someone asks to stop receiving messages, it's important to ensure they get opted out.
 
-* **Automatic opt-outs:** If someone texts a standard opt-out keyword (like "STOP" or "END"), Daisychain will automatically opt them out. Daisychain may also automatically detect and process opt-outs from people who send non-standard opt-out requests.&#x20;
+* **Automatic opt-outs:** If someone texts a standard opt-out keyword (like "STOP" or "END"), Daisychain will automatically opt them out. Daisychain may also automatically detect and process opt-outs from people who send non-standard opt-out requests.
 * **Manual opt-outs:** If someone asks to be removed in a less standard way (like "please don't text me anymore"), click the **"Opt Out SMS"** button in the conversation. This button appears below their name in the Inbox.
 
 Once someone is opted out, you will no longer be able to send them messages through Daisychain. This is both a best practice and a compliance requirement — always honor opt-out requests.
@@ -115,7 +115,7 @@ You can manage this setting in your profile:
 This only affects your own notifications — it doesn't change anything for your teammates. Turning off activity digests won't affect other emails like password resets.
 
 {% hint style="info" %}
-### Tips for Texters
+#### Tips for Texters
 
 * **Be conversational.** You're texting real people. Keep things friendly and natural.
 * **Use Quick Replies when you can.** They keep your responses consistent and save time, especially during high-volume campaigns.
