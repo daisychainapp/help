@@ -11,7 +11,7 @@ icon: code-branch
 
 ## What is a Flow?
 
-A **Flow** is a conversation that can be triggered when a supporter replies to a message sent through [campaigns](campaigns/ "mention") or [automations](../organizing/automations/ "mention"), or when they text into using one of your [keywords.md](keywords.md "mention").&#x20;
+A **Flow** is a conversation that can be triggered when a supporter replies to a message sent through [campaigns](campaigns/ "mention") or [automations](../organizing/automations/ "mention"), or when they text into using one of your [keywords.md](keywords.md "mention").
 
 Unlike traditional peer-to-peer texting, supporters get instant responses instead of waiting for the next available volunteer, and replies can be hyper-personalized rather than pulled from a set of static templates.
 
@@ -25,7 +25,7 @@ Flows can:
 * Look up legislator info
 * Schedule messages for later
 * Nudge non-responsive people to reply
-* Update data fields
+* Record data to the Daisychain CRM (Email, Name, Address, Custom Fields, and Questions)
 
 ## Creating a New Flow
 
@@ -46,9 +46,9 @@ Let the AI interpret the supporter’s message and respond using your custom ins
 
 * You can choose AI models from Open AI and Anthropic.
 * You can toggle whether the AI should send a reply message or just analyze silently. (For now, this toggle is always on.)
-* The AI will have access to all [standard-fields.md](../managing-data/standard-fields.md "mention") and [custom-fields.md](../managing-data/custom-fields.md "mention") associated with a given person, and will use the data stored in those fields to inform the conversation.&#x20;
-* Currently, the AI does not have access to [notes.md](../organizing/notes.md "mention") associated with that Person or actions from the Person's timeline.&#x20;
-* Your custom instructions should provide clarity on the role of the AI, how it should respond, what capabilities it does (or doesn't) have, and any guardrails. Example below.&#x20;
+* The AI will have access to all [standard-fields.md](../managing-data/standard-fields.md "mention") and [custom-fields.md](../managing-data/custom-fields.md "mention") associated with a given person, and will use the data stored in those fields to inform the conversation.
+* Currently, the AI does not have access to [notes.md](../organizing/notes.md "mention") associated with that Person or actions from the Person's timeline.
+* Your custom instructions should provide clarity on the role of the AI, how it should respond, what capabilities it does (or doesn't) have, and any guardrails. Example below.
 
 {% hint style="success" %}
 **Best Practices For Using Intelligence Nodes**
@@ -69,9 +69,9 @@ Your goal is to answer questions about the event and the Affordable Clean Energy
 
 If someone seems unsure, offer more details (like the location, time, what’s on the agenda, or highlights of the plan) or ask what would help them decide.
 
-Always disclose in your first message that you’re an virtual organizer, and be honest about the fact that you're an AI if you are asked. &#x20;
+Always disclose in your first message that you’re an virtual organizer, and be honest about the fact that you're an AI if you are asked.
 
-If you don't know the answer to a question, disclose that you don't know. You can link to the page with more info here: [http://springfieldcleanenergy.com/](http://springfieldcleanenergy.com/)&#x20;
+If you don't know the answer to a question, disclose that you don't know. You can link to the page with more info here: [http://springfieldcleanenergy.com/](http://springfieldcleanenergy.com/)
 {% endhint %}
 
 #### AI Agent Guidelines
@@ -110,7 +110,7 @@ These guidelines work alongside the custom instructions you write in each Intell
 
 Transitions let your Flow decide what node to proceed to next based on how someone replies.
 
-Transitions only work with Intelligence Nodes. If you're using an Intelligence Node, you can add one or more Transitions.&#x20;
+Transitions only work with Intelligence Nodes. If you're using an Intelligence Node, you can add one or more Transitions.
 
 1. Click the "Add Transition" Button
 2. Give it a short name (like “Wants to attend the event”)
@@ -133,12 +133,12 @@ The AI will check each transition in order and follow the first one that matches
 <figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
-Transitions must be connected to another node in order to function correctly.&#x20;
+Transitions must be connected to another node in order to function correctly.
 {% endhint %}
 
 ### Send a Message Node
 
-This node type allows you to send a quick response back to the supporter — with no logic and no AI. Currently, the send message node will only send a single message. Think of it like an "autoresponder", since a "Send a Message" node will always send the same outgoing message, regardless of the content of the incoming message.&#x20;
+This node type allows you to send a quick response back to the supporter — with no logic and no AI. Currently, the send message node will only send a single message. Think of it like an "autoresponder", since a "Send a Message" node will always send the same outgoing message, regardless of the content of the incoming message.
 
 ### Automation Steps Node
 
@@ -154,36 +154,36 @@ Referencing tools by name in your Instructions (e.g., "use the @Collect Custom F
 
 ### **Legislative Lookup Tool**
 
-The Legislative Lookup tool lets your Flow automatically identify federal elected officials in the US based on a person's location. This is especially useful in advocacy campaigns so you can help a person look up their local representative without sending them to a separate lookup tool.&#x20;
+The Legislative Lookup tool lets your Flow automatically identify federal elected officials in the US based on a person's location. This is especially useful in advocacy campaigns so you can help a person look up their local representative without sending them to a separate lookup tool.
 
-When using this tool, you'll want to provide  instructions that specify what information is needed to look up their elected official.
+When using this tool, you'll want to provide instructions that specify what information is needed to look up their elected official.
 
 {% hint style="info" %}
 **Sample Instructions for an Intelligence Node using the Legislative Lookup tool**
 
 You are a community organizer helping supporters take action to stop House Bill 123, a proposed federal law that would restrict clean energy access and reduce funding for solar power. Your goal is to help people understand why the bill matters, identify their elected officials using the <mark style="color:$primary;">**@Legislative Lookup tool**</mark>, and encourage them to contact those officials.
 
-As for their ZIP code first to look up their representative in the US House of Representatives. If their ZIP code isn't enough to determine who their representative is, explain the situation to the supporter and ask for their full address.&#x20;
+As for their ZIP code first to look up their representative in the US House of Representatives. If their ZIP code isn't enough to determine who their representative is, explain the situation to the supporter and ask for their full address.
 
 Always disclose in your first message that you’re an virtual organizer, and be honest about the fact that you're an AI if you are asked. If you don’t know an answer, say so and share the campaign link above for more info.
 {% endhint %}
 
-### **Scheduler Tool**&#x20;
+### **Scheduler Tool**
 
 The Scheduler Tool lets the Flow automatically schedule a follow-up SMS message at a specific date and time. This is especially useful when you want to check back in about a commitment someone made or an action they are planning to take (like attending a meeting or showing up to an event) without requiring manual follow-up.
 
-When using this tool, you’ll want to guide the person to share when they’re planning to take the action. Once they give a date or time, the Scheduler Tool can trigger a reminder message at that exact moment. For best results with teh schedule tool, include a section of your Instructions that invokes it by name ("scheduler tool") and be specific about how you want it to behave.&#x20;
+When using this tool, you’ll want to guide the person to share when they’re planning to take the action. Once they give a date or time, the Scheduler Tool can trigger a reminder message at that exact moment. For best results with teh schedule tool, include a section of your Instructions that invokes it by name ("scheduler tool") and be specific about how you want it to behave.
 
 {% hint style="info" %}
 **Sample Instructions for an Intelligence Node using the Scheduler tool**
 
 You are virtual organizing assistant helping the contact make a plan to visit their congressional office. Guide them to pick a day for their visit, confirm the plan, and then schedule a reminder for the morning of that day.
 
-Ask one question at a time. Accept any reply that clearly indicates intention or timing. If their answer is unclear, ask one brief clarifying question.&#x20;
+Ask one question at a time. Accept any reply that clearly indicates intention or timing. If their answer is unclear, ask one brief clarifying question.
 
 Once they give a usable date, use the <mark style="color:$primary;">**@Scheduler Tool**</mark> to set a follow-up message for the morning of that date, not at the exact moment they plan to arrive. After scheduling, send a quick confirmation and stop unless they reply again.
 
-Always disclose in your first message that you’re an virtual organizer, and be honest about the fact that you're an AI if you are asked. &#x20;
+Always disclose in your first message that you’re an virtual organizer, and be honest about the fact that you're an AI if you are asked.
 {% endhint %}
 
 ### **Collect Email Tool**
@@ -192,7 +192,7 @@ Collects and stores an email address for the person in the conversation. Use thi
 
 ### **Collect Custom Field Tool**
 
-Collects and stores custom field values for the person in the conversation. This is useful for surveys, intake questions, or any scenario where you want the Flow to ask a question and record the answer to a specific field. When adding this tool, hit the "Edit" button to select custom field(s) the Flow should populate, and whether it should be able to overwrite existing values.&#x20;
+Collects and stores custom field values for the person in the conversation. This is useful for surveys, intake questions, or any scenario where you want the Flow to ask a question and record the answer to a specific field. When adding this tool, hit the "Edit" button to select custom field(s) the Flow should populate, and whether it should be able to overwrite existing values.
 
 ### **Collect Name Tool**
 
@@ -222,6 +222,17 @@ When configuring this tool, you can set a **minimum precision level** depending 
 
 The collected address is saved to the person's profile and can be used throughout Daisychain — for example, to target messages by distance radius, look up legislators, or find polling places.
 
+#### **Survey Tool**
+
+The Survey Tool lets a Flow walk a contact through a set of [Questions](https://daisychain.gitbook.io/help/managing-data/questions) and record their answers. Use this tool when you want to run a survey at scale without human texters.
+
+When adding this tool, click Edit to select which Questions the Flow should ask, and set the order in which they should be asked. The Flow will:
+
+* Ask each Question in the order you configure
+* Interpret the contact's reply (including numbered responses, full text, or paraphrases for multiple choice Questions)
+* Record the answer to the person's profile
+* Move on to the next Question
+
 ### URL Guardrail
 
 The URL Guardrail helps ensure your AI-powered Flow only shares links you've explicitly approved. When enabled, Daisychain checks every AI response for URLs before sending it. If a URL in the response doesn't match your approved list, the message won't be sent -- instead, the conversation is automatically moved to your Daisychain Inbox for a human to handle.
@@ -236,7 +247,7 @@ In the Intelligence Node settings, toggle **Enable Guardrail** on. Once enabled,
 
 Enter the beginning of each URL you want to allow. Any URL that starts with one of your patterns will be approved. For example:
 
-* `https://yourorg.com/`  allows all pages on your site, excluding subdomains.
+* `https://yourorg.com/` allows all pages on your site, excluding subdomains.
 * `https://act.yourorg.com/events/` allows only URLs under that specific path
 
 You can add as many patterns as needed using the **+** button.
@@ -260,10 +271,10 @@ Flows don’t start on their own—they’re triggered when a supporter replies 
 
 To connect a Flow:
 
-1. Go to your [campaigns](campaigns/ "mention") or [automations](../organizing/automations/ "mention") section.&#x20;
+1. Go to your [campaigns](campaigns/ "mention") or [automations](../organizing/automations/ "mention") section.
 2. Under Reply Handling, choose Automated Flow
    1. In Campaigns, this is in Step 2
-   2. For Automations, this is available with a "Send a Message" step.&#x20;
+   2. For Automations, this is available with a "Send a Message" step.
 3. Select the Flow you created from the dropdown
 
 ### Flow Usage
@@ -314,7 +325,7 @@ If you choose not to upgrade, active conversations stay on their original versio
 
 <summary><strong>Can a Flow be triggered by inbound keywords or messages?</strong></summary>
 
-Yes! You can connect a Flow to a [keyword](https://daisychain.gitbook.io/help/texting/keywords) so that when someone texts that keyword to your number, the Flow is triggered automatically. To set this up, create or edit a keyword and choose "Flow" as the Response Mode.&#x20;
+Yes! You can connect a Flow to a [keyword](https://daisychain.gitbook.io/help/texting/keywords) so that when someone texts that keyword to your number, the Flow is triggered automatically. To set this up, create or edit a keyword and choose "Flow" as the Response Mode.
 
 </details>
 
@@ -322,7 +333,7 @@ Yes! You can connect a Flow to a [keyword](https://daisychain.gitbook.io/help/te
 
 <summary><strong>How do I set up Flows to respond to Campaign replies?</strong></summary>
 
-Campaigns can be configured to ensure that any replies are handled by a Flow. This is managed in Step 2 when creating a Campaign.&#x20;
+Campaigns can be configured to ensure that any replies are handled by a Flow. This is managed in Step 2 when creating a Campaign.
 
 </details>
 
@@ -330,7 +341,7 @@ Campaigns can be configured to ensure that any replies are handled by a Flow. Th
 
 <summary><strong>Do we need to disclose that people are messaging with an AI-powered chatbot?</strong></summary>
 
-We recommend disclosing that it's a chatbot in the first message for transparency and to build trust. You can use whatever language works for you so long as it's clear to the recipient that they are not communicating with a human — examples we've seen include "chatbot", "AI bot", "virtual organizing assistant", "AI-powered voting coach," etc.&#x20;
+We recommend disclosing that it's a chatbot in the first message for transparency and to build trust. You can use whatever language works for you so long as it's clear to the recipient that they are not communicating with a human — examples we've seen include "chatbot", "AI bot", "virtual organizing assistant", "AI-powered voting coach," etc.
 
 {% hint style="warning" %}
 Some states and jurisdictions may have laws or regulations that require pro-active disclosure when communicating with a chatbot.
@@ -356,7 +367,7 @@ The AI models Daisychain uses do not train on client data accessed through their
 
 <details>
 
-<summary><strong>How can I  monitor conversations happening in a Flow?</strong></summary>
+<summary><strong>How can I monitor conversations happening in a Flow?</strong></summary>
 
 Conversations appear in the "Completed" tab where you can review the full conversation history. You have visibility into all AI interactions.
 
