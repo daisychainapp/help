@@ -15,16 +15,15 @@ The Inbox is designed to help organizers manage multiple conversations at once. 
   ![](<../.gitbook/assets/image (8).png>)
   * **Inbox** displays all messages that haven't been marked as "Completed," regardless of whether they've been viewed.<br>
   * **Unread** displays all messages that haven't been viewed, and so each message will have an unread badge next to them (the red dot).<br>
-  * &#x20;**Completed** displays conversations that have been marked as Complete.<br>
+  * **Completed** displays conversations that have been marked as Complete.<br>
 * **Marking Messages as Complete:** Click this button (at the top of each conversation) to mark a conversation as Complete and move it into the 'Completed' view.\
   ![](<../.gitbook/assets/image (12).png>)\
-  If someone responds to a conversation after you've marked as complete, it will automatically go back into the Inbox. <br>
+  If someone responds to a conversation after you've marked as complete, it will automatically go back into the Inbox.<br>
 * **SMS Opt-Out:** if someone requests to stop receiving messages from you, you must press the "Opt Out SMS" button to prevent them from receiving messages in the future.<br>
-* **Viewing and Editing Recipient Info:** the panel on the right side of the Inbox will display information about the recipient, including standard and custom fields. You can easily edit custom fields and assignments from the inbox.​<br>
+* **Viewing and Editing Recipient Info:** the panel on the right side of the Inbox will allow you to view and edit information about the recipient, including [Assignments](../organizing/assignments.md), [Tags](../managing-data/tags.md), [Standard Fields](../managing-data/standard-fields.md), [Custom Fields](../managing-data/custom-fields.md), [Questions](../managing-data/questions.md), and more. <br>
 * **Viewing and Editing Pathway Stages:** In addition, you can view a person's Pathway in the inbox (and change their stage), but only if the Person's most recent conversation was originally initiated from a pathway.\
-  ​\
   ​
-* **Opening the Person view:** You can click open the Person view (and edit standard fields from there) by clicking this icon:
+* **Opening the Person view:** People with the Admin and Manager [roles](../settings/users-and-roles.md) can click open the Person view (and edit standard fields from there) by clicking this icon:
 
 <figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 

@@ -7,10 +7,10 @@ icon: reply
 
 ## Options For Managing Replies
 
-After you send out a [Daisychain Campaign](./), you might have hundreds or thousands of supporters text back with questions and other kinds of replies. You have two primary options for managing replies.&#x20;
+After you send out a [Daisychain Campaign](./), you might have hundreds or thousands of supporters text back with questions and other kinds of replies. You have two primary options for managing replies.
 
 1. The [Inbox](../inbox.md), where all conversations are visible.
-2. A Reply Queue, which only shows replies for a single campaign, and allows you to provide batches of conversations to other texters.&#x20;
+2. A Reply Queue, which only shows replies for a single campaign, and allows you to provide batches of conversations to other texters.
 
 ## Reply Queue Overview
 
@@ -25,12 +25,9 @@ To use the reply queue for a given Campaign, follow these steps:
    This will take you into a streamlined view of the Inbox where you can work your way through a batch of conversations.\
    ​
 3. **Complete conversations one-by-one.**\
-   Sometimes you'll need to respond to answer a question. Other times you'll want to record data based on their reply. When a conversation is complete, click the "Mark as Complete" button and move onto the next one.\
-   ​
+   Sometimes you'll need to respond to answer a question. Other times you'll want to record data based on their reply. When a conversation is complete, click the "Mark as Complete" button and move onto the next one.
 4. **When you have completed a batch of conversations, choose your next step.**\
    At this point, you can choose to "Get more conversations" (if any are available) or you can tag out by clicking the "Stop Replying" button.
-
-&#x20;
 
 <figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 
@@ -43,4 +40,3 @@ To use the reply queue for a given Campaign, follow these steps:
 * The default batch size for the reply queue is 25 conversations.\
   ​
 * The Settings tab on the Manage Replies page enables you to toggle an option to auto-release batches of conversations after an hour of inactivity.
-
