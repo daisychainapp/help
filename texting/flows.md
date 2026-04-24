@@ -222,7 +222,7 @@ When configuring this tool, you can set a **minimum precision level** depending 
 
 The collected address is saved to the person's profile and can be used throughout Daisychain — for example, to target messages by distance radius, look up legislators, or find polling places.
 
-#### **Survey Tool**
+### **Survey Tool**
 
 The Survey Tool lets a Flow walk a contact through a set of [Questions](https://daisychain.gitbook.io/help/managing-data/questions) and record their answers. Use this tool when you want to run a survey at scale without human texters.
 
