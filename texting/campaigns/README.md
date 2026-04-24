@@ -7,8 +7,6 @@ icon: bullhorn
 
 {% embed url="https://www.loom.com/share/028d65993a014c76914fd6103f77c587?sid=32f075c3-d624-426e-a498-bb30ddc989c3" %}
 
-
-
 Campaigns are Daisychain's feature that lets you quickly send messages to as many people as you'd like. This is the most powerful way to send a message to multiple people, since it enables features not found elsewhere in Daisychain, including:
 
 * Scheduling
@@ -18,36 +16,43 @@ Campaigns are Daisychain's feature that lets you quickly send messages to as man
 * Access to the [Reply Queue](managing-replies.md)
 * Advanced targeting using Includes and Excludes
 
-To create a campaign, navigate to the Campaigns section of Daisychain and click "New Campaign" to create an entirely new campaign, or click "Clone" to duplicate an existing campaign.&#x20;
+To create a campaign, navigate to the Campaigns section of Daisychain and click "New Campaign" to create an entirely new campaign, or click "Clone" to duplicate an existing campaign.
 
 ## Step One: Basics
 
 Here is where you'll set up the basic parameters of your campaign. You'll add the following fields:
 
 * **Campaign Name:** You'll be able to search by this later.
-* **Audience:** Your audience is who you are sending this campaign to. You can either send to your full list or send to a specific subset using [uploads](../../managing-data/csv-imports.md), [saved filters](../../managing-data/filtering-people.md), or lists from external tools.&#x20;
+* **Audience:** Your audience is who you are sending this campaign to. You can either send to your full list or send to a specific subset using [uploads](../../managing-data/csv-imports.md), [saved filters](../../managing-data/filtering-people.md), or lists from external tools.
 
 {% hint style="success" %}
 **Advanced Audience Building**
 
-If you choose more than one list or saved filter when building an audience, they’re combined with an OR.&#x20;
+If you choose more than one list or saved filter when building an audience, they’re combined with an OR.
 
 If a person is on a list or saved filter selected in the "Don't send to" menu, they won’t get the campaign—even if they were part of a list or saved filter selected in the "Send to" menu.\
 \
-In the example below, the campaign will be sent to people who are are either in the "Donors and Volunteers" saved filter OR the "CSV Import Test" list, but it will exclude anyone on the "Sample List" imported from EveryAction or the "500 Blue Wall" list. &#x20;
+In the example below, the campaign will be sent to people who are are either in the "Donors and Volunteers" saved filter OR the "CSV Import Test" list, but it will exclude anyone on the "Sample List" imported from EveryAction or the "500 Blue Wall" list.
 {% endhint %}
 
 <figure><img src="../../.gitbook/assets/image (57).png" alt=""><figcaption></figcaption></figure>
 
-**Goal:** Adding a goal will impact what is tracked in your Campaign Report/Analytics and enable smart links that can pre-fill the forms on landing pages. The default goal is to send a basic message, but other goals will be available if you have the [ActBlue](../../integrations/actblue.md) or [Mobilize](../../integrations/mobilize.md) integrations activated.&#x20;
+**Goal:** Adding a goal will impact what is tracked in your Campaign Report/Analytics and can enable additional tools for texters working through replies. Goals also enable smart links that can pre-fill forms on landing pages.
+
+Available goals include:
+
+* **Send a basic message** (default): A standard outreach Campaign with no additional goal tracking.
+* **Run a Survey:** Attach Questions to the Campaign so texters can record answers from the Inbox as they work through replies. When selected, click Edit questions to choose which Questions to ask and set their order. Answers appear in a Survey panel alongside each conversation and save directly to the person's profile. See [Questions](https://daisychain.gitbook.io/help/managing-data/questions) for more on setting up Questions and syncing responses to VAN.
+* **ActBlue Contributions:** Drive donations by linking to an ActBlue fundraising page. Requires the [ActBlue integration](https://daisychain.gitbook.io/help/integrations/actblue).
+* **Recruit Mobilize Attendees:** Recruit volunteers to sign up for events on Mobilize. Requires the [Mobilize integration](https://daisychain.gitbook.io/help/integrations/mobilize).
 
 ## Step Two: Content
 
-In this step,  is where you will add what is actually sent in your campaign. Add compelling content that will engage your recipients.
+In this step, is where you will add what is actually sent in your campaign. Add compelling content that will engage your recipients.
 
 ### **Composing Your Message**
 
-The message editor supports several tools to help you craft effective texts.&#x20;
+The message editor supports several tools to help you craft effective texts.
 
 * **Images:** Click the image icon to attach a photo or graphic, which will be sent as an MMS message. See [Sending out MMS messages](../sending-out-mms-messages.md) for details on file types, size limits, and how images display on different devices.<br>
 * **Emojis:** Click the emoji icon to browse and insert emojis directly into your message. Keep in mind that emojis can increase your SMS segment count.<br>
@@ -59,19 +64,19 @@ The message editor supports several tools to help you craft effective texts.&#x2
 
 <figure><img src="../../.gitbook/assets/image (58).png" alt=""><figcaption></figcaption></figure>
 
-You can use the message preview tool to cycle between recipients to see what your messages look like and ensure [personalized content](../personalized-content/) is showing up as expected.&#x20;
+You can use the message preview tool to cycle between recipients to see what your messages look like and ensure [personalized content](../personalized-content/) is showing up as expected.
 
 ### **Content Assistant**
 
-The "Content Assistant" will display basic information about your messages (such as the SMS segment count) and will flag any possible spam words.&#x20;
+The "Content Assistant" will display basic information about your messages (such as the SMS segment count) and will flag any possible spam words.
 
 ### **Deliverability Best Practices**
 
-In the "Deliverability Best Practices" section, you'll see checkboxes that will turn green when you include opt-out language and introduce yourself using organization name (your Daisychain account name). Following these best practices will help maximize the delivery of your messages.&#x20;
+In the "Deliverability Best Practices" section, you'll see checkboxes that will turn green when you include opt-out language and introduce yourself using organization name (your Daisychain account name). Following these best practices will help maximize the delivery of your messages.
 
 ### **Send Test Messages**
 
-Click "send a test message" link at the bottom of the message preview to send a text message here to yourself or other members of your team. Note that these test messages will send the content displayed for person currently selected in the "preview message."&#x20;
+Click "send a test message" link at the bottom of the message preview to send a text message here to yourself or other members of your team. Note that these test messages will send the content displayed for person currently selected in the "preview message."
 
 ![](https://44727351.fs1.hubspotusercontent-na1.net/hubfs/44727351/Screenshot%202024-03-14%20at%201-15-53%E2%80%AFPM-png.png)
 
@@ -86,7 +91,7 @@ You can only select one reply handling method per campaign. If you choose a Flow
 
 ### **Quick Replies**
 
-Quick Replies are pre-written response templates your team can use when  responding to incoming messages in the Inbox. Click "Customize" to add, edit, or remove Quick Replies for this campaign.
+Quick Replies are pre-written response templates your team can use when responding to incoming messages in the Inbox. Click "Customize" to add, edit, or remove Quick Replies for this campaign.
 
 Quick Replies are especially useful for:
 
@@ -98,13 +103,13 @@ Each Quick Reply can include [personalized content variables](../personalized-co
 
 ### **Scheduling**
 
-Your campaign may be sent immediately, or scheduled to be sent at a later date or time. Note that targeting is re-calculated at the time when the campaign is actually sent.&#x20;
+Your campaign may be sent immediately, or scheduled to be sent at a later date or time. Note that targeting is re-calculated at the time when the campaign is actually sent.
 
 **Setup A/B Testing:** When creating your campaign, you can [setup A/B testing](a-b-testing.md) to easily create experiments.
 
 ## Step 3: Review
 
-During this step, you can view a final preview of your message, and review the number of recipients who will receive your message. Moving to Step 4 will send your message to your audience.&#x20;
+During this step, you can view a final preview of your message, and review the number of recipients who will receive your message. Moving to Step 4 will send your message to your audience.
 
 ## Step 4: Report
 
@@ -123,4 +128,3 @@ On this step, there are also links to:
 * View information about which people clicked a link
 * Manage the "[reply queue](managing-replies.md)"
 * See details of any messages that weren't delivered
-
