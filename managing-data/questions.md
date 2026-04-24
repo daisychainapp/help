@@ -37,7 +37,7 @@ You can organize questions in 2 ways:<br>
    \
    To assign a question to a group, select or create a group from the **Question group** dropdown when adding or editing a question.<br>
 2. **Folders**\
-   Folders help you organize your questions list in Settings —  they're purely for admin convenience and don't affect how questions appear when recording answers.\
+   Folders help you organize your questions list in Settings — they're purely for admin convenience and don't affect how questions appear when recording answers.\
    \
    **Example:** If your organization has 100+ questions accumulated over multiple cycles, you might create folders like "2026 Primary", "2026 General", and "Volunteer Intake" to keep your Settings page manageable.\
    \
@@ -49,7 +49,7 @@ You can organize questions in 2 ways:<br>
 
 ### Recording Answers
 
-You can record answers to questions from a person's profile in the Questions tab. Each answer is saved with:
+You can record answers to questions from a person's profile in the Questions tab, or from the Inbox if a Campaign was configured to use the Survey goal. Each answer is saved with:
 
 * The answer value
 * The user who recorded it
@@ -57,12 +57,27 @@ You can record answers to questions from a person's profile in the Questions tab
 
 Previous answers are preserved, so you can see how responses have changed over time.
 
+#### Collecting Answers via Campaigns
+
+You can attach a set of Questions to a Campaign so texters can record answers directly from the Inbox as they work through replies. When a texter opens an active conversation from a recipient of that Campaign, the selected Questions appear in a **Survey** panel on the right side of the conversation — letting them record answers in one place without navigating to the person's profile.
+
+This is ideal for voter ID, issue identification, volunteer recruitment, or any Campaign where you're collecting structured data at scale.
+
+To set this up:
+
+1. Create your Questions in **Settings > People > Questions** (see above).
+2. When creating a Campaign, in **Step One: Basics**, set the **Goal** to **Run a Survey**.
+3. Click **Edit questions** and choose the Questions you want texters to ask — in the order you want them asked.
+4. Save the Campaign as usual.
+
+As texters work through replies, the Survey panel will show each Question with its defined answer type (multiple choice, Yes/No, dropdown, etc.). Answers are saved to the person's profile and — if the Question is mapped to a VAN Survey Question — automatically synced back to VAN.
+
 {% hint style="info" %}
-Read more about the differences between three custom data types in the [tags-vs.-custom-fields.md](tags-vs.-custom-fields.md "mention") article.&#x20;
+Read more about the differences between three custom data types in the [tags-vs.-custom-fields.md](tags-vs.-custom-fields.md "mention") article.
 {% endhint %}
 
 {% hint style="info" %}
-### Syncing with VAN Survey Questions
+#### Syncing with VAN Survey Questions
 
-If you use EveryAction / VoteBuidler / VAN, you can map Daisychain Questions to  Survey Questions so that answers recorded in Daisychain automatically sync back. See the [ngpvan.md](../integrations/ngpvan.md "mention") help doc for setup instructions.
+If you use EveryAction / VoteBuidler / VAN, you can map Daisychain Questions to Survey Questions so that answers recorded in Daisychain automatically sync back. See the [ngpvan.md](../integrations/ngpvan.md "mention") help doc for setup instructions.
 {% endhint %}
