@@ -43,8 +43,8 @@ Available goals include:
 
 * **Send a basic message** (default): A standard outreach Campaign with no additional goal tracking.
 * **Run a Survey:** Attach Questions to the Campaign so texters can record answers from the Inbox as they work through replies. When selected, click Edit questions to choose which Questions to ask and set their order. Answers appear in a Survey panel alongside each conversation and save directly to the person's profile. See [Questions](https://daisychain.gitbook.io/help/managing-data/questions) for more on setting up Questions and syncing responses to VAN.
-* **ActBlue Contributions:** Drive donations by linking to an ActBlue fundraising page. Requires the [ActBlue integration](https://daisychain.gitbook.io/help/integrations/actblue).
-* **Recruit Mobilize Attendees:** Recruit volunteers to sign up for events on Mobilize. Requires the [Mobilize integration](https://daisychain.gitbook.io/help/integrations/mobilize).
+* **ActBlue Contributions:** Drive donations by linking to an ActBlue fundraising page. Requires the [ActBlue integration](../../integrations/actblue.md).
+* **Recruit Mobilize Attendees:** Recruit volunteers to sign up for events on Mobilize. Requires the [Mobilize integration](../../integrations/mobilize.md).
 
 ## Step Two: Content
 
