@@ -93,6 +93,14 @@ Your monthly invoice may include:
 * **Add-ons:** custom URLs, concierge service, etc.
 * **Account Credit:** any credits that reduce the total.
 
+**Why am I seeing small charges on an inactive account?**
+
+If you're not actively sending campaigns but still see a small number of messages on your bill, the most likely cause is keyword auto-responses. Daisychain includes built-in keywords — HELP, START, and STOP — that are required for SMS compliance and can't be turned off. When anyone texts one of these words to your number, Daisychain automatically sends a reply, and that outbound message counts toward your usage.
+
+If you've also configured custom keywords, those will fire too. Keywords always respond, regardless of whether you're running active campaigns or even logging into the platform.
+
+To check whether keywords are the source, go to **Settings → Channels → Texting → Keywords** and review your active keywords. You can also check the **Usage** tab in your billing settings for a day-by-day breakdown, then cross-reference with your Inbox to see the actual conversations. For more on how keywords work, see Keywords.
+
 **Questions?**
 
 Reach us at [billing@daisychain.app](mailto:billing@daisychain.app). We're happy to help.
