@@ -20,6 +20,7 @@
 * [Opt-Outs](texting/opt-outs.md)
 * [Personalized Content](texting/personalized-content/README.md)
   * [Inserting Polling Place Info](texting/personalized-content/inserting-polling-place-info.md)
+  * [Inserting Legislative Info](texting/personalized-content/inserting-legislative-info.md)
 * [Image Display Issues](texting/image-display-issues.md)
 * [Texting Best Practices](texting/texting-best-practices.md)
 * [Subscription Statuses](texting/subscription-statuses.md)
