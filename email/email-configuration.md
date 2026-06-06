@@ -59,7 +59,7 @@ The footer lives near the bottom of the layout's MJML, in the `<mj-text>` block 
 
 ```html
 <mj-text align="center" font-size="12px" color="#888">
-  Paid for by Perry 2026, Stacey Dolan Treasurer. Approved by Jack Perry.
+  Paid for by [Committee Name]. [Authorization or approval line, as required in your jurisdiction.]
 </mj-text>
 ```
 
