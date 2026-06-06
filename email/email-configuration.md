@@ -63,6 +63,20 @@ The footer lives near the bottom of the layout's MJML, in the `<mj-text>` block 
 </mj-text>
 ```
 
+To set the disclaimer off in a bordered box, put it in its own column with a `border`. The border goes on the `<mj-column>` (the box) and the text stays inside `<mj-text>`:
+
+```html
+<mj-section padding="10px">
+  <mj-column border="1px solid #000000" padding="12px">
+    <mj-text align="center" font-size="12px" color="#888">
+      Paid for by [Committee Name]. [Authorization or approval line, as required in your jurisdiction.]
+    </mj-text>
+  </mj-column>
+</mj-section>
+```
+
+The `padding` on the column controls the space between the border and the text, and the `padding` on the section controls the space around the box.
+
 #### Dynamic content with Liquid
 
 Layouts can include [Liquid](https://shopify.github.io/liquid/) tags that are filled in for each recipient when the email is sent. The default layout uses a few of these:
