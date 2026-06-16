@@ -7,9 +7,7 @@ description: How to send out customized, personalized images in Daisychain
 
 [Charms](https://daisychain.app/charms) are a unique feature of Daisychain that lets you send out personalized images. You can use pre-made templates from Daisychain, or completely customize them with your colors, images, fonts, and more.
 
-To activate Charms on your account, first email [help@daisychain.app](mailto:help@daisychain.app) and let the Daisychain team know you're interested in using this feature.
-
-Once charms are activated, a few things to know:
+A few things to know:
 
 * You can design Charms in the Daisychain Media Studio, which you can access by clicking the image icon in the bottom of a message box, and selecting "Media Studio," like this:
 
