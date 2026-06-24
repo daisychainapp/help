@@ -9,6 +9,6 @@ The primary reason to create a team is if you want to build an [Automation](http
 
 To create a new team, navigate to **Settings > Teams**.
 
-<figure><img src="../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/teams-create-team.png" alt=""><figcaption></figcaption></figure>
 
 You can create as many teams as you want, and it's easy to add/remove members of the team after it's been created.

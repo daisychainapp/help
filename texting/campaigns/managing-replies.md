@@ -29,14 +29,14 @@ To use the reply queue for a given Campaign, follow these steps:
 4. **When you have completed a batch of conversations, choose your next step.**\
    At this point, you can choose to "Get more conversations" (if any are available) or you can tag out by clicking the "Stop Replying" button.
 
-<figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/managing-replies-batch-completion.png" alt=""><figcaption></figcaption></figure>
 
 ### **Reply Queue Tips**
 
 *   On the Manage Replies page, you can track the progress of different texters and release a texter's batch of claimed conversations so that other texters can claim them:\
     ​
 
-    <figure><img src="../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/managing-replies-active-users.png" alt=""><figcaption></figcaption></figure>
 * The default batch size for the reply queue is 25 conversations.\
   ​
 * The Settings tab on the Manage Replies page enables you to toggle an option to auto-release batches of conversations after an hour of inactivity.

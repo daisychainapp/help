@@ -28,7 +28,7 @@ Once your tag has been created, you can apply tags to people in the following wa
 
 You can [filter the People list](filtering-people.md) by Tag. If you'd like to filter by multiple tags, you can choose whether you want to have the results display People who have _all_ of the tags or who have _any_ of the tags.&#x20;
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/tags-filter-all-any.png" alt=""><figcaption></figcaption></figure>
 
 You can also filter the [Inbox](../texting/inbox.md) by Tag by navigating to any tab of the Inbox and clicking **Filter > Add a Tag Filter.**
 

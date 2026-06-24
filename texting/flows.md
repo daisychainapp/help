@@ -130,7 +130,7 @@ Return "true" if the message is making an explicit commitment to attend the rall
 
 The AI will check each transition in order and follow the first one that matches. Here's an example:
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/flows-diagram.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 Transitions must be connected to another node in order to function correctly.

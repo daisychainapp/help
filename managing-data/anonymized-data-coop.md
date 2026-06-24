@@ -21,7 +21,7 @@ We recommend reviewing your organization’s privacy policy and consulting with 
 
 To join the Anonymized Data Co-Op, go to **Settings > Account.** Then, click the settings tab and switch the toggle to opt-in.&#x20;
 
-<div data-full-width="false"><figure><img src="../.gitbook/assets/image (51).png" alt=""><figcaption></figcaption></figure></div>
+<div data-full-width="false"><figure><img src="../.gitbook/assets/anonymized-data-coop-toggle.png" alt=""><figcaption></figcaption></figure></div>
 
 ### How to Use Co-Op Data
 
@@ -30,4 +30,4 @@ To join the Anonymized Data Co-Op, go to **Settings > Account.** Then, click the
 
 This simple filter will show you people in your account who have clicked links in other Daisychain accounts that are participating in the Co-Op.&#x20;
 
-<figure><img src="../.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/anonymized-data-coop-activity-filter.png" alt=""><figcaption></figcaption></figure>

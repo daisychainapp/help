@@ -35,7 +35,7 @@ If a person is on a list or saved filter selected in the "Don't send to" menu, t
 In the example below, the campaign will be sent to people who are are either in the "Donors and Volunteers" saved filter OR the "CSV Import Test" list, but it will exclude anyone on the "Sample List" imported from EveryAction or the "500 Blue Wall" list.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (57).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/campaigns-audience-selection.png" alt=""><figcaption></figcaption></figure>
 
 **Goal:** Adding a goal will impact what is tracked in your Campaign Report/Analytics and can enable additional tools for texters working through replies. Goals also enable smart links that can pre-fill forms on landing pages.
 
@@ -62,7 +62,7 @@ The message editor supports several tools to help you craft effective texts.
 
 **Message Preview**
 
-<figure><img src="../../.gitbook/assets/image (58).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/campaigns-message-preview.png" alt=""><figcaption></figcaption></figure>
 
 You can use the message preview tool to cycle between recipients to see what your messages look like and ensure [personalized content](../personalized-content/) is showing up as expected.
 
