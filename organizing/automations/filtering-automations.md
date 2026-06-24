@@ -15,7 +15,7 @@ From there, you can:
 
 *   Write your filter in plain English -- something like "donors who gave more than $100 and live in Ohio." Automation filters are expressed using the [JMESPath query language](https://jmespath.org/), but a little help from Daisychain's AI assistant prevents you from having to learn or understand how to code these filters manually. After writing your filter in plain English, just click the "Convert to JMESPath" button to try out Daisychain's AI Assistant
 
-    <figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/filtering-automations-convert-jmespath.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 The AI assistant is not 100% accurate, and automations using AI-generated JMESPath should be tested carefully. Daisychain's AI assistant currently works to create filters for ActBlue, EveryAction, and Zapier. More options coming soon!
@@ -42,12 +42,12 @@ To access the JMESPath Playground where you can test out your JMESPath code, fol
 1. Create an automation, pick your trigger, and select the "Filter automation to actions that meet specific criteria."
 2.  From there, click the JMESPath Playground link, highlighted below:<br>
 
-    <figure><img src="../../.gitbook/assets/image (49) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/filtering-automations-playground-link.png" alt=""><figcaption></figcaption></figure>
 3. Find a recent action that matches the filter you're creating.
 4. Paste or write your filter expression in the editor.
 5.  Click Test to see if the expression matches the example data. If the filter fails to match, the playground will show `Match: false`, so you can tweak your expression until returns `Match: true` The status will display below the window, next to the "Test" button:
 
-    <figure><img src="../../.gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/filtering-automations-playground-result.png" alt=""><figcaption></figcaption></figure>
 
 
 

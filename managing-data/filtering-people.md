@@ -35,7 +35,7 @@ icon: filter-list
 
 *   After filtering your People list, you you can create a **Saved Filter** by pressing the "Save Filter" button. <br>
 
-    <figure><img src="../.gitbook/assets/SCR-20260106-smll.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/filtering-people-save-filter.png" alt=""><figcaption></figcaption></figure>
 * Saved Filters can be easily used again in the future. To do so, just click the "Filter" button, then click "Saved Filters" and select the filter you'd like to use. <br>
 * Saved Filters can be used used for targeting [Message Campaigns](../texting/campaigns/).
 
@@ -49,4 +49,4 @@ icon: filter-list
 *   To select everyone in a filtered list (in order to take a bulk action) you can select the checkbox in the top-left corner of the list. When you do, you'll select everyone on that page -- which is generally limited to 30 records. If you'd like to select more people, click the link highlighted in the screenshot below:\
     <br>
 
-    <figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/filtering-people-select-all.png" alt=""><figcaption></figcaption></figure>

@@ -11,7 +11,7 @@ A few things to know:
 
 * You can design Charms in the Daisychain Media Studio, which you can access by clicking the image icon in the bottom of a message box, and selecting "Media Studio," like this:
 
-<figure><img src="../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/charms-media-toolbar.png" alt=""><figcaption></figcaption></figure>
 
 * This will launch an area where you can design your Charm with HTML frame by frame, set your CSS, set timings for each frame, load custom fonts, and more. See the full charms help docs for more info on this.
 * Charms (and every file sent through MMS) have a file size limit of 500kb, which means you need to keep your use of images and complicated designs to a minimum.

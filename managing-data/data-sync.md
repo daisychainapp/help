@@ -25,7 +25,7 @@ To access your integrated data in the AWS web interface, navigate to **Settings 
 
 You should see an interface like this, with an account specific URL:
 
-<figure><img src="../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/data-sync-settings.png" alt=""><figcaption></figcaption></figure>
 
 To access your data, visit the following URL, ensuring that you replace your {account-name}:
 
@@ -33,7 +33,7 @@ To access your data, visit the following URL, ensuring that you replace your {ac
 
 This should enable you to access the AWS interface, which should look like this:
 
-<figure><img src="../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/data-sync-s3-tables.png" alt=""><figcaption></figcaption></figure>
 
 ### Data Details
 

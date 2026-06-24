@@ -52,7 +52,7 @@ When registering your phone number, you may be asked to submit a URL of a websit
 
 Here's an example:&#x20;
 
-<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/phone-registration-signup-form.png" alt=""><figcaption></figcaption></figure>
 
 ### **Privacy Policy Info**&#x20;
 

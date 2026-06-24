@@ -17,7 +17,7 @@ You can also trigger [automations](../organizing/automations/) when any of these
 
 To setup the EveryAction integration, visit **Settings > Integrations > EveryAction,** and copy the provided code.
 
-<figure><img src="../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/everyaction-action-form-script.png" alt=""><figcaption></figcaption></figure>
 
 In EveryAction, you can paste that code into your form by following these steps:
 

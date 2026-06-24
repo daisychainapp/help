@@ -23,7 +23,7 @@ If you send a long text in Daisychain which uses multiple SMS segments, we will 
 
 In the message composition window, click the image icon and select your file. &#x20;
 
-<figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/mms-add-image-toolbar.png" alt=""><figcaption></figcaption></figure>
 
 ***
 

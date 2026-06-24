@@ -48,7 +48,7 @@ If your account is integrated with Mobilize, you can choose "Recruit Mobilize At
    \
    Here's a preview of what this look like in-action:&#x20;
 
-<div data-full-width="true"><figure><img src="../.gitbook/assets/Daisy AI Mobilize.gif" alt="" width="360"><figcaption></figcaption></figure></div>
+<div data-full-width="true"><figure><img src="../.gitbook/assets/mobilize-ai-rsvp-demo.gif" alt="" width="360"><figcaption></figcaption></figure></div>
 
 {% hint style="warning" %}
 **Using Daisychain to create RSVPs in Mobilize**

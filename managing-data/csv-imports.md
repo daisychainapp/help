@@ -14,7 +14,7 @@ Importing people into Daisychain is simple:
 * First, navigate to the "People" section of Daisychain.
 * Then, click the button with three dots and click "Import CSV":
 
-<figure><img src="../.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/csv-imports-people-menu.png" alt=""><figcaption></figcaption></figure>
 
 You'll then be guided through the four step upload process:
 

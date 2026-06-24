@@ -13,7 +13,7 @@ This integration is only available to organizations with a [paid plan](https://a
 
 With the Action Network <> Daisychain integration, when someone takes action on Action Network forms, petitions, events, and donations, that person can be added to Daisychain and their action will be viewable in that person's timeline in Daisychain:
 
-<figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/action-network-timeline-activity.png" alt=""><figcaption></figcaption></figure>
 
 In Daisychain, you can use these actions as triggers for [Automations](../organizing/automations/).&#x20;
 
@@ -28,7 +28,7 @@ In Daisychain, you can use these actions as triggers for [Automations](../organi
 4.  **Add your Web Hook to Action Network.** Head back to the "API & Sync" page in your Action Network account. From there, scroll down to the "Webhooks" section, and hit the "+ New Webhook" button. Paste in the webhook from your clipboard. Then, you'll want to select the "trigger" that imports people from Action Network into Daisychain:\
     ​
 
-    <figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/action-network-webhook-trigger.png" alt="" width="375"><figcaption></figcaption></figure>
 
     You can [read more about these options in the Action Network documentation.](https://actionnetwork.org/docs/webhooks)[​](https://actionnetwork.org/docs/webhooks)
 
@@ -36,7 +36,7 @@ In Daisychain, you can use these actions as triggers for [Automations](../organi
 
 5. **Turn on the Webhook you just set up.** After this step, your Action Network integration will be live!
 
-<figure><img src="../.gitbook/assets/image (23).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/action-network-webhook-activate.png" alt="" width="375"><figcaption></figcaption></figure>
 
 After your initial setup, people and data will be ingested from the Action Network to Daisychain based on the trigger you selected it. You can also [setup automations](../organizing/automations/) in Daisychain that are triggered when people sign up, donate, or RSVP in Action Network.
 

@@ -23,15 +23,15 @@ Cards are representations of People in a Pathway. You can click on them to expan
 Tips on Using Pathways:
 
 * **List View**: You can toggle from the default pathway view to see a simplified "list view" that displays name, stage, and basic contact info (email and phone) without the stage-based visualization:\
-  ![](<../.gitbook/assets/image (4).png>)​
+  ![](<../.gitbook/assets/pathways-list-view.png>)​
 *   **Assignment Filters:** If multiple people are using the same pathway, it can be useful to filter it by Assignment. Just click the initials of a given User to filter the Pathway to only show the People assigned to that User.<br>
 
-    <figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/pathways-assignment-filter.png" alt=""><figcaption></figcaption></figure>
 
 
 * **Conversations:** You can start a conversation with everyone in a given stage of a pathway by clicking the three dots a the top of the stage, and then selecting "Start a Conversation."
 
-<figure><img src="../.gitbook/assets/image (3).png" alt="" width="191"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/pathways-start-conversation.png" alt="" width="191"><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 If you use the "Start A Conversation" feature from a filtered view, you will send a message to ALL people in that stage, not just the people visible after the assignment filter is applied.&#x20;
