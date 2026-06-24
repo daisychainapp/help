@@ -1,0 +1,8 @@
+root: ./
+
+structure:
+  readme: README.md
+  summary: SUMMARY.md
+
+redirects:
+  texting/subscription-statuses: managing-data/subscription-statuses.md

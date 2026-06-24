@@ -71,7 +71,7 @@ For example, if you have a keyword called **VOLUNTEER**:
 
 When someone texts a keyword to your number, a few things happen:
 
-1. **A person is created** if one doesn't already exist for that phone number. The person will be marked as "Textable" — meaning you can send them messages. See [Subscription Statuses](subscription-statuses.md) for more details.
+1. **A person is created** if one doesn't already exist for that phone number. The person will be marked as "Textable" — meaning you can send them messages. See [Subscription Statuses](../managing-data/subscription-statuses.md) for more details.
 2. **If "Opts people in" is enabled,** the person is also marked as "Subscribed." This applies even if the person had previously opted out — texting a keyword with the opt-in toggle enabled will re-subscribe them.
 3. **The auto-response is sent.** Either the configured message or the selected Flow is triggered.
 4. **If the person is already opted in** and texts the keyword again, they will still receive the auto-response. This is by design — otherwise people might think the keyword isn't working.

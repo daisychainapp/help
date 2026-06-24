@@ -9,9 +9,15 @@ Daisychain aims to help your organization abide by best practices and rules and 
 
 **Textable** phone numbers have been identified as mobile numbers which have not been opted out.&#x20;
 
+Textability describes a **phone number**, not a person: a number is textable when it's a mobile line that can receive SMS (not a landline or other non-mobile type) and hasn't been opted out. Because this status lives on the number itself, an opt-out follows that number everywhere — if the same number is added to another contact, it remains opted out there too.
+
 ![](https://44727351.fs1.hubspotusercontent-na1.net/hubfs/44727351/Screenshot%202024-05-29%20at%2012.02.13%20PM.png)
 
-**Opted in** numbers are numbers for which you have collected affirmative opt-in consent to text. This is a requirement for certain types of texting, such as from short-codes.&#x20;
+{% hint style="warning" %}
+"Textable" describes what's technically deliverable — not whether a given message is permitted. Opt-in and consent requirements for SMS vary by channel by legal jurisdiction and carrier rules. You're responsible for ensuring you have the consent that is appropriate for your channel — when in doubt, collect and record an explicit opt-in.
+{% endhint %}
+
+**Opted in** numbers are numbers for which you have collected affirmative opt-in consent to text — the person explicitly opted in to receive your messages. This is a requirement for certain types of texting, such as from short-codes. (In data exports, this status appears as **subscribed**.)&#x20;
 
 ![](https://44727351.fs1.hubspotusercontent-na1.net/hubfs/44727351/Screenshot%202024-05-29%20at%2012.01.54%20PM.png)
 

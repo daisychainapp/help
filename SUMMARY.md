@@ -23,7 +23,7 @@
   * [Inserting Legislative Info](texting/personalized-content/inserting-legislative-info.md)
 * [Image Display Issues](texting/image-display-issues.md)
 * [Texting Best Practices](texting/texting-best-practices.md)
-* [Subscription Statuses](texting/subscription-statuses.md)
+* [Subscription Statuses](managing-data/subscription-statuses.md)
 * [Charms](texting/charms/README.md)
   * [Charm Templates](texting/charms/charm-templates.md)
   * [Charms - Best Practices](texting/charms/charms-best-practices.md)
