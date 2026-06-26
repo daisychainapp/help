@@ -78,6 +78,7 @@
 * [Tags vs. Custom Fields vs. Questions](managing-data/tags-vs.-custom-fields.md)
 * [Exporting Data](managing-data/exporting-data.md)
 * [Subscription Statuses](managing-data/subscription-statuses.md)
+* [Legislative Data](managing-data/legislative-data.md)
 * [Deduplication](managing-data/deduplication.md)
 * [Data Sync](managing-data/data-sync.md)
 * [Anonymized Data Co-Op](managing-data/anonymized-data-coop.md)
