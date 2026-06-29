@@ -11,4 +11,4 @@ To get started, you’ll need to [configure your domain](email-configuration.md)
 
 #### Unsubscribes and Deliverability
 
-Daisychain automatically handles unsubscribe links in all email sends. If you have an integration with [action-network.md](../integrations/action-network.md "mention"), unsubscribes are synced back, helping keep your lists clean and compliant.
+Daisychain's built-in layouts include an unsubscribe link automatically. If you build a custom layout, be sure to keep the `{% unsubscribe_url %}` tag in your footer so recipients can always opt out. If you have an integration with [action-network.md](../integrations/action-network.md "mention"), unsubscribes are synced back, helping keep your lists clean and compliant.

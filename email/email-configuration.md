@@ -53,6 +53,39 @@ Because layouts are MJML, you can't simply paste raw HTML anywhere in the editor
 * Use `<mj-raw>` when you need to pass a block of custom HTML through untouched.
 {% endhint %}
 
+#### Anatomy of a layout
+
+A Daisychain layout isn't a complete email on its own — it's the frame, and Daisychain drops two things into it when the email is built:
+
+* The **content** of the individual email (what's written in the message editor).
+* The **CSS** from the layout's CSS tab.
+
+These are inserted at two special tags — `<mj-partial name="content" />` and `<mj-partial name="css" />`. `mj-partial` is a Daisychain-specific tag (not part of standard MJML), so **every layout must include both, or it won't work**: omit the content partial and the email body will be blank; omit the CSS partial and nothing from your CSS tab will apply.
+
+Here's the minimal skeleton every layout needs:
+
+```html
+<mjml>
+  <mj-head>
+    <mj-style inline="inline">
+      <mj-partial name="css" />   <!-- your CSS tab is injected and inlined here -->
+    </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-partial name="content" /> <!-- the message body is injected here -->
+
+    <!-- Everything else — header, footer, disclaimer — is just normal MJML
+         that you add around the content partial. -->
+  </mj-body>
+</mjml>
+```
+
+You can add as much as you like around the `content` partial (a header above it, a footer below it), style the whole thing with the CSS tab or MJML's own `<mj-attributes>`, and use the [MJML reference](https://mjml.io/documentation/) for the available tags. Just keep both partials in place.
+
+{% hint style="info" %}
+If a custom layout breaks — a blank body, missing styles, or it won't render — the quickest fix is to start from a known-good copy: open the built-in **Basic** layout, choose **Save as New Template**, and build your changes up from there. Basic always contains the correct structure.
+{% endhint %}
+
 #### Editing the footer or disclaimer
 
 The footer lives near the bottom of the layout's MJML, in the `<mj-text>` block that contains the unsubscribe link and your mailing address. To add a compliance line such as a "Paid for by" disclaimer, add a text block in that area, for example:
