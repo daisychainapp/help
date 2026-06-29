@@ -5,10 +5,6 @@ icon: envelope-open-text
 
 # Creating Emails
 
-{% hint style="info" %}
-Currently, email is only available as an [Automation](organizing/automations/) step. If you're interested in "blast email" in Daisychain, please reach out to hello@daisychain.app
-{% endhint %}
-
 Daisychain's email editor is designed to make it easy and quick to draft an email in just a few steps:
 
 1. Select your layout.
