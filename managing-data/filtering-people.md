@@ -31,6 +31,16 @@ icon: filter-list
 * **Region / State** – Filter by U.S. state or regional designation.
 * **Tags** – Filter by [tags](tags.md) applied to people in your database.
 
+### **Combining Filters with AND, OR, and Groups**
+
+You're not limited to a single filter — you can combine several to build precise, complex queries.
+
+<figure><img src="../.gitbook/assets/filtering-people-and-or-groups.png" alt="The filter bar showing two conditions joined by an AND toggle, with Add group and Clear options"><figcaption>Combine conditions with an AND/OR toggle, and use "Add group" to build nested queries.</figcaption></figure>
+
+* **AND / OR.** When you add more than one filter, Daisychain combines them with **AND** by default, so you narrow down to people who match _every_ condition. Between any two conditions you'll see an operator toggle — click it to switch between **AND** and **OR**. Switching to OR widens your results to people who match _either_ condition.
+* **Groups.** You can combine conditions into a **group** that has its own AND/OR operator, then combine that group with other conditions. This lets you build queries like **(Tag is "Volunteer" AND Region is Ohio) OR (donated in the last 30 days)**. Groups can be one level deep.
+* **Is / Is not.** Many conditions can be negated. Look for the **Is / Is not** toggle to match people who _don't_ meet a condition — for example, people who are _not_ tagged "Volunteer," or who did _not_ attend a given event. (A few condition types can't be negated; the toggle simply won't appear for those.)
+
 ### **Saved Filters**
 
 *   After filtering your People list, you you can create a **Saved Filter** by pressing the "Save Filter" button. <br>
@@ -41,10 +51,10 @@ icon: filter-list
 
 ### **Notes on Using Filters**
 
-* You can apply multiple filters at once. If you do, they will be additive, meaning you will be filtering down to people who match ALL the filters you apply.\
+* You can apply multiple filters at once and control how they combine — see [Combining Filters with AND, OR, and Groups](#combining-filters-with-and-or-and-groups) above. By default multiple filters are combined with AND (people who match every condition), but you can switch to OR and build grouped queries.\
   ​
 * You can remove filters by pressing the X button.<br>
-* When filtering people by **Tags**, you can choose to use multiple tags. When you do so, you can select "All of the Tags" (an "AND" condition) or "Any of the Tags" (an "OR" condition.)\
+* When filtering people by **Tags**, you can select multiple tags within a single Tags filter and choose "All of the Tags" (an "AND" condition) or "Any of the Tags" (an "OR" condition). This is separate from the AND/OR toggle that combines whole filters together.\
   ​
 *   To select everyone in a filtered list (in order to take a bulk action) you can select the checkbox in the top-left corner of the list. When you do, you'll select everyone on that page -- which is generally limited to 30 records. If you'd like to select more people, click the link highlighted in the screenshot below:\
     <br>
