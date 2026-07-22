@@ -75,6 +75,12 @@ To view errors, click the list name, and you will be taken to the import summary
 * People without a valid phone number will not be imported into Daisychain
 * Only the first phone number listed for people will import into Daisychain.
 {% endhint %}
+
+{% hint style="info" %}
+**What fields are imported**
+
+List imports bring in each person's name, email address, one phone number (preferring their verified cell phone, along with that number's SMS opt-in status), and mailing address. VAN custom fields, survey responses, and activist codes are **not** imported into Daisychain — Survey Question and Activist Code mappings sync one-way, from Daisychain back to VAN.
+{% endhint %}
 {% endstep %}
 {% endstepper %}
 

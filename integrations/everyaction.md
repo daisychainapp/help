@@ -1,19 +1,50 @@
 ---
 icon: building
-description: How to set up and use the Daisychain / EveryAction integration
+description: >-
+  How to set up and use the Daisychain / EveryAction integration to capture
+  live submissions from EveryAction, NGP, and VAN Online Actions forms
 ---
 
 # EveryAction
 
 When you integrate Daisychain with your EveryAction account, you can automatically import people into Daisychain when people submit EveryAction forms.
 
-This works with the following form-types:
+{% hint style="info" %}
+**A note on names**\
+This integration works with online action forms across the Bonterra family of products — EveryAction, NGPVAN, NGP, VAN, and VoteBuilder. If you can add a custom footer to your form in the form builder, the Daisychain integration will work with it, including forms hosted at `secure.ngpvan.com` or `secure.everyaction.com`. To import saved lists from VAN instead, see [ngpvan.md](ngpvan.md "mention").
+{% endhint %}
+
+This works with Online Actions form types including:
 
 * Signup forms
 * Event forms
+* Volunteer forms
+* Petition forms
+* Advocacy forms
 * Donation forms
 
 You can also trigger [automations](../organizing/automations/) when any of these things happen, which makes it easy to engage and organize EveryAction supporters, RSVPs, and donors as needed.
+
+## What data is captured
+
+When someone submits a form, Daisychain captures their submission in real time and either matches them to an existing person in your account or creates a new one. The following fields are captured from the form:
+
+* First name and last name
+* Email address
+* Mobile phone number
+* City, state/province, ZIP/postal code, and country
+* The form's name, type, and URL — so automations can target submissions from a specific form
+
+Subscription status is handled as follows:
+
+* People who submit a form with an email address are subscribed to email in Daisychain (unless they were already subscribed or opted out).
+* People are subscribed to SMS only if they checked the SMS opt-in checkbox on the form.
+
+{% hint style="warning" %}
+**Custom form fields are not captured**
+
+Custom questions you add to a form (for example, a yard sign preference or t-shirt size) are not brought into Daisychain — only the standard contact fields listed above. Note that survey question data can flow in the other direction: answers to Daisychain [questions.md](../managing-data/questions.md "mention") can be synced to VAN as Survey Responses — see [Syncing Survey Questions](ngpvan.md#syncing-survey-questions).
+{% endhint %}
 
 To setup the EveryAction integration, visit **Settings > Integrations > EveryAction,** and copy the provided code.
 
