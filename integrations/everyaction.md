@@ -46,13 +46,34 @@ Subscription status is handled as follows:
 Custom questions you add to a form (for example, a yard sign preference or t-shirt size) are not brought into Daisychain — only the standard contact fields listed above. Note that survey question data can flow in the other direction: answers to Daisychain [questions.md](../managing-data/questions.md "mention") can be synced to VAN as Survey Responses — see [Syncing Survey Questions](ngpvan.md#syncing-survey-questions).
 {% endhint %}
 
-To setup the EveryAction integration, visit **Settings > Integrations > EveryAction,** and copy the provided code.
+## Setting up the integration
 
-<figure><img src="../.gitbook/assets/everyaction-action-form-script.png" alt=""><figcaption></figcaption></figure>
+To set up the EveryAction integration, visit **Settings > Integrations > EveryAction** in Daisychain. The page walks you through a four-step setup:
 
-In EveryAction, you can paste that code into your form by following these steps:
+<figure><img src="../.gitbook/assets/everyaction-setup-wizard.png" alt="The EveryAction / VAN setup wizard in Daisychain"><figcaption></figcaption></figure>
 
-1. Navigate to the form you'd like to use.
-2. Go to "Step 2 - Build Page" of the Form Builder and scroll to the very bottom.
-3. In the "Create Custom Footer" Section, hit the "Source" button in the editor, and paste in the code you copied from Daisychain.
-4. Press "Publish Changes", and test your form to confirm submissions are flowing into Daisychain.
+{% stepper %}
+{% step %}
+### Copy your installation snippet
+
+Copy the script tag Daisychain provides. Paste it exactly as-is — the `data-script-justification` attribute must remain so the script loads on your form.
+{% endstep %}
+
+{% step %}
+### Add the snippet to a Theme
+
+In EveryAction / VAN, open **Online Actions** and select the **Themes** tab. Open an existing Theme or create a new one, and click into the `<body>` Content area. Paste the snippet at the bottom of the `<body>` Content, immediately after the `{{EmbedForm}}` merge field. Then save and publish the Theme.
+{% endstep %}
+
+{% step %}
+### Apply the Theme to a form
+
+Open the form you want Daisychain to ingest in Online Actions and go to the **Basics** page. In the **Form Theme** section, choose the Theme you just saved from the Published Themes dropdown, then save or publish the form.
+{% endstep %}
+
+{% step %}
+### Verify a form submission
+
+Submit a test response on a form that uses the Theme. Daisychain will detect it automatically and complete the setup.
+{% endstep %}
+{% endstepper %}
