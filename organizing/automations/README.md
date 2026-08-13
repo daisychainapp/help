@@ -15,14 +15,12 @@ Automations let you build powerful, multi-step workflows that run automatically 
 * **Welcome new donors instantly.** When someone donates via ActBlue, automatically send them a personalized thank-you text, tag them as a donor, and assign them to an organizer for follow-up.
 * **Onboard event RSVPs.** When someone RSVPs on Mobilize, send them a personalized confirmation text with event details, wait until the day before the event, then send a reminder message.
 * **Escalate high-value actions.** When a donation over $100 comes in, create a card on a "High-Value Donors" pathway, assign the person to a senior donor organizer, and send a personal outreach text after a short delay.
+* **Capture what a texting conversation revealed.** When a texter sends the "Not Interested" quick reply, tag the person so they can be excluded from the next send — see [Quick Reply automations](../../texting/quick-replies.md#running-an-automation-when-a-quick-reply-is-sent).
 
 ### Creating an Automation
 
 Here's how to create an automation:
 
-* Navigate to **Settings**, and then click on **Automations.**
-* Click the **Add** button.
-* Choose a **Trigger,** which is the event that will begin an automation. Triggers can be from tools you've integrated in your account (like a donation from ActBlue or an RSVP on Mobilize), though some triggers (like "Stage Transition") are based purely on things happening within Daisychain.
 * Navigate to **Settings**, and then click on **Automations.**
 * Click the **Add** button.
 * Choose a **Trigger,** which is the event that will begin an automation. Triggers can be from tools you've integrated in your account (like a donation from [ActBlue](../../integrations/actblue.md) or an RSVP on [Mobilize](../../integrations/mobilize.md)), though some triggers (like "Stage Transition") are based purely on things happening within Daisychain.&#x20;
@@ -50,6 +48,12 @@ Here's how to create an automation:
 
 * You can add as many **Steps** as you'd like to an automation.
 * You can also **Edit** an automation after you've created it if you need to modify, add, or remove steps.
+
+### Automations That Live on a Quick Reply
+
+Most automations live in **Settings > Automations** and are triggered by something arriving from outside — a donation, an RSVP, a signup. One kind is set up somewhere else: an automation attached to a [Quick Reply](../../texting/quick-replies.md#running-an-automation-when-a-quick-reply-is-sent), which runs when a texter sends that reply in the inbox.
+
+Use it when the thing you want to record is *what the conversation revealed* — that someone is a yes, a no, a wrong number, or needs a call. The texter picks the reply they were going to pick anyway, and the tag, assignment, or card follows automatically. You set these up from **Settings > Channels > Texting > Quick Replies**, on the reply itself.
 
 ### Re-ordering Steps
 

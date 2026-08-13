@@ -23,6 +23,7 @@ Once your tag has been created, you can apply tags to people in the following wa
 
 * Individually, in their Person record and in the [Inbox](../texting/inbox.md).
 * In bulk, via [CSV import](csv-imports.md) and through bulk actions after [filtering a list. ](filtering-people.md)
+* Automatically, as an **Add a Tag** step in an [Automation](../organizing/automations/) — including one attached to a [Quick Reply](../texting/quick-replies.md#running-an-automation-when-a-quick-reply-is-sent), which tags the person whenever a texter sends that reply in the inbox.
 
 ### Filtering by Tag
 
