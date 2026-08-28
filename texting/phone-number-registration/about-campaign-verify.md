@@ -5,7 +5,9 @@ icon: message-check
 
 # About "Campaign Verify"
 
-If your organization is a 527 (a political campaign, party committee, or PAC), you need to register with "[Campaign Verify](https://www.campaignverify.org/)" to ensure your text messages don't get filtered.&#x20;
+If your organization is a political campaign, party committee, or PAC, you are required to register with "[Campaign Verify](https://www.campaignverify.org/)" before Daisychain can register your phone number. The carriers are moving toward requiring Campaign Verify for every political organization eligible for it.
+
+Campaign Verify is only available to 527 organizations registered with the FEC or a state, local, or tribal election authority. If you're a 501(c)(3) or 501(c)(4), you can't get a token — see [below](#who-is-eligible-for-campaign-verify).
 
 ### **What's Campaign Verify?**
 
@@ -13,25 +15,35 @@ If your organization is a 527 (a political campaign, party committee, or PAC), y
 
 The verification process costs $95 and provides access to a token that authenticates your organization's identity and unlocks high-volume texting capacity on 10DLC.
 
-**Who needs Campaign Verify?**
+### Who is eligible for Campaign Verify?
 
-Campaign Verify is required for any 527 political organization that wants to use the Political special use case with higher messaging throughput. This includes:
+Any candidate, party, PAC, or other political committee that is a **527 tax-exempt organization** and is **registered with the Federal Election Commission (FEC) or a State, Local, or Tribal election authority** is eligible to obtain verification through Campaign Verify. Both parts matter: verification works by matching you to your public filing with that election authority. This includes:
 
-* Federal candidate committees&#x20;
-* State and local candidate committees&#x20;
+* Federal candidate committees
+* State, local, and tribal candidate committees
 * Party committees at any level
 * PACs
 * Ballot initiative committees organized as 527s
 
-**Who does NOT need Campaign Verify?**
+**If you're eligible, Campaign Verify is required.** The carriers are increasingly requiring verification for political organizations that qualify for it — so Daisychain registers every eligible organization with the Political use case, and we can't complete your phone number registration without a token.
 
-* 501(c)(3) nonprofits&#x20;
-* 501(c)(4) advocacy organizations not sending explicitly political messages
-* Businesses and other non-political entities
+### Who can NOT get Campaign Verify?
 
-**Why bother?**
+{% hint style="warning" %}
+**Campaign Verify is not available to 501(c)(3) or 501(c)(4) organizations.** This is true even for a c4 that sends explicitly political messages — eligibility depends on being a 527 registered with an election authority, not on the content of your messages. Campaign Verify will not issue a token to a c3 or c4, and it isn't something Daisychain can request on your behalf.
 
-Without Campaign Verify you're limited to sending 2,000 messages per day to T-Mobile and 75 messages/minute to AT\&T. With Campaign Verify and the Political use case, T-Mobile throughput is uncapped.
+If you're a c3 or c4 and need more 10DLC throughput, your options are a Trust Score appeal or secondary vetting, or a toll-free number, which has no T-Mobile daily cap. See [Options if You're Hitting Message Limits](./#options-if-youre-hitting-message-limits), or email [help@daisychain.app,](mailto:help@daisychain.app) and we'll help you work out which makes sense.
+{% endhint %}
+
+Businesses and other non-political entities are also outside Campaign Verify's scope.
+
+### What if my organization has both a 527 and a c3/c4 arm?
+
+Only the 527 can be verified, and the token belongs to that entity. Your Daisychain account sends under a single telecom identity, so if that identity is your PAC, your sends use the PAC's Campaign Verify token regardless of which arm is paying for a given campaign. No regulator checks this message by message, but the telecom industry's preference is for the sending identity to match the entity actually sending. If you're not sure which entity your account is registered under, email [help@daisychain.app](mailto:help@daisychain.app) and we'll tell you what's on file.
+
+### Why is it required?
+
+Campaign Verify is how the telecom industry confirms a political sender is who it says it is, and it's the gateway to the Political use case. Without it, a 527's throughput is capped by its Trust Score like any other organization — as low as 2,000 messages per day to T-Mobile. With Campaign Verify and the Political use case, T-Mobile throughput is uncapped. It's increasingly required upstream by The Campaign Registry and the carriers, and it's the faster path, so we register every eligible organization this way.
 
 ### **How do I register with Campaign Verify?**
 

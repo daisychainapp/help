@@ -38,7 +38,7 @@ In order to register your organization or campaign to send text messages, you'll
 * [ ] **Sign Up Form Link** Your website must contain a [compliant sign up form.](./#sign-up-form-requirements)
 * [ ] **Privacy Policy Link:** Your website must include a link to a [compliant privacy policy.](./#privacy-policy-info)
 * [ ] **Mobile Terms of Use:** Your website must contain compliant [Mobile Terms of Use](./#terms-of-use-info), either as a dedicated page or a section of your privacy policy.&#x20;
-* [ ] **Campaign Verify Token:** If your organization is a 527 (a Federal political campaign, political party, or PAC) you'll also need to register with [Campaign Verify](about-campaign-verify.md).&#x20;
+* [ ] **Campaign Verify Token:** If your organization is a 527 (a political campaign, party committee, or PAC) registered with the FEC or a state, local, or tribal election authority, a [Campaign Verify](about-campaign-verify.md) token is required — The Campaign Registry and the carriers are moving toward requiring it for every eligible organization, and we can't complete your registration without one. Campaign Verify is only available to those 527s; 501(c)(3) and 501(c)(4) organizations can't get a token, even when sending political messages.&#x20;
 
 ### **Sign-Up Form Requirements**
 
@@ -91,7 +91,13 @@ Carriers place limits on how many texts can be sent through a 10DLC number. Thes
 {% hint style="info" %}
 **Note for Political Campaigns**
 
-If your organization is a candidate committee, party committee, PAC, or ballot initiative committee at any level — federal, state, or local — you are likely a 527 political organization and should register with Campaign Verify. This unlocks significantly higher throughput (uncapped on T-Mobile vs. 2,000 messages/day with standard use cases). See the [help doc for Campaign Verify](about-campaign-verify.md) for details.
+If your organization is a candidate committee, party committee, PAC, or ballot initiative committee at any level — federal, state, or local — you are likely a 527 political organization and are required to register with Campaign Verify. This unlocks significantly higher throughput (uncapped on T-Mobile vs. 2,000 messages/day with standard use cases). See the [help doc for Campaign Verify](about-campaign-verify.md) for details.
+{% endhint %}
+
+{% hint style="info" %}
+**Note for 501(c)(3) and 501(c)(4) organizations**
+
+Campaign Verify is not available to you, even if you send explicitly political messages — it verifies only 527 organizations registered with the FEC or a state, local, or tribal election authority. Your throughput is set by your Trust Score instead. If you're hitting limits, see [Options if You're Hitting Message Limits](#options-if-youre-hitting-message-limits) below.
 {% endhint %}
 
 ### How Daisychain Handles Limits
