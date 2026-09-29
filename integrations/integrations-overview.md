@@ -11,6 +11,7 @@ For more information on specific integrations, visit the following pages:
 
 * [actblue.md](actblue.md "mention")
 * [action-network.md](action-network.md "mention")
+* [campaign-deputy.md](campaign-deputy.md "mention")
 * [controlshift.md](controlshift.md "mention")
 * [everyaction.md](everyaction.md "mention")
 * [mobilize.md](mobilize.md "mention")

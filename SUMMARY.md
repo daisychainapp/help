@@ -40,6 +40,7 @@
 * [Integrations Overview](integrations/integrations-overview.md)
 * [Action Network](integrations/action-network.md)
 * [ActBlue](integrations/actblue.md)
+* [Campaign Deputy](integrations/campaign-deputy.md)
 * [ControlShift](integrations/controlshift.md)
 * [EveryAction](integrations/everyaction.md)
 * [FundraiseUp](integrations/fundraiseup.md)
