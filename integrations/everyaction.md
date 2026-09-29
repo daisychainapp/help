@@ -7,8 +7,6 @@ description: >-
 
 # EveryAction
 
-<figure><img src="../.gitbook/assets/integration-logos/everyaction.png" alt="EveryAction logo" width="211"><figcaption></figcaption></figure>
-
 When you integrate Daisychain with your EveryAction account, you can automatically import people into Daisychain when people submit EveryAction forms.
 
 {% hint style="info" %}

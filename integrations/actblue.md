@@ -5,8 +5,6 @@ icon: sack-dollar
 
 # ActBlue
 
-<figure><img src="../.gitbook/assets/integration-logos/actblue.png" alt="ActBlue logo" width="174"><figcaption></figcaption></figure>
-
 **Setup**
 
 To setup the ActBlue integration, visit **Settings > Integrations > ActBlue** and follow the on-screen instructions.&#x20;

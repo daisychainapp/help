@@ -5,8 +5,6 @@ icon: user-tie
 
 # Campaign Deputy
 
-<figure><img src="../.gitbook/assets/integration-logos/campaign-deputy.png" alt="Campaign Deputy logo" width="36"><figcaption></figcaption></figure>
-
 ### Overview
 
 The Campaign Deputy integration imports the people and contributions in your Campaign Deputy account into Daisychain and keeps them up to date. Once connected, you can text, filter, and run automations on your Campaign Deputy supporters without any CSV exports.

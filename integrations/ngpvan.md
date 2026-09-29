@@ -7,8 +7,6 @@ icon: poll-people
 
 # NGPVAN
 
-<figure><img src="../.gitbook/assets/integration-logos/ngpvan.png" alt="NGP VAN logo" width="152"><figcaption></figcaption></figure>
-
 {% hint style="info" %}
 **A note on names**\
 This document refers to "NGPVAN" and "VAN", but the instructions also apply if you are importing lists from Bonterra products named VoteBuilder, EveryAction, and more. For information about integrating live form submissions from these products, [click here.](everyaction.md)

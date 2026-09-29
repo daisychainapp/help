@@ -21,7 +21,7 @@ After someone has joined your account, you can also click the "Remove" button if
 
 Users can currently have one of three roles, each of which has different permissions:
 
-* **Admin:** Full control over the entire account. Admins can manage all settings, users, integrations, data exports, API keys, and billing.
+* **Admin:** Full control over the entire account. Admins can manage all settings, users, integrations, data exports, [API keys](../integrations/daisychain-api.md#api-keys), and billing.
 * **Manager:** Operational access to most day-to-day features. Managers can create and manage broadcasts, flows, pathways, automations, conversations, and integrations. They can also manage tags, saved filters, quick replies, notes, and questions. (Managers _cannot_ manage other users' roles, or fully manage API keys.)
 * **User:** Limited access focused on inbox work. Users can view and reply to conversations, send individual messages/replies, tag people, update assignments and custom fields, and record question responses. (Users _cannot_ create broadcasts, manage flows or pathways, change settings, or access integrations.)
 

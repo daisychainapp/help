@@ -25,7 +25,7 @@ The AI assistant is not 100% accurate, and automations using AI-generated JMESPa
 
 ### About JMESPath Queries
 
-Actions that trigger Dasisychain automations have JSON representations of the activity on an external system or within Daisychain that triggered the automation. For Actblue donations this JSON representation might include the details of the contribution, for mobilize the event and timeslot that the person RSVP'd to. For automations triggered via the Daisychain actions API, this JSON is provided by the system that calls the Daisychain API in the API submission.
+Actions that trigger Dasisychain automations have JSON representations of the activity on an external system or within Daisychain that triggered the automation. For Actblue donations this JSON representation might include the details of the contribution, for mobilize the event and timeslot that the person RSVP'd to. For automations triggered via the [Daisychain actions API](../../integrations/daisychain-api.md#recording-actions), this JSON is provided by the system that calls the Daisychain API in the API submission.
 
 Automations can be filtered by querying the JSON representation of the activity using JMESPath. If the JMESPath query you write returns an empty or null result we do not run the automation. If the JMESPath query returns part of the JSON document or a true value, we consider it a match and allow the automation to run.
 

@@ -5,8 +5,6 @@ icon: asterisk
 
 # Zapier
 
-<figure><img src="../.gitbook/assets/integration-logos/zapier.png" alt="Zapier logo" width="36"><figcaption></figcaption></figure>
-
 Zapier is a powerful tool that you can use to link up Daisychain with thousands of other applications, including common tools like Google Forms, EventBright, Facebook Lead Ads, Slack, and more.
 
 Here's the basics of setting up Zapier with Daisychain:

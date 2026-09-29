@@ -5,8 +5,6 @@ icon: chevrons-right
 
 # Action Network
 
-<figure><img src="../.gitbook/assets/integration-logos/action-network.png" alt="Action Network logo" width="116"><figcaption></figcaption></figure>
-
 {% hint style="info" %}
 This integration is only available to organizations with a [paid plan](https://actionnetwork.org/get-started/) on Action Network.
 {% endhint %}

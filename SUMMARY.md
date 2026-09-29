@@ -48,6 +48,7 @@
 * [NGPVAN](integrations/ngpvan.md)
 * [Run](integrations/run.md)
 * [Zapier](integrations/zapier.md)
+* [Daisychain API](integrations/daisychain-api.md)
 
 ## Organizing
 

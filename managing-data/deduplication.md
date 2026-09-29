@@ -30,7 +30,7 @@ The tradeoff runs in one direction on purpose: **an extra duplicate is easy to f
 
 ## How matching works
 
-Whenever data enters Daisychain — a CSV import, an integration sync, a form submission, or an API call — we have to decide whether it belongs to a person you already have or to someone new. The decision works like this:
+Whenever data enters Daisychain — a CSV import, an integration sync, a form submission, or an [API](../integrations/daisychain-api.md) call — we have to decide whether it belongs to a person you already have or to someone new. The decision works like this:
 
 1. **Explicit IDs win.** If the incoming data carries a Daisychain person ID, or a CRM identifier from an integrated tool (like a VAN ID or Action Network ID) that you're matching on, that identifier is authoritative and email/phone matching is skipped.
 2. **Email and phone find the candidates.** Otherwise, Daisychain looks for existing people who share any of the incoming email addresses or phone numbers.
