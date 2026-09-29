@@ -5,6 +5,8 @@ icon: hand-fist
 
 # ControlShift
 
+<figure><img src="../.gitbook/assets/integration-logos/controlshift.png" alt="ControlShift logo" width="212"><figcaption></figcaption></figure>
+
 [ControlShift](https://www.controlshiftlabs.com/) is a toolset used to put people at the center of campaigns through distributed events, local groups, and member-led petitions.
 
 You can use Daisychain to create a high-touch organizing workflow to support ControlShift petition-creators. When you integrate Daisychain and ControlShift, a few things happen:

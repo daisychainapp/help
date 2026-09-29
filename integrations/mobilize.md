@@ -5,6 +5,8 @@ icon: calendar-circle-user
 
 # Mobilize
 
+<figure><img src="../.gitbook/assets/integration-logos/mobilize.png" alt="Mobilize logo" width="175"><figcaption></figcaption></figure>
+
 #### Setup and Configuration
 
 To setup the Mobilize integration, visit **Settings > Integrations > Mobilize**, and follow the on-screen instructions.

@@ -5,6 +5,8 @@ icon: bars-sort
 
 # FundraiseUp
 
+<figure><img src="../.gitbook/assets/integration-logos/fundraiseup.png" alt="FundraiseUp logo" width="217"><figcaption></figcaption></figure>
+
 ### Overview
 
 The FundraiseUp integration allows you to automatically import donors and donation data into Daisychain—no more manual CSV transfers. Once connected, new donor and donation records will appear directly in the Timeline of relevant People in your account.
