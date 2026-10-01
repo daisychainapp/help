@@ -46,8 +46,12 @@ The deliverability stats of each broadcast campaign you send are listed at the b
 
 **Sending** messages are those which have been sent to carriers but which we have not received a delivery receipt for. It may take up to two hours for these receipts to be received.
 
-**Delivered** messages are those which we have received a delivery receipt for.
+**Delivered** messages are those the carrier confirmed were delivered, plus messages the carrier accepted without sending back a receipt. Our carrier partners advise treating those as delivered.
 
-**Undelivered** messages are those which we have confirmed have not been delivered.
+**Undelivered** messages are those the carrier reported as not delivered, for example because the phone wasn't connected or the message was filtered, plus messages Daisychain canceled before sending. Some undelivered messages are normal on every campaign.
+
+**Expired** messages, shown when there are any, are ones the carrier gave up on because the recipient's phone stayed off or out of service. They most likely never arrived, but the carrier doesn't confirm either way.
+
+For the full list of statuses, see [Message Statuses](../message-statuses.md).
 
 You may export the complete delivery statistics for your campaign at the bottom of this page by clicking “Export CSV”.
