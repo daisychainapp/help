@@ -74,7 +74,11 @@ Not every carrier partner makes this distinction. Some report a rejection from t
 
 Because of this, Daisychain only acts on a failure when the error is clear-cut, and doesn't stop texting someone because of one generic failure.
 
-Some carrier errors also change the recipient's subscription. If the carrier tells us the number has opted out, Daisychain opts it out. If the carrier says it can't receive texts (a landline, for example), Daisychain opts it out for six months. If a number fails several times in a row as an invalid destination, which usually means it has been disconnected, Daisychain pauses texting it for seven weeks. See [Opt-Outs](opt-outs.md).
+Some carrier errors also change the recipient's subscription.
+
+Daisychain processes opt-outs itself: when someone replies STOP or another opt-out word, Daisychain opts them out directly, without involving the carrier. Carrier opt-outs are separate and happen outside Daisychain, for example when someone reports your messages as spam by forwarding them to 7726. The carrier then blocks your messages to that person, and they show up as Failed or Undelivered with an opt-out error. When that happens, Daisychain opts the number out too.
+
+If the carrier says a number can't receive texts (a landline, for example), Daisychain opts it out for six months. If a number fails several times in a row as an invalid destination, which usually means it has been disconnected, Daisychain pauses texting it for seven weeks. See [Opt-Outs](opt-outs.md).
 
 ### Incoming messages
 
