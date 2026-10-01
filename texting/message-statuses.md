@@ -46,8 +46,8 @@ These come from the carrier.
 | **Sending** | On its way through the carrier network, waiting for a delivery receipt. |
 | **Sent** | The recipient's carrier accepted the message but never sent back a delivery receipt. Many carriers don't send receipts in every case, so if a message stays in Sending without an update after an extended period has passed, we move it to Sent. Our carrier partners advise treating these messages as delivered to the phone, and reports count them as Delivered. A carrier update can still arrive later and change it. |
 | **Delivered** | The recipient's carrier confirmed delivery. |
-| **Undelivered** | The carrier reported that the message was not delivered. See [Failed and Undelivered](#failed-and-undelivered) below. |
-| **Failed** | The message could not be sent, or the carrier reported that it was not delivered. There is usually an error code; the reason is shown under the message in the conversation. See [Failed and Undelivered](#failed-and-undelivered) below. |
+| **Undelivered** | The message was sent, but the recipient's carrier reported that it didn't reach the phone. Less certain than Failed; see [Failed and Undelivered](#failed-and-undelivered) below. |
+| **Failed** | The message could not be sent. There is usually an error code; the reason is shown under the message in the conversation. See [Failed and Undelivered](#failed-and-undelivered) below. |
 | **Expired** | The recipient's phone stayed off or out of service for so long that the carrier gave up trying to deliver the message. The message most likely never reached the phone, but the carrier doesn't confirm either way, so Daisychain reports it separately rather than as an error, and it doesn't count toward automatic campaign pausing. |
 
 ### Why a status can change later
@@ -62,12 +62,15 @@ Delivery updates from carriers are best effort. They don't always arrive, they c
 
 ### Failed and Undelivered
 
-Failed and Undelivered both mean that something along the way reported that the message didn't reach the phone. That's usually right, but it isn't proof, and what it means depends on the recipient's carrier:
+These two statuses differ in how sure we can be:
 
-* **The two mean the same thing.** Which one you see depends on which carrier partner sent the message, not on what happened.
-* **The reason is carrier-specific.** Every carrier reports problems in its own way. Some errors are precise, like "this person has opted out." Others are catch-alls: "carrier rejected the message" can mean a prepaid phone that has run out of credit, a line that isn't set up to receive that kind of text, or spam filtering, and the carrier doesn't tell us which.
-* **Many failures are temporary.** A phone that is switched off, a prepaid balance that runs out, or a carrier's filtering decision can cause one failure for a number that receives the next text just fine.
-* **Occasionally the report is wrong.** Our carrier partners have confirmed rare cases where a failure was reported for a message that was in fact delivered.
+* **Failed** means the message could not be sent. It never left our carrier partner, for example because the number isn't valid or the message was rejected before it went out. The recipient did not get it.
+* **Undelivered** means the message was sent, but the recipient's carrier reported back that it didn't reach the phone. This is less certain. It rests on the carrier's report, and carrier reports are best effort:
+  * **The reason is carrier-specific.** Every carrier reports problems in its own way. Some reports are precise, like "this person has opted out." Others are catch-alls: "carrier rejected the message" can mean a prepaid phone that has run out of credit, a line that isn't set up to receive that kind of text, or spam filtering, and the carrier doesn't tell us which.
+  * **It's often temporary.** A phone that is switched off, a prepaid balance that runs out, or a carrier's filtering decision can cause one failure for a number that receives the next text just fine.
+  * **Occasionally the report is wrong.** Our carrier partners have confirmed rare cases where a failure was reported for a message that was in fact delivered.
+
+Not every carrier partner makes this distinction. Some report a rejection from the recipient's carrier as Failed rather than Undelivered. The error code shown under the message tells you where the failure came from, and a carrier rejection deserves the same caution whichever status it shows as.
 
 Because of this, Daisychain only acts on a failure when the error is clear-cut, and doesn't stop texting someone because of one generic failure.
 
@@ -103,6 +106,6 @@ The [Campaign Report](campaigns/campaign-report.md), automation reports and the 
 | **Paused** | Paused |
 | **Deferred** | Deferred |
 
-Sent counts as Delivered because our carrier partners advise treating those messages as having reached the phone. The Undelivered total is broader than the Undelivered status. It includes every message the network reported as not delivered (see [Failed and Undelivered](#failed-and-undelivered)), plus messages Daisychain canceled before sending.
+Sent counts as Delivered because our carrier partners advise treating those messages as having reached the phone. The Undelivered total is broader than the Undelivered status. It includes messages that couldn't be sent, messages the carrier reported as not delivered (see [Failed and Undelivered](#failed-and-undelivered)), and messages Daisychain canceled before sending.
 
 When you filter people by "Undelivered" for a campaign, Expired messages are included too, since those recipients most likely never got the text. You can also filter people by the status of the campaign message they received (see [Filters](../managing-data/filtering-people.md)) or export message statuses (see [Exporting Data](../managing-data/exporting-data.md)).
