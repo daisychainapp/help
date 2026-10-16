@@ -72,6 +72,10 @@ To set this up:
 
 As texters work through replies, the Survey panel will show each Question with its defined answer type (multiple choice, Yes/No, dropdown, etc.). Answers are saved to the person's profile and — if the Question is mapped to a VAN Survey Question — automatically synced back to VAN.
 
+#### Collecting Answers via Flows
+
+[Flows](../texting/flows.md) can ask Questions too. A [Question Node](../texting/flows.md#question-node-branching-surveys) asks one Question and routes the conversation based on the answer a texter records, which is how you build a survey where each answer decides the next question. The Survey Tool on an Intelligence Node lets the AI ask a set of Questions and record the answers itself. Either way, answers are saved to the person's profile and sync to VAN the same as answers recorded from a Campaign.
+
 {% hint style="info" %}
 Read more about the differences between three custom data types in the [tags-vs.-custom-fields.md](tags-vs.-custom-fields.md "mention") article.
 {% endhint %}

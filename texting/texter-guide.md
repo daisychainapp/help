@@ -63,6 +63,7 @@ When you open a conversation, you can:
 * **View recipient info:** The right-hand panel shows details about the person you're texting, including custom fields.
 * **Tag people:** You can add or remove tags on a person's record directly from the conversation. Your admin may ask you to tag people based on their responses (for example, tagging someone as "Interested" or "Volunteer").
 *   **Record question responses:** If your admin has set up a survey for the campaign, the questions will appear in a Survey panel on the right side of the conversation. Each question shows its answer type (multiple choice, Yes/No, dropdown, text, etc.) so you can record answers directly as you chat. Your answers save to the person's profile with your name and the time — and if your organization uses VAN, they sync back automatically.
+*   **Answer a Flow question:** Some campaigns use a Flow that asks questions one step at a time. When a conversation is waiting on you, a panel above the message box shows the question and a button for each answer. Pick the answer that matches what the person said. A reply is drafted for you, including the next question if there is one. Edit it if you like, then send. Sending records the answer and moves the conversation to the next step.
 
 
 * **Opt someone out:** If someone asks to stop receiving messages, you **must** press the **"Opt Out SMS"** button. This is important — it prevents them from receiving any future messages. More on this below.

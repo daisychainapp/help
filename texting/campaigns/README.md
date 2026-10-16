@@ -89,6 +89,8 @@ Choose how replies from recipients are handled:
 
 You can only select one reply handling method per campaign. If you choose a Flow, make sure it's been published and tested before launching your campaign.
 
+A Flow can also hand conversations to your team. If the Flow includes a [Question Node](../flows.md#question-node-branching-surveys), conversations that reach it appear in the Reply Queue for texters to record the answer, and the Flow picks up again from there.
+
 ### **Quick Replies**
 
 Quick Replies are pre-written response templates your team can use when responding to incoming messages in the Inbox. Click "Customize" to add, edit, or remove Quick Replies for this campaign.

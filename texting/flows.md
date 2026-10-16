@@ -26,6 +26,7 @@ Flows can:
 * Schedule messages for later
 * Nudge non-responsive people to reply
 * Record data to the Daisychain CRM (Email, Name, Address, Custom Fields, and Questions)
+* Run branching surveys, where each answer decides the next question and texters record the answers
 
 ## Creating a New Flow
 
@@ -38,7 +39,7 @@ Flows can:
 
 ## Node Types
 
-When adding a Node, you’ll choose one of three types:
+When adding a Node, you’ll choose one of four types:
 
 ### Intelligence Node (AI-powered)
 
@@ -139,6 +140,34 @@ Transitions must be connected to another node in order to function correctly.
 ### Send a Message Node
 
 This node type allows you to send a quick response back to the supporter — with no logic and no AI. Currently, the send message node will only send a single message. Think of it like an "autoresponder", since a "Send a Message" node will always send the same outgoing message, regardless of the content of the incoming message.
+
+### Question Node (branching surveys)
+
+A Question Node asks one of your [Questions](../managing-data/questions.md) and waits for a texter to record the answer. Each answer is its own exit from the node, so you can wire "Yes" to one step and "No" to another. This is how you build a survey where the questions depend on earlier answers: chain Question Nodes together, and send each answer to the next question that makes sense for it.
+
+Unlike the other node types, a Question Node is worked by a person. When a conversation reaches one, the Flow stops replying on its own and the conversation goes to your texters in the Inbox and the Reply Queue. The texter reads what the supporter said, records the answer, and the Flow continues from there.
+
+**Setting one up**
+
+1. Create your Questions in **Settings > People > Questions**. A Question Node needs a Question with a fixed set of answers: multiple choice, dropdown, or Yes/No.
+2. Add a node to your Flow and choose **Question**, then pick the Question. The Question is locked once the node is created, because its answers define the node's exits. To ask something different, add another Question Node.
+3. Write the **Ask Message**. This is what gets sent when the conversation arrives at this step. Leave it blank on the starting node, since your campaign message already asked the question.
+4. Under **Answers**, optionally choose a Quick Reply for each answer. When a texter picks that answer, the Quick Reply is placed in their message box as a draft they can edit before sending.
+5. On the canvas, connect each answer to the step that should come next: another Question Node, an Intelligence Node, a Send a Message Node, or an Automation Steps Node. An answer with no connection ends the conversation when it is recorded.
+
+**What texters see**
+
+When a texter opens a conversation that is waiting at a Question Node, a panel above the message box shows the step name, the question, and a button for each answer. Picking an answer shows where it leads ("Sending advances to: Follow-up question" or "Sending ends the conversation") and drafts the reply: the answer's Quick Reply, followed by the next step's Ask Message. Sending that reply records the answer to the person's profile with the texter's name and the time, and moves the conversation to the next step. If the next step is another Question Node, the supporter's reply comes back to the Inbox for the next answer.
+
+Recorded answers work like any other Question answer: they show in the person's Questions tab, and if the Question is mapped to a VAN Survey Question they sync to VAN.
+
+**Seeing the results**
+
+Open the Flow and press **Usage**, then the **Survey Responses** tab. It lists every question the Flow asks, in Flow order, with the response rate against the conversations that reached that step and a breakdown of how people answered.
+
+{% hint style="info" %}
+**Question Node or Survey Tool?** Use the [Survey Tool](flows.md#survey-tool) on an Intelligence Node when you want the AI to run the whole survey without texters. Use Question Nodes when a person should read each reply and record the answer, or when the next question depends on the answer.
+{% endhint %}
 
 ### Automation Steps Node
 
@@ -334,6 +363,14 @@ Yes! You can connect a Flow to a [keyword](https://daisychain.gitbook.io/help/te
 <summary><strong>How do I set up Flows to respond to Campaign replies?</strong></summary>
 
 Campaigns can be configured to ensure that any replies are handled by a Flow. This is managed in Step 2 when creating a Campaign.
+
+</details>
+
+<details>
+
+<summary><strong>How do I run a survey where the next question depends on the answer?</strong></summary>
+
+Build the survey out of [Question Nodes](flows.md#question-node-branching-surveys). Each node asks one Question, and each answer is wired on the canvas to the question that should follow it. Texters record the answers from the Inbox, and you can see response rates for every question under the Flow's Usage page. If you want the AI to run the survey instead, use the Survey Tool on an Intelligence Node.
 
 </details>
 

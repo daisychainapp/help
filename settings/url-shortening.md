@@ -23,9 +23,17 @@ We provide URL shortening for a few reasons:
 Using a generic URL shortener (like bit.ly or TinyURL) makes it more likely that your messages gets flagged as spam and filtered out.
 {% endhint %}
 
-### Custom URLs
+### Custom domains
 
-We can set up a custom short link for you upon request! Custom short links can increase deliverability and brand recognition. If you're interested, email hello@daisychain.app
+You can use your own domain for shortened links. Custom short links can increase deliverability and brand recognition. Account admins can request one under **Settings > URL Shortening > Add a custom domain**:
+
+1. Enter the domain you'd like to use and click **Request domain**. A subdomain like go.yourdomain.org works with any DNS provider. An apex domain like yourdomain.org works if your DNS provider supports CNAME flattening or ALIAS records, such as Cloudflare.
+2. Add the two DNS records shown at your DNS provider. We check them automatically, and you can use **Verify** to re-check right away.
+3. Once both records verify, our team approves the domain, usually within a business day, and emails you when it's ready. You can then select it as your **URL Shortening Domain**.
+
+If your DNS is on Cloudflare, both records must be DNS-only (grey cloud). Keep both records in place permanently, since they are re-checked periodically.
+
+Need help choosing a domain or setting up DNS? Email hello@daisychain.app and we can set it up on your behalf.
 
 ### URL Shortening FAQ
 
