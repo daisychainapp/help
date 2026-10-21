@@ -76,6 +76,7 @@
 * [Filters](managing-data/filtering-people.md)
 * [Standard Fields](managing-data/standard-fields.md)
 * [Custom Fields](managing-data/custom-fields.md)
+* [Random Assignment](managing-data/random-assignment.md)
 * [Tags](managing-data/tags.md)
 * [Questions](managing-data/questions.md)
 * [Tags vs. Custom Fields vs. Questions](managing-data/tags-vs.-custom-fields.md)

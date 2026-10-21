@@ -45,4 +45,5 @@ Daisychain also provides a statistical analysis indicator, which activates once 
 * **Test one element at a time:** tone, call to action, framing, use of images, etc.
 * **Give the test enough time** to generate useful data (replies, clicks, etc.) before selecting a winner.
 * **Apply learnings beyond the test:** use insights to improve all future outreach.
+* **Testing over many campaigns?** A/B tests pick a new random sample each campaign. To keep the same groups across weeks or months of sends, use [Random Assignment](../../managing-data/random-assignment.md).
 {% endhint %}

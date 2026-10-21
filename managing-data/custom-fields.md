@@ -29,3 +29,7 @@ Choose your **Field Type**:
 {% hint style="info" %}
 The "identifier" listed for your custom field is all lowercase with spaces replaced by underscores, and is what you'll need to use for your column headers if you want to [import a CSV](csv-imports.md) with custom fields.
 {% endhint %}
+
+### Random Assignment
+
+You can fill a Number field with random numbers for everyone on a list, to split people into random groups for A/B tests and longer-running experiments. See [Random Assignment](random-assignment.md).
