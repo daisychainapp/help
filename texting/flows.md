@@ -233,13 +233,14 @@ Finds the nearest polling place using the DNC's I Will Vote API based on a provi
 
 ### **Inactivity Follow-up**
 
-Intelligence Nodes can automatically follow up with a friendly nudge when someone stops responding after the AI asks a question. This is configured in the "Procedures" section of the node.
+Intelligence Nodes can automatically follow up with a friendly nudge when someone stops responding after the AI asks a question. To turn it on, open the Intelligence Node, scroll to the **Procedures** section below the Instructions, and click **Enable Follow-up**.
 
 You can customize:
 
-* **Wait time**: How long to wait before following up (e.g., 30 minutes)
-* **Max follow-ups**: Maximum number of nudge messages to send (e.g., 2)
+* **Follow-ups**: Each follow-up has its own wait time, counted from the message before it (e.g., wait 1 hour after the unanswered question, then 1 day after the first nudge). Click **Add a follow-up** to add more nudges, or **Remove** to delete one.
 * **Follow-up message guidance**: Instructions for how the AI should craft follow-up messages
+
+Follow-ups only start when the AI's message is waiting on a reply. If the person replies, any pending follow-ups are cancelled.
 
 The default guidance tells the Flow to write short, polite follow-ups that reference the outstanding question. You can customize this to change the AI's behavior — for example, pivoting the conversation to a different topic if someone goes quiet.
 
