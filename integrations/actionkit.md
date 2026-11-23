@@ -35,7 +35,7 @@ For each ActionKit user, Daisychain imports:
 * Email address
 * Phone numbers. If the user has a mobile number, it becomes their primary phone.
 * Mailing address
-* Their ActionKit user ID, saved as an identifier on the person, which is how Daisychain matches them on later syncs
+* Their ActionKit user ID, saved as an [identifier](../managing-data/external-identifiers.md) on the person, which is how Daisychain matches them on later syncs
 
 The import covers all of the users in your ActionKit instance. It can't be limited to a list, page or mailing. ActionKit custom user fields are not imported.
 

@@ -77,6 +77,7 @@
 * [Filters](managing-data/filtering-people.md)
 * [Standard Fields](managing-data/standard-fields.md)
 * [Custom Fields](managing-data/custom-fields.md)
+* [External Identifiers](managing-data/external-identifiers.md)
 * [Random Assignment](managing-data/random-assignment.md)
 * [Tags](managing-data/tags.md)
 * [Questions](managing-data/questions.md)
