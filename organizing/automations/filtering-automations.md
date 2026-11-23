@@ -18,7 +18,7 @@ From there, you can:
     <figure><img src="../../.gitbook/assets/filtering-automations-convert-jmespath.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
-The AI assistant is not 100% accurate, and automations using AI-generated JMESPath should be tested carefully. Daisychain's AI assistant currently works to create filters for ActBlue, EveryAction, and Zapier. More options coming soon!
+The AI assistant is not 100% accurate, and automations using AI-generated JMESPath should be tested carefully. Daisychain's AI assistant currently works to create filters for ActBlue, ActionKit, EveryAction, and Zapier. More options coming soon!
 {% endhint %}
 
 * Write or edit the JMESPath code directly in the "JMESPath Expression" box.

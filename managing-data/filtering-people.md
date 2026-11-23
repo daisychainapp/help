@@ -17,6 +17,7 @@ icon: filter-list
 
 * **Saved Filters** – Access any filters you've saved previously for quick reuse.
 * **ActBlue** – Filter people based on whether they are ActBlue donors. You can further narrow by the specific page or form they donated through.
+* **ActionKit Page** – Filter people who took action on one or more [ActionKit](../integrations/actionkit.md) pages, or who did not. Only includes actions received since the ActionKit integration was connected.
 * **Activity** – Filter people based on actions they've taken, like donations, form submissions, event attendance, texting engagement, or automation triggers. Choose from dozens of activity types (e.g., _Mobilize event RSVP logged_, _Link Clicked_, _CSV Import Processed_), then narrow results by a preset or custom time range.
 * **Assigned** – Filter by staff member or volunteer assigned to a person.
 * **Campaigns** – Filter people based on whether they received a message from a campaign and how they interacted with it. Options include message status (Sent, Delivered, Undelivered, Paused) and engagement outcomes (Clicked, Clicked but did not convert, Converted). You can filter across all campaigns or select specific ones.
